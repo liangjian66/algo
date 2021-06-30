@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+// 判断一个链表是否有环
 class ListNode {
     int val;
     ListNode next;
