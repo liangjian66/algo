@@ -1,5 +1,6 @@
 /*计数排序*/
 
+import java.util.HashMap;
 
 public class CountSort {
 
