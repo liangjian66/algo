@@ -13,6 +13,7 @@
 *  快速排序： QuickSort   1. 递归  2 。 二分
 *  计数排序：CountSort
 *  归并排序： mergeSort  主要思想是递归   2. 主要是两个有序的数组排序
+*  二分查找：  HalfSearch  有序序列采用二分查找  
 
 
 
