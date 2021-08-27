@@ -15,8 +15,9 @@
 *  归并排序： mergeSort  主要思想是递归   2. 主要是两个有序的数组排序
 *  二分查找：  HalfSearch  有序序列采用二分查找
 
-
-![avatar](https://github.com/liangjian66/algo/blob/main/Image/3531630030652_.pic.jpg)
+### 有错误勘误，可以联系我
+* 邮箱： 2695621767@qq.com
+  ![avatar](https://github.com/liangjian66/algo/blob/main/Image/3531630030652_.pic.jpg)
 
 
 
