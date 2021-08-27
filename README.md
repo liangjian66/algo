@@ -10,6 +10,7 @@
 
 #  排序算法
 *  冒泡算法 ：BubbleSort
+*  选择排序： SelectSort   
 *  快速排序： QuickSort   1. 递归  2 。 二分
 *  计数排序：CountSort
 *  归并排序： mergeSort  主要思想是递归   2. 主要是两个有序的数组排序
