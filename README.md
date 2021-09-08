@@ -41,7 +41,7 @@
 
 ### 有错误勘误，可以联系我
 * 邮箱： 2695621767@qq.com
-  ![avatar](https://github.com/liangjian66/algo/blob/main/Image/3531630030652_.pic.jpg=200x200)
+  ![avatar](https://github.com/liangjian66/algo/blob/main/Image/3531630030652_.pic.jpg=200x)
 
 
 
