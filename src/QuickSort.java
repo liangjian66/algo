@@ -1,5 +1,5 @@
 
-/*快速排序  分而知之*/
+/*快速排序  分而知之    */
 public class QuickSort {
 
     public static void quickSort(int[] arr,int low,int high) {
@@ -8,7 +8,7 @@ public class QuickSort {
         if(low >= high) {
             return;
         }
-        //p就是基准数,这里就是每个数组的第一个
+        //p就是基准数,这里就是每个数组的第一个  prviot
         p = arr[low];
         i = low;
         j = high;
@@ -26,6 +26,8 @@ public class QuickSort {
                 i++;
             }
             arr[j] = arr[i];
+
+            /*两种思路*/
         }
 //        arr[low] = arr[i];//这里的arr[i]一定是停小于p的，经过i、j交换后i处的值一定是小于p的(j先走)
         arr[i] = p;
