@@ -21,6 +21,16 @@ public class BinaryHeap {
 
     }
 
+    public  static  void downAdjust(int[]  array ,int parentIndex , int length){
+        //下沉
+        // temp 保存父节点的值 ，用于最后的赋值
+        int temp = array[parentIndex];
+        int childIndex = 2*parentIndex+1;
+        while (childIndex < length){
+
+        }
+    }
+
     public static void main(String[] args) {
         int[] array = new int[] {1,3,2,6,5,7,8,9,10,0};
         upAdjust(array);

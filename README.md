@@ -20,11 +20,11 @@
 *  归并排序： mergeSort  主要思想是递归   2. 主要是两个小的有序的数组合并成一个大的数组
 *   希尔排序: ShellSort  思路 : 先分组 再使用插入排序 ，再缩小间隔d
 ##  二叉树
-*  二分查找：  HalfSearch  有序序列采用二分查找
+*  二分查找：  HalfSearch        有序序列采用二分查找
 * 二叉树前序遍历题解  ：Solution   1. 根结点 ---> 左子树 ---> 右子树  2. 单层条件是先根节点，左节点 右节点 后使用递归 ，递归的基线条件是：root节点==null 终止
-*  二叉树中序遍历：MiddleSolution  ： 题解：  左子树——根节点——右子树   迭代解法  ：1. while   2 .入栈 3. 出栈
-* 平衡二叉搜索树 ： AVLTree   关键字1. LL 右旋  2.RR 左旋  3.LR 先左旋 再右旋  4 RL 先右旋  再左旋
-* 二叉堆:BinaryHeap 数学要好 1.  父节点的下标是P 他的左孩子下标就是 2P+1 2P+2   2. 最大堆上浮，跟自己的父节点对比 ， 比父节点大上浮， 不断对比
+*  二叉树中序遍历：MiddleSolution     ： 题解：  左子树——根节点——右子树   迭代解法  ：1. while   2 .入栈 3. 出栈
+* 平衡二叉搜索树 ： AVLTree            关键字1. LL 右旋  2.RR 左旋  3.LR 先左旋 再右旋  4 RL 先右旋  再左旋
+* 二叉堆:BinaryHeap                数学要好 1.  父节点的下标是P 他的左孩子下标就是 2P+1 2P+2          2. 最大堆上浮，跟自己的父节点对比 ， 比父节点大上浮， 不断对比
 
 
 ##  算法题解
@@ -42,7 +42,18 @@
 
 ### 有错误勘误，可以联系我
 * 邮箱： 2695621767@qq.com
-  ![avatar](https://github.com/liangjian66/algo/blob/main/Image/3531630030652_.pic.jpg)
+
+
+
+
+<div style='display: none'>
+ ![avatar](https://github.com/liangjian66/algo/blob/main/Image/3531630030652_.pic.jpg)
+
+哈哈我是注释，不会在浏览器中显示。
+我也是注释。
+</div>
+
+
 
 
 
