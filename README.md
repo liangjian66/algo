@@ -46,15 +46,6 @@
 
 
 
-<div style='display: none'>
- ![avatar](https://github.com/liangjian66/algo/blob/main/Image/3531630030652_.pic.jpg)
-
-哈哈我是注释，不会在浏览器中显示。
-我也是注释。
-</div>
-
-
-
 
 
 
