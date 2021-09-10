@@ -17,6 +17,7 @@ public class BinaryHeap {
             childIndex = parentIndex;  // childIndex = parentIndex = 3
             parentIndex = (parentIndex -1 )/2;  // 1
         }
+//          单向赋值  改变了坐标位置   然后再把临时变量赋值给他
         array[childIndex] = temp;
 
     }
