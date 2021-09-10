@@ -1,5 +1,5 @@
 
-/*优先队列*/
+/*优先队列： PriorityQueue   题解：插入进行上浮操作  删除进行：最后一个替换到堆顶 ， 然后进行下沉操作*/
 
 import java.util.Arrays;
 
@@ -18,14 +18,29 @@ public class PriorityQueue {
         int newSize = this.size*2;
         this.array = Arrays.copyOf(this.array,newSize);
     }
-    // 入队
+    /*入队*/
     public void  enQueue(int key){
 //        队列长度超出范围  ， 扩容
         if (size >= array.length){
             resize();
         }
         array[size++]  = key;
+        upAdjust();
     }
+
+    public int deQueue() throws Exception{
+        if (size <=0){
+            throw  new Exception("the quene is empty !");
+        }
+//         获取堆顶元素
+        int head = array[0];
+//        让最后一个元素移动到堆顶
+        array[0] = array[--size];
+        downAdjust();
+        return head;
+    }
+
+
     /*上浮调整 */
     private void upAdjust(){
         int childIndex = size -1;
@@ -35,7 +50,7 @@ public class PriorityQueue {
         while (childIndex>0 && temp > array[parentIndex]){
             // 无须真正的交换  ， 单向赋值即可
             array[childIndex]  = array[parentIndex];
-            childIndex = parentIndex;
+            childIndex = parentIndex;   // 改变  childIndex下标
             parentIndex = parentIndex/2;
 
         }
@@ -55,7 +70,24 @@ public class PriorityQueue {
             // 如果父节点 大于 任何一个孩子的值 ， 直接跳出
             if (temp>=array[childIndex])
                 break;
+//            无须真正交换 ， 单向赋值即可
+            array[parentIndex] = array[childIndex];
+            parentIndex  = childIndex;
+            childIndex = 2*childIndex +1;
+
         }
+           array[parentIndex] = temp;
+    }
+
+    public static void main(String[] args) throws Exception {
+        PriorityQueue priorityQueue  = new PriorityQueue();
+        priorityQueue.enQueue(3);
+        priorityQueue.enQueue(5);
+        priorityQueue.enQueue(10);
+        priorityQueue.enQueue(2);
+        priorityQueue.enQueue(7);
+        System.out.println("出队元素：" + priorityQueue.deQueue());
+        System.out.println("出队元素：" + priorityQueue.deQueue());
 
 
 
