@@ -1,7 +1,9 @@
-/* 缓存淘汰算法:  LruCache  维护一个双向链表 ，一个hashMap*/
+/* 缓存淘汰算法:  LruCache  维护一个双向链表 ，一个hashMap  核心使用双链表记录最近使用和最久未使用的元素*/
 
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
+
 
 class  Node{
     public  int key , val;
@@ -13,7 +15,7 @@ class  Node{
 }
 /*双链表 */
 class  DoubleList{
-    // 头尾虚节点
+    // 头尾虚节点 想象的
     private  Node head , tail;
 
 //    链表元素数
@@ -117,7 +119,7 @@ public class LruCache {
           makeRecently(key);
            return  map.get(key).val;
         }
-    }
+
 
     public  void put (int key ,int val){
       if (map.containsKey(key)){
