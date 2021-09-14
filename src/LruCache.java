@@ -81,7 +81,9 @@ public class LruCache {
     /*将某个key 提升为最近使用的*/
     private  void  makeRecently(int key){
         Node x = map.get(key);
+//        先删除
         cache.remove(x);
+//        再添加
         cache.addLast(x);
     }
     /*添加最近的使用的元素*/

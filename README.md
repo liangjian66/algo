@@ -40,6 +40,7 @@
 *   寻找两个数之和: FindSumNumbers 先构建map 然后再遍历
 *   数组中的第k个最大元素：KthlargestNumber   题解： 1. 把数组的前K个元素构建成最小堆 2.下沉操作保持堆的有效性
 *    链表的倒数第K节点： KthFromEnd 双指针解法
+*  单链表反转：ReverseList
 
 
 ##  算法图书  
