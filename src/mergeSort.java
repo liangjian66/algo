@@ -6,6 +6,7 @@ public class mergeSort {
          int i = leftPtr;
          int j = rightPtr;
          int k = 0;
+//         开辟临时数组 保存数据
          int[] temp = new int[rightBound-leftPtr+1];
          while (i<=mid && j<=rightBound){
              temp[k++] = arr[i]<=arr[j]?arr[i++]:arr[j++];

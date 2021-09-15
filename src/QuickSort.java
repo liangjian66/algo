@@ -4,7 +4,7 @@ public class QuickSort {
 
     public static void quickSort(int[] arr,int low,int high) {
         int p,i,j,temp;
-
+//递归一定要写 基线条件   退出
         if(low >= high) {
             return;
         }
