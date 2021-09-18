@@ -60,6 +60,8 @@
 * 算法4
 * 算法新解
 * 我的第一本算法书
+* [labuladong的算法小抄官方完整版.pdf](https://github.com/labuladong/fucking-algorithm)
+* 阿里P8霜神的letCode刷题手册
 
 
 ### 有错误勘误，可以联系我
