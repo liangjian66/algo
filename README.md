@@ -37,6 +37,9 @@
 ##  数组
 *  删除有序数组中的重复项 :  removeDuplicates  题解使用快慢指针
 
+## 链表 
+*  相交链表160 ：GetIntersectionNode  题解：HashSet
+
 ##  算法题解
 *  三数之和:ThreeNum 主要思路： 1.先排序 2.遍历每一个元素 3. 使用双指针
 *  股票问题:StockProfit  如何获得最大收益  思路： 记录最小值 ，差值较大的覆盖之前的
