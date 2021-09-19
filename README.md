@@ -36,6 +36,7 @@
 
 ##  数组
 *  删除有序数组中的重复项 :  removeDuplicates  题解使用快慢指针
+*  数组中重复的数字03：FindRepeatNumber
 
 ## 链表 
 *  相交链表160 ：GetIntersectionNode  题解：HashSet
@@ -64,7 +65,7 @@
 
 
 ##  算法图书 (文件放在Book文件夹下) 
-* 如果侵权 ， 联系删除
+* 如有侵权 ， 联系删除
 * 数据结构与算法分析：C语言描述_原书第2版_高清版
 * 算法图解.PDF
 * 数据结构 C++ .3rd_edn. 邓俊辉
