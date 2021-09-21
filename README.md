@@ -41,6 +41,7 @@
 
 ## 链表 
 *  相交链表160 ：GetIntersectionNode  题解：HashSet
+*  合并两个有序链表：mergeTwoLists  归并排序思路
 
 ## 字符串
 * 无重复字符的最长子串:LengthOfLongestSubstring   滑动窗口
