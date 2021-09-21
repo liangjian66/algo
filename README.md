@@ -37,7 +37,7 @@
 
 ##  数组
 *  删除有序数组中的重复项 :  removeDuplicates  题解使用快慢指针
-*  数组中重复的数字03：FindRepeatNumber
+
 
 ## 链表 
 *  相交链表160 ：GetIntersectionNode  题解：HashSet
@@ -67,6 +67,11 @@
 ## 动态规划
 
 *  零钱兑换322：CoinChange 题解： 动态规划 求F(11)最优解 ，求出F(10)+1   求出F(9)+1
+
+## 剑指offer 
+### 数据结构
+*   面试题3 数组中重复的数字03：FindRepeatNumber
+*   面试题4   二维数组中的查找 ： TwoVeidooArrayFind   其实就是矩阵 ，以及坐标  i，j看成坐标， 用坐标系求解
 
 
 
