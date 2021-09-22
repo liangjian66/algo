@@ -74,6 +74,7 @@
 *   面试题3 数组中重复的数字03：FindRepeatNumber
 *   面试题4   二维数组中的查找 ： TwoVeidooArrayFind   其实就是矩阵 ，以及坐标  i，j看成坐标， 用坐标系求解
 *   [面试题5  替换空格  ReplaceSpace](https://github.com/liangjian66/algo/blob/main/src/ReplaceSpace.java)
+*   [面试题06. 从尾到头打印链表 ReversePrint](https://github.com/liangjian66/algo/blob/main/src/ReversePrint.java)
 
 
 
