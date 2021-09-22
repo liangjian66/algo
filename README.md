@@ -75,7 +75,7 @@
 *   [面试题4   二维数组中的查找 ： TwoVeidooArrayFind   其实就是矩阵 ，以及坐标  i，j看成坐标， 用坐标系求解](https://github.com/liangjian66/algo/blob/main/src/TwoVeidooArrayFind.java)
 *   [面试题5  替换空格  ReplaceSpace](https://github.com/liangjian66/algo/blob/main/src/ReplaceSpace.java)
 *   [面试题06. 从尾到头打印链表 ReversePrint](https://github.com/liangjian66/algo/blob/main/src/ReversePrint.java)
-
+*   [面试题18.  删除链表的节点：DeleteNode  题解： 双指针解法 ](https://github.com/liangjian66/algo/blob/main/src/DeleteNode.java)
 
 
 ##  算法图书 (文件放在Book文件夹下) 
