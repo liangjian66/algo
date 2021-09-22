@@ -16,14 +16,14 @@
 * 算法： 先把一个大问题拆解成一个个小问题 ，  再解决小问题 ， 小问题解决了拼接起来解决大问题
 
 ##  排序算法
-*  冒泡排序 ：BubbleSort
-*  插入排序 ： InsertSort   思路： 1. 每次碰到元素小的值  就往后面挪动一位  2.insertValue的值插入适当的位置
-*  选择排序： SelectSort  1.选择排序每次从未排序区间中最小的元素    2.首先找出数组中最小的哪个元素 ，其次，将它和数组的第一个元素交换位置 以此类推 
-*  快速排序： QuickSort   1. 递归  2 。 二分  3. 双指针的思路
-*  计数排序：CountSort
-*  归并排序： mergeSort  主要思想是递归   2. 主要是两个小的有序的数组合并成一个大的数组
-*   希尔排序: ShellSort  思路 : 先分组 再使用插入排序 ，再缩小间隔d
-*   堆排序 ：HeapSort    题解： 1. 堆存储结构是个数组  2. 先构建一个大顶堆 3 ， 遍历取大顶堆  取最大值
+*  [冒泡排序](https://github.com/liangjian66/algo/blob/main/src/BubbleSort.java) ：BubbleSort
+*  [插入排序](https://github.com/liangjian66/algo/blob/main/src/InsertSort.java) ： InsertSort   思路： 1. 每次碰到元素小的值  就往后面挪动一位  2.insertValue的值插入适当的位置
+*  [选择排序](https://github.com/liangjian66/algo/blob/main/src/SelectSort.java) SelectSort  1.选择排序每次从未排序区间中最小的元素    2.首先找出数组中最小的哪个元素 ，其次，将它和数组的第一个元素交换位置 以此类推 
+*  [快速排序](https://github.com/liangjian66/algo/blob/main/src/QuickSort.java)   1. 递归  2 。 二分  3. 双指针的思路
+*  [计数排序](https://github.com/liangjian66/algo/blob/main/src/CountSort.java)
+*  [归并排序](https://github.com/liangjian66/algo/blob/main/src/mergeSort.java)  mergeSort  主要思想是递归   2. 主要是两个小的有序的数组合并成一个大的数组
+*  [希尔排序](https://github.com/liangjian66/algo/blob/main/src/ShellSort.java) : ShellSort  思路 : 先分组 再使用插入排序 ，再缩小间隔d
+*  [堆排序](https://github.com/liangjian66/algo/blob/main/src/HeapSort.java) ：HeapSort    题解： 1. 堆存储结构是个数组  2. 先构建一个大顶堆 3 ， 遍历取大顶堆  取最大值
 
 ##  二叉树
 *   二分查找：  HalfSearch        有序序列采用二分查找
