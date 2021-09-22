@@ -1,6 +1,6 @@
 import java.util.*;
 
-/*寻找两个数之和: FindSumNumbers 先构建map 然后再遍历*/
+/*寻找两个数之和: FindSumNumbers 先构建map 然后再遍历  输出两个数子的下标，二维数组*/
 public class FindSumNumbers {
 
      public  static List<List<Integer>>  twoSum(int[] nums , int target){
