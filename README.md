@@ -53,8 +53,6 @@
 *  最小栈的实现  ： MinStack  加一个辅助栈记录最小值  辅助很重要
 *  寻找两个数之和: FindSumNumbers 先构建map 然后再遍历
 *  数组中的第k个最大元素：KthlargestNumber   题解： 1. 把数组的前K个元素构建成最小堆 2.下沉操作保持堆的有效性
-*  链表的倒数第K节点： KthFromEnd 双指针解法
-*  单链表反转：ReverseList
 *  用栈实现队列 :MyQuene     解题： 将一个栈当作输入栈，用于压入 \texttt{push}push 传入的数据；另一个栈当作输出栈
 *  寻找全排列的下一个数子： DictOrderAlgo 1. 从后向前查看逆序区域 ，找到逆序区域的前一位， 也就是数字置换的边界
     2. 让逆序区域的前一位和逆序区域中大于他的最小的数字交换位置
@@ -76,6 +74,14 @@
 *   [面试题5  替换空格  ReplaceSpace](https://github.com/liangjian66/algo/blob/main/src/ReplaceSpace.java)
 *   [面试题06. 从尾到头打印链表 ReversePrint](https://github.com/liangjian66/algo/blob/main/src/ReversePrint.java)
 *   [面试题18.  删除链表的节点：DeleteNode  题解： 双指针解法 ](https://github.com/liangjian66/algo/blob/main/src/DeleteNode.java)
+*   [面试题22.  链表中倒数第K节点：KthFromEnd  题解： 双指针解法 ](https://github.com/liangjian66/algo/blob/main/src/KthFromEnd.java)
+*   [面试题24.  单链表反转](https://github.com/liangjian66/algo/blob/main/src/ReverseList.java)
+*   [面试题25：合并两个排序的链表](https://github.com/liangjian66/algo/blob/main/src/MergeTwoLists.java)
+*   [面试题52：两个链表的第一个公共节点](https://github.com/liangjian66/algo/blob/main/src/GetIntersectionNode.java)
+
+
+
+
 
 
 ##  算法图书 (文件放在Book文件夹下) 
