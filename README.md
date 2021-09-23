@@ -82,6 +82,8 @@
 *   [面试题7：重建二叉树](https://github.com/liangjian66/algo/blob/main/src/MyBuildTree.java)
 *   [面试题8：二叉树的下一个节点](https://github.com/liangjian66/algo/blob/main/src/GetNext.java)
 *   [面试题9：用两个栈实现队列](https://github.com/liangjian66/algo/blob/main/src/CQueue.java)
+#### 剑指offer
+*   [[面试题10：斐波那契数列](https://github.com/liangjian66/algo/blob/main/src/Fibonacci.java)]
 
 
 
