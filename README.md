@@ -82,10 +82,13 @@
 *   [面试题7：重建二叉树](https://github.com/liangjian66/algo/blob/main/src/MyBuildTree.java)
 *   [面试题8：二叉树的下一个节点](https://github.com/liangjian66/algo/blob/main/src/GetNext.java)
 *   [面试题9：用两个栈实现队列](https://github.com/liangjian66/algo/blob/main/src/CQueue.java)
-#### 剑指offer
+#### 剑指offer-动态规划
 *   [[面试题10：斐波那契数列](https://github.com/liangjian66/algo/blob/main/src/Fibonacci.java)]
+#### 剑指offer-查找和排序
 *   [[面试题11：旋转数组的最小数字](https://github.com/liangjian66/algo/blob/main/src/RevolveArray.java)]
 
+#### 剑指offer-回朔法
+*   [[面试题12：矩阵中的路径](https://github.com/liangjian66/algo/blob/main/src/HasPath.java)]
 
 
 
@@ -106,6 +109,7 @@
 * 剑指OFFER  名企面试官精讲典型编程题  第2版
 * 算法设计  经典算法教材 豆瓣9.4评分
 * 200349  算法笔记.胡凡
+*  漫画算法 小灰的算法之旅
 
 
 ### 有错误勘误，可以联系我
