@@ -95,8 +95,9 @@
 
 #### 剑指offer-二叉树
 
-*   [二叉树的镜像](https://github.com/liangjian66/algo/blob/main/src/BinaryTreeNode.java)
-*   [对称的二叉树](https://github.com/liangjian66/algo/blob/main/src/IsSymmetrical.java)
+*   [面试题27:二叉树的镜像](https://github.com/liangjian66/algo/blob/main/src/BinaryTreeNode.java)
+*   [面试题28:对称的二叉树](https://github.com/liangjian66/algo/blob/main/src/IsSymmetrical.java)
+*   [面试题30:包含min函数的栈](https://github.com/liangjian66/algo/blob/main/src/StackWithMin.java)
 
 
 

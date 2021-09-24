@@ -5,7 +5,7 @@ public class HasPath {
     private  final  static  int[][] next = {{0,-1},{0,1},{-1,0},{1,0}};
     private  int rows;
     private  int cols;
-    public  boolean hasPath(String val,int rows,int ,String path){
+    public  boolean hasPath(String val,int rows,int cols,String path){
         if (rows == 0 || cols == 0)  return  false;
         this.rows = rows;
         this.cols = cols;

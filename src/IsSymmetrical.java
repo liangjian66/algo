@@ -14,6 +14,6 @@ public class IsSymmetrical {
           if (L==null || R==null || L.data != R.data){
               return  false;
           }
-          return  (recur(L.left, R.right)&&(recur(L.right, R.left));
+          return  recur(L.left, R.right)&&(recur(L.right, R.left));
       }
 }
