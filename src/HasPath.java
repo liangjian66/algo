@@ -1,5 +1,5 @@
 
-/*矩阵中的路径：*/
+/*矩阵中的路径：这个有点 还没搞懂 ， 等脑袋清醒一点时候再来看这个*/
 public class HasPath {
 
     private  final  static  int[][] next = {{0,-1},{0,1},{-1,0},{1,0}};
@@ -18,6 +18,8 @@ public class HasPath {
         for (int i = 0; i < rows; i++) {
             
         }
+
+        return false;
 
     }
 
