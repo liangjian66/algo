@@ -93,13 +93,15 @@
 *   [剪绳子](https://github.com/liangjian66/algo/blob/main/src/MaxProductAfter.java)
 *   [二进制中1的个数](https://github.com/liangjian66/algo/blob/main/src/HammingWeight.java)
 
-#### 剑指offer-二叉树
+#### 剑指offer
 
 *   [面试题27:二叉树的镜像](https://github.com/liangjian66/algo/blob/main/src/BinaryTreeNode.java)
 *   [面试题28:对称的二叉树](https://github.com/liangjian66/algo/blob/main/src/IsSymmetrical.java)
 *   [面试题30:包含min函数的栈](https://github.com/liangjian66/algo/blob/main/src/StackWithMin.java)
 *   [面试题31:栈的压入，弹出序列](https://github.com/liangjian66/algo/blob/main/src/StackPushPopOrder.java)
-*   [面试题31:从上到下打印二叉树](https://github.com/liangjian66/algo/blob/main/src/PrintFromToBottom.java)
+*   [面试题32:从上到下打印二叉树](https://github.com/liangjian66/algo/blob/main/src/PrintFromToBottom.java)
+*   [面试题33: 二叉搜索树的后序遍历序列](https://github.com/liangjian66/algo/blob/main/src/VerifySquenceOfBST.java)
+
 
 
 
