@@ -105,12 +105,8 @@
 *   [面试题36: 二叉搜索树与双向链表](https://github.com/liangjian66/algo/blob/main/src/TreeToDoublyList.java)
 *   [面试题38: 字符串的排列](https://github.com/liangjian66/algo/blob/main/src/StringPermutation.java)
 
-*   [面试题40: 最小的K个数字](https://github.com/liangjian66/algo/blob/main/src/GetLeastNumbers.java)
-
-
-
-
-
+*   [面试题40: 最小的K个数](https://github.com/liangjian66/algo/blob/main/src/GetLeastNumbers.java)
+*   [面试题40: 连续子数组的最大和](https://github.com/liangjian66/algo/blob/main/src/GetSumOfSubArray.java)
 
 
 
