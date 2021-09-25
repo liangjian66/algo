@@ -90,8 +90,8 @@
 
 #### 剑指offer-回朔法
 *   [面试题12：矩阵中的路径](https://github.com/liangjian66/algo/blob/main/src/HasPath.java)
-*   [剪绳子](https://github.com/liangjian66/algo/blob/main/src/MaxProductAfter.java)
-*   [二进制中1的个数](https://github.com/liangjian66/algo/blob/main/src/HammingWeight.java)
+*   [面试题14：剪绳子](https://github.com/liangjian66/algo/blob/main/src/MaxProductAfter.java)
+*   [面试题15：二进制中1的个数](https://github.com/liangjian66/algo/blob/main/src/HammingWeight.java)
 
 #### 剑指offer
 
