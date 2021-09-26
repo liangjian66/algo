@@ -108,6 +108,10 @@
 *   [面试题40: 最小的K个数](https://github.com/liangjian66/algo/blob/main/src/GetLeastNumbers.java)
 *   [面试题40: 连续子数组的最大和](https://github.com/liangjian66/algo/blob/main/src/GetSumOfSubArray.java)
 *   [面试题45: 把数组排成最小的数](https://github.com/liangjian66/algo/blob/main/src/PrintMinNumber.java)
+*   [面试题46: 把数字翻译成字符串](https://github.com/liangjian66/algo/blob/main/src/GetTranslationCount.java)
+*   [面试题46: 礼物的最大价值](https://github.com/liangjian66/algo/blob/main/src/GetMaxValue.java)
+
+
 
 
 
