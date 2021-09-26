@@ -1,5 +1,6 @@
 # algo
 ## 鸡汤篇
+* 创作不易，感觉有帮助到你，可以顺手star
 * 用产品思维帮助更多的人学习算法 更多的为用户考虑而写的一个仓库
 * 用老罗的话 彪悍的人生不需要解释 挑一点恶心的干干 先开始写算法，像打造产品一样写一个算法仓库， 帮助更多的人学习算法，同样也是自我学习的过程
 * Java写的算法仓库  算法最重要的是心得
@@ -109,7 +110,9 @@
 *   [面试题40: 连续子数组的最大和](https://github.com/liangjian66/algo/blob/main/src/GetSumOfSubArray.java)
 *   [面试题45: 把数组排成最小的数](https://github.com/liangjian66/algo/blob/main/src/PrintMinNumber.java)
 *   [面试题46: 把数字翻译成字符串](https://github.com/liangjian66/algo/blob/main/src/GetTranslationCount.java)
-*   [面试题46: 礼物的最大价值](https://github.com/liangjian66/algo/blob/main/src/GetMaxValue.java)
+*   [面试题47: 礼物的最大价值](https://github.com/liangjian66/algo/blob/main/src/GetMaxValue.java)
+*   [面试题48: 最长不含重复字符的子字符串](https://github.com/liangjian66/algo/blob/main/src/LongestSubstringWithoutDup.java)
+
 
 
 

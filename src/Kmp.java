@@ -31,7 +31,8 @@ public class Kmp {
         private  static  int[] getNexts(String pattern){
         int[] next = new int[pattern.length()];
         int j = 0;
-
+//      i: 已经匹配前缀的下一个位置，也就是 代填充的数组下标
+//      j: 最长可匹配前缀子串的下一个位置 也就是next数组元素对应的元素值 ：最后一个匹配字符的下标+1   ababa
             for (int i = 2; i < pattern.length(); i++) {
                 while ((j !=0 ) &&(pattern.charAt(j) != pattern.charAt(i-1))){
 //                    从next[i+1] 的求解回溯到 next[j]
@@ -40,7 +41,6 @@ public class Kmp {
                 }
                 if (pattern.charAt(j)  == pattern.charAt(i-1)){
                     j++;
-
                 }
                 next[i] = j;
 
