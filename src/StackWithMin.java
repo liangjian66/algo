@@ -1,10 +1,10 @@
 import java.util.Stack;
 
 /*包含min函数的栈 ： StackWithMin*/
-public class MinStack {
+class MinStackCopy {
 
     Stack<Integer>  A,B;
-    public  MinStack() {
+    public  MinStackCopy() {
         A = new Stack<>();
         B = new Stack<>();
     }

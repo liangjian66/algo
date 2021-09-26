@@ -114,6 +114,7 @@
 *   [面试题48: 最长不含重复字符的子字符串](https://github.com/liangjian66/algo/blob/main/src/LongestSubstringWithoutDup.java)
 *   [面试题50: 第一个只出现一次的字符](https://github.com/liangjian66/algo/blob/main/src/FirstNotRepeatingChar.java)
 
+*   [面试题51:   数组中的逆序对](https://github.com/liangjian66/algo/blob/main/src/InversePairs.java)
 
 
 
