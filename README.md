@@ -78,7 +78,6 @@
 *   [面试题22.  链表中倒数第K节点：KthFromEnd  题解： 双指针解法 ](https://github.com/liangjian66/algo/blob/main/src/KthFromEnd.java)
 *   [面试题24.  单链表反转 ReverseList](https://github.com/liangjian66/algo/blob/main/src/ReverseList.java)
 *   [面试题25：合并两个排序的链表 MergeTwoLists](https://github.com/liangjian66/algo/blob/main/src/MergeTwoLists.java)
-*   [面试题52：两个链表的第一个公共节点 GetIntersectionNode](https://github.com/liangjian66/algo/blob/main/src/GetIntersectionNode.java)
 #### 剑指offer-二叉树
 *   [面试题7：重建二叉树](https://github.com/liangjian66/algo/blob/main/src/MyBuildTree.java)
 *   [面试题8：二叉树的下一个节点](https://github.com/liangjian66/algo/blob/main/src/GetNext.java)
@@ -115,6 +114,9 @@
 *   [面试题50: 第一个只出现一次的字符](https://github.com/liangjian66/algo/blob/main/src/FirstNotRepeatingChar.java)
 
 *   [面试题51:   数组中的逆序对](https://github.com/liangjian66/algo/blob/main/src/InversePairs.java)
+    
+*   [面试题52：两个链表的第一个公共节点 GetIntersectionNode](https://github.com/liangjian66/algo/blob/main/src/GetIntersectionNode.java)
+
 
 
 
