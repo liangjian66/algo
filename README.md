@@ -107,6 +107,8 @@
 
 *   [面试题40: 最小的K个数](https://github.com/liangjian66/algo/blob/main/src/GetLeastNumbers.java)
 *   [面试题40: 连续子数组的最大和](https://github.com/liangjian66/algo/blob/main/src/GetSumOfSubArray.java)
+*   [面试题45: 把数组排成最小的数](https://github.com/liangjian66/algo/blob/main/src/PrintMinNumber.java)
+
 
 
 
