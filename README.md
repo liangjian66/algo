@@ -112,6 +112,8 @@
 *   [面试题46: 把数字翻译成字符串](https://github.com/liangjian66/algo/blob/main/src/GetTranslationCount.java)
 *   [面试题47: 礼物的最大价值](https://github.com/liangjian66/algo/blob/main/src/GetMaxValue.java)
 *   [面试题48: 最长不含重复字符的子字符串](https://github.com/liangjian66/algo/blob/main/src/LongestSubstringWithoutDup.java)
+*   [面试题50: 第一个只出现一次的字符](https://github.com/liangjian66/algo/blob/main/src/FirstNotRepeatingChar.java)
+
 
 
 
