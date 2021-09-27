@@ -119,6 +119,10 @@
 *   [面试题53：在排序数组中查找数字](https://github.com/liangjian66/algo/blob/main/src/GetFirstK.java)
 *   [面试题54：二叉搜索树的第K大节点](https://github.com/liangjian66/algo/blob/main/src/KthNode.java)
 *   [面试题55：二叉树的深度](https://github.com/liangjian66/algo/blob/main/src/TreeDepth.java)
+*   [面试题56：数组中数字出现的次数](https://github.com/liangjian66/algo/blob/main/src/FindNumsAppearOnce.java)
+*   [面试题57：和为s的数字](https://github.com/liangjian66/algo/blob/main/src/FindNumbersWithSum.java)
+
+
 
 
 
