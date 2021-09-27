@@ -122,7 +122,7 @@
 *   [面试题56：数组中数字出现的次数](https://github.com/liangjian66/algo/blob/main/src/FindNumsAppearOnce.java)
 *   [面试题57：和为s的数字](https://github.com/liangjian66/algo/blob/main/src/FindNumbersWithSum.java)
 *   [面试题58：翻转转字符串- 翻转单词顺序](https://github.com/liangjian66/algo/blob/main/src/ReverseWordsInSentence.java)
-*   [面试题59：队列的最大值](https://github.com/liangjian66/algo/blob/main/src/MaxInSlidingWindow.java)
+*   [面试题59：队列的最大值  MaxQueue](https://github.com/liangjian66/algo/blob/main/src/MaxInSlidingWindow.java)
 
 
 
