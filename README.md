@@ -1,4 +1,7 @@
+[TOC]
+
 # algo
+[TOC]
 ## 鸡汤篇
 * 创作不易，感觉有帮助到你，可以顺手star
 * 用产品思维帮助更多的人学习算法 更多的为用户考虑而写的一个仓库
@@ -9,7 +12,7 @@
 
 * 日拱一卒，功不唐捐
 
-* 把人生比作公司或者游戏的话 ， 我准备长期做的事情，一个是跑步锻炼身体，一个阅读书籍（技术类，非技术类书籍），一个就是这个算法仓库了 
+* 把人生比作公司或者游戏的话 ， 我准备长期做的事情，一个是跑步锻炼身体，一个阅读书籍（技术类，非技术类书籍），一个就是这个算法仓库了
 * 纸上得来终觉浅 ，绝知此事要躬行
 * 三部曲： 模仿，学习， 超越
 * 高筑墙 ， 广积粮 ， 缓称王
@@ -19,7 +22,7 @@
 ##  排序算法
 *  [冒泡排序](https://github.com/liangjian66/algo/blob/main/src/BubbleSort.java) ：BubbleSort
 *  [插入排序](https://github.com/liangjian66/algo/blob/main/src/InsertSort.java) ： InsertSort   思路： 1. 每次碰到元素小的值  就往后面挪动一位  2.insertValue的值插入适当的位置
-*  [选择排序](https://github.com/liangjian66/algo/blob/main/src/SelectSort.java) SelectSort  1.选择排序每次从未排序区间中最小的元素    2.首先找出数组中最小的哪个元素 ，其次，将它和数组的第一个元素交换位置 以此类推 
+*  [选择排序](https://github.com/liangjian66/algo/blob/main/src/SelectSort.java) SelectSort  1.选择排序每次从未排序区间中最小的元素    2.首先找出数组中最小的哪个元素 ，其次，将它和数组的第一个元素交换位置 以此类推
 *  [快速排序](https://github.com/liangjian66/algo/blob/main/src/QuickSort.java)   1. 递归  2 。 二分  3. 双指针的思路
 *  [计数排序](https://github.com/liangjian66/algo/blob/main/src/CountSort.java)
 *  [归并排序](https://github.com/liangjian66/algo/blob/main/src/mergeSort.java)  mergeSort  主要思想是递归   2. 主要是两个小的有序的数组合并成一个大的数组
@@ -32,11 +35,13 @@
 *   二叉树中序遍历：MiddleSolution     ： 题解：  左子树——根节点——右子树   迭代解法  ：1. while   2 .入栈 3. 出栈
 *   平衡二叉搜索树 ： AVLTree            关键字1. LL 右旋  2.RR 左旋  3.LR 先左旋 再右旋  4 RL 先右旋  再左旋
 *   二叉堆:BinaryHeap                数学要好 1.  父节点的下标是P 他的左孩子下标就是 2P+1 2P+2          2. 最大堆上浮，跟自己的父节点对比 ， 比父节点大上浮， 不断对比
-*   优先队列： PriorityQueue   题解：插入进行上浮操作  删除进行：最后一个替换到堆顶 ， 然后进行下沉操作 
+*   优先队列： PriorityQueue   题解：插入进行上浮操作  删除进行：最后一个替换到堆顶 ， 然后进行下沉操作
 *   二叉树层序遍历：LevelOrder 题解 ： 先把父节点放入队列 ，  然后遍历队列 ， 遍历子节点
 *   二叉树的锯齿形层序遍历: zigzagLevelOrder   题解 ： 利用双端队列锯齿形层次遍历
 *   [二叉树- 路径之和](https://github.com/liangjian66/algo/blob/main/src/HasPathSum.java)
 *   [二叉树的深度](https://github.com/liangjian66/algo/blob/main/src/MaxDepth.java)
+*   [平衡二叉树](https://github.com/liangjian66/algo/blob/main/src/TreeIsBanced.java) 思路： 左右子树 深度差超过 1  它就不是平衡二叉树
+
 
 
 
@@ -44,7 +49,7 @@
 *  删除有序数组中的重复项 :  removeDuplicates  题解使用快慢指针
 
 
-## 链表 
+## 链表
 *  相交链表160 ：GetIntersectionNode  题解：HashSet
 *  合并两个有序链表：mergeTwoLists  归并排序思路
 
@@ -54,15 +59,15 @@
 ##  算法题解
 *  三数之和:ThreeNum 主要思路： 1.先排序 2.遍历每一个元素 3. 使用双指针
 *  股票问题:StockProfit  如何获得最大收益  思路： 记录最小值 ，差值较大的覆盖之前的
-*  缓存淘汰算法:  LruCache  维护一个双向链表 ，一个hashMap  核心使用双链表记录最近使用和最久未使用的元素  ，若容量已满，淘汰最久未使用的key 
+*  缓存淘汰算法:  LruCache  维护一个双向链表 ，一个hashMap  核心使用双链表记录最近使用和最久未使用的元素  ，若容量已满，淘汰最久未使用的key
 *  最小栈的实现  ： MinStack  加一个辅助栈记录最小值  辅助很重要
 *  寻找两个数之和: FindSumNumbers 先构建map 然后再遍历
 *  数组中的第k个最大元素：KthlargestNumber   题解： 1. 把数组的前K个元素构建成最小堆 2.下沉操作保持堆的有效性
 *  用栈实现队列 :MyQuene     解题： 将一个栈当作输入栈，用于压入 \texttt{push}push 传入的数据；另一个栈当作输出栈
 *  寻找全排列的下一个数子： DictOrderAlgo 1. 从后向前查看逆序区域 ，找到逆序区域的前一位， 也就是数字置换的边界
-    2. 让逆序区域的前一位和逆序区域中大于他的最小的数字交换位置
-    3. 把原来的逆序区域转为顺序状态
-   
+   2. 让逆序区域的前一位和逆序区域中大于他的最小的数字交换位置
+   3. 把原来的逆序区域转为顺序状态
+
 *  删除K个数字的最小值： RemoveKDigits 题解： 简化问题：如果只删除一个数字 ，如何让新整数的值最小 找出降序数字删除
 *  字符串匹配算法（RK算法）：RabinKarp 题解： 比较两个字符串的hash
 *  KMP算法： Kmp  题解： KMP算法的整体思路：在已匹配的前缀当中寻找最长可匹配后缀子串和最长可匹配前缀子串 ，在下一轮直接把两者对齐，从而实现模式串的快速移动
@@ -72,7 +77,7 @@
 
 *  零钱兑换322：CoinChange 题解： 动态规划 求F(11)最优解 ，求出F(10)+1   求出F(9)+1
 
-## 剑指offer 
+## 剑指offer
 ####  剑指offer-数据结构
 *   [面试题3 数组中重复的数字03：FindRepeatNumber](https://github.com/liangjian66/algo/blob/main/src/FindRepeatNumber.java)
 *   [面试题4   二维数组中的查找 ： TwoVeidooArrayFind   其实就是矩阵 ，以及坐标  i，j看成坐标， 用坐标系求解](https://github.com/liangjian66/algo/blob/main/src/TwoVeidooArrayFind.java)
@@ -85,7 +90,7 @@
 #### 剑指offer-二叉树
 *   [面试题7：重建二叉树](https://github.com/liangjian66/algo/blob/main/src/MyBuildTree.java)
 *   [面试题8：二叉树的下一个节点](https://github.com/liangjian66/algo/blob/main/src/GetNext.java)
-    
+
 *   [面试题9：用两个栈实现队列](https://github.com/liangjian66/algo/blob/main/src/CQueue.java)
 #### 剑指offer-动态规划
 *   [面试题10：斐波那契数列](https://github.com/liangjian66/algo/blob/main/src/Fibonacci.java)
@@ -118,7 +123,7 @@
 *   [面试题50: 第一个只出现一次的字符](https://github.com/liangjian66/algo/blob/main/src/FirstNotRepeatingChar.java)
 
 *   [面试题51:   数组中的逆序对](https://github.com/liangjian66/algo/blob/main/src/InversePairs.java)
-    
+
 *   [面试题52：两个链表的第一个公共节点 ](https://github.com/liangjian66/algo/blob/main/src/GetIntersectionNode.java)
 *   [面试题53：在排序数组中查找数字](https://github.com/liangjian66/algo/blob/main/src/GetFirstK.java)
 *   [面试题54：二叉搜索树的第K大节点](https://github.com/liangjian66/algo/blob/main/src/KthNode.java)
@@ -131,7 +136,7 @@
 *   [面试题61：扑克牌中的顺子](https://github.com/liangjian66/algo/blob/main/src/IsContinuous.java)
 *   [面试题62：圆圈中最后剩下的数字](https://github.com/liangjian66/algo/blob/main/src/LastRemaining.java)
 *   [面试题63：股票的最大利润](https://github.com/liangjian66/algo/blob/main/src/MaxDiff.java)
-    
+
 *   [面试题67：把字符串转换成整数](https://github.com/liangjian66/algo/blob/main/src/StrToInt.java)
 *   [面试题68：树中两个节点的最低公共祖先](https://github.com/liangjian66/algo/blob/main/src/GetLastCommonParent.java)
 
@@ -155,7 +160,7 @@
 
 
 
-##  算法图书 (文件放在Book文件夹下) 
+##  算法图书 (文件放在Book文件夹下)
 * 如有侵权 ， 联系删除
 * 数据结构与算法分析：C语言描述_原书第2版_高清版
 * 算法图解.PDF

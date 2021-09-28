@@ -1,6 +1,6 @@
 public class TreeDepth {
 
-    public int  treeDepth(TreeNode root){
+    private int  treeDepth(TreeNode root){
         if (root == null){
             return 0;
         }
