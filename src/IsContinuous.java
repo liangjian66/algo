@@ -12,7 +12,7 @@ public class IsContinuous {
           for (int num: nums){
               if (num == 0 ) continue;;
               max = Math.max(max,num);
-              min = Math.max(min,num);
+              min = Math.min(min,num);
 //              若有重复 则提前返回FALSE
               if (repeat.contains(num)) return  false;
               repeat.add(num);
