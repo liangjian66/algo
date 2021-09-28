@@ -1,6 +1,6 @@
 
 
-/*无重复字符的最长子串:LengthOfLongestSubstring   滑动窗口*/
+/*无重复字符的最长子串:LengthOfLongestSubstring   滑动窗口   双指针  set集合*/
 
 import java.util.HashSet;
 import java.util.Set;

@@ -23,7 +23,7 @@ import java.util.Queue;
           }
           return  d.peekFirst();
       }
-//    加入数字
+//    加入数字  弹出比value 小的数字
       public  void  push_back(int value){
           while (!d.isEmpty()&&d.peekLast()<value){
               d.pollLast();
