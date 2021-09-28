@@ -1,5 +1,5 @@
 
-/*连续子数组的最大和*/
+/*连续子数组的最大和    求最值 就是用动态规划*/
 public class GetSumOfSubArray {
 
     public  int max(int[] nums){
