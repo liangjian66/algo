@@ -129,6 +129,8 @@
 *   [面试题63：股票的最大利润](https://github.com/liangjian66/algo/blob/main/src/MaxDiff.java)
     
 *   [面试题67：把字符串转换成整数](https://github.com/liangjian66/algo/blob/main/src/StrToInt.java)
+*   [面试题68：树中两个节点的最低公共祖先](https://github.com/liangjian66/algo/blob/main/src/GetLastCommonParent.java)
+
 
 
 
