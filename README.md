@@ -35,6 +35,8 @@
 *   优先队列： PriorityQueue   题解：插入进行上浮操作  删除进行：最后一个替换到堆顶 ， 然后进行下沉操作 
 *   二叉树层序遍历：LevelOrder 题解 ： 先把父节点放入队列 ，  然后遍历队列 ， 遍历子节点
 *   二叉树的锯齿形层序遍历: zigzagLevelOrder   题解 ： 利用双端队列锯齿形层次遍历
+*   [二叉树- 路径之和](https://github.com/liangjian66/algo/blob/main/src/HasPathSum.java)
+
 
 ##  数组
 *  删除有序数组中的重复项 :  removeDuplicates  题解使用快慢指针
