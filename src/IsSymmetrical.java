@@ -11,9 +11,16 @@ public class IsSymmetrical {
 
       boolean recur(TreeNode L,TreeNode R){
           if (L==null&&R==null) return  true;
-          if (L==null || R==null || L.data != R.data){
+          if (L == null ||R==null|| L.data != R.data){
               return  false;
           }
-          return  recur(L.left, R.right)&&(recur(L.right, R.left));
+          Boolean leftBool = recur(L.left, R.right);
+          Boolean rightBool = recur(L.right, R.left);
+
+          return  leftBool&&rightBool;
       }
+
+
+
+
 }

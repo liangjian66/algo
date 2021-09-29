@@ -5,13 +5,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 class  TreeNode {
-    int data;
+    int val;
     int height;
     TreeNode left;
     TreeNode right;
 
-    public TreeNode(int data) {
-        this.data = data;
+    public TreeNode(int val) {
+        this.val = val;
         this.height = 0;
     }
 }

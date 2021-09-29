@@ -4,11 +4,11 @@ public class MaxDepth {
       public static  int maxDepth(TreeNode root){
           if (root == null){
               return  0;
-
           }
-          int left = maxDepth(root.left);
-          int right = maxDepth(root.right);
-          int res = Math.max(left,right) +1;
+//      转化成子问题
+          int left = maxDepth(root.left)+1;
+          int right = maxDepth(root.right)+1;
+          int res = Math.max(left,right);
           return  res;
       }
 

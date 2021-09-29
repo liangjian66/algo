@@ -29,13 +29,15 @@ public class mergeSort {
 //           return   mergeSort(arr);
          //  分成两半
         int mid = left +(right-left)/2;
+        //    先确保两个 有序数组 才能merge
+        mergeSort(arr,left,mid+1,right);
+
         // 左边排序
         sort(arr, left, mid);
 //        右边排序
         sort(arr,mid+1,right);
 
-//    先确保两个 有序数组 才能merge
-        mergeSort(arr,left,mid+1,right);
+
     }
 
 

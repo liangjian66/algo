@@ -27,7 +27,8 @@
 *  [希尔排序](https://github.com/liangjian66/algo/blob/main/src/ShellSort.java) : ShellSort  思路 : 先分组 再使用插入排序 ，再缩小间隔d
 *  [堆排序](https://github.com/liangjian66/algo/blob/main/src/HeapSort.java) ：HeapSort    题解： 1. 堆存储结构是个数组  2. 先构建一个大顶堆 3 ， 遍历取大顶堆  取最大值
 
-##  二叉树
+##  二叉树  
+*   <mark>二叉树问题大多使用递归解决  递归几大要素： 1.基线条件（终止条件） 2.子问题 3.递归参数  4. 递归返回值 、 <mark>
 *   二分查找：  HalfSearch        有序序列采用二分查找
 *   二叉树前序遍历题解  ：Solution   1. 根结点 ---> 左子树 ---> 右子树  2. 单层条件是先根节点，左节点 右节点 后使用递归 ，递归的基线条件是：root节点==null 终止
 *   二叉树中序遍历：MiddleSolution     ： 题解：  左子树——根节点——右子树   迭代解法  ：1. while   2 .入栈 3. 出栈
@@ -40,6 +41,8 @@
 *   [二叉树的深度](https://github.com/liangjian66/algo/blob/main/src/MaxDepth.java)
 *   [平衡二叉树](https://github.com/liangjian66/algo/blob/main/src/TreeIsBanced.java) 思路： 左右子树 深度差超过 1  它就不是平衡二叉树
 *   [翻转二叉树](https://github.com/liangjian66/algo/blob/main/src/InvertTree.java) 思路： 左右子树 深度差超过 1  它就不是平衡二叉树
+*   [二叉树- 合并二叉树](https://github.com/liangjian66/algo/blob/main/src/MergeTrees.java)
+
 
 
 
