@@ -11,7 +11,7 @@ public class IsSymmetrical {
 
       boolean recur(TreeNode L,TreeNode R){
           if (L==null&&R==null) return  true;
-          if (L == null ||R==null|| L.data != R.data){
+          if (L == null ||R==null|| L.val != R.val){
               return  false;
           }
           Boolean leftBool = recur(L.left, R.right);

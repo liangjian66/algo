@@ -42,6 +42,7 @@
 *   [翻转二叉树](https://github.com/liangjian66/algo/blob/main/src/InvertTree.java) 思路： 左右子树 深度差超过 1  它就不是平衡二叉树
 *   [二叉树- 合并二叉树](https://github.com/liangjian66/algo/blob/main/src/MergeTrees.java)
 *   [二叉树- 路径之和](https://github.com/liangjian66/algo/blob/main/src/HasPathSum.java)
+*   [另一颗树的子树](https://github.com/liangjian66/algo/blob/main/src/IsSubtree.java)
 
 
 
