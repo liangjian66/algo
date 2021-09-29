@@ -37,11 +37,12 @@
 *   优先队列： PriorityQueue   题解：插入进行上浮操作  删除进行：最后一个替换到堆顶 ， 然后进行下沉操作
 *   二叉树层序遍历：LevelOrder 题解 ： 先把父节点放入队列 ，  然后遍历队列 ， 遍历子节点
 *   二叉树的锯齿形层序遍历: zigzagLevelOrder   题解 ： 利用双端队列锯齿形层次遍历
-*   [二叉树- 路径之和](https://github.com/liangjian66/algo/blob/main/src/HasPathSum.java)
 *   [二叉树的深度](https://github.com/liangjian66/algo/blob/main/src/MaxDepth.java)
 *   [平衡二叉树](https://github.com/liangjian66/algo/blob/main/src/TreeIsBanced.java) 思路： 左右子树 深度差超过 1  它就不是平衡二叉树
 *   [翻转二叉树](https://github.com/liangjian66/algo/blob/main/src/InvertTree.java) 思路： 左右子树 深度差超过 1  它就不是平衡二叉树
 *   [二叉树- 合并二叉树](https://github.com/liangjian66/algo/blob/main/src/MergeTrees.java)
+*   [二叉树- 路径之和](https://github.com/liangjian66/algo/blob/main/src/HasPathSum.java)
+
 
 
 

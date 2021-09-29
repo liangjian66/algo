@@ -14,7 +14,7 @@ public class HasPathSum {
         Queue<Integer>  valQueue = new LinkedList<Integer>();
 //        先写一个广度优先遍历
         nodeQueue.offer(root);
-        valQueue.offer(root.data);
+        valQueue.offer(root.val);
         while (!nodeQueue.isEmpty()){
             TreeNode now = nodeQueue.poll();
             Integer num = valQueue.poll();
@@ -25,11 +25,11 @@ public class HasPathSum {
             }
             if (now.left != null){
                 nodeQueue.offer(now.left);
-                valQueue.offer(now.left.data+num);
+                valQueue.offer(now.left.val+num);
             }
             if (now.right != null) {
                 nodeQueue.offer(now.right);
-                valQueue.offer(now.right.data+num);
+                valQueue.offer(now.right.val+num);
             }
         }
 

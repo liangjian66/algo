@@ -19,12 +19,12 @@ public class AVLTree {
     }
 
       class  TreeNode{
-        int data;
+        int val;
         int height;
         TreeNode left;
         TreeNode right;
-          public TreeNode(int data) {
-            this.data = data;
+          public TreeNode(int val) {
+            this.val = val;
             this.height = 0;
         }
         // 获得 这颗树的平衡因子
@@ -91,23 +91,23 @@ public class AVLTree {
         if (node == null) {
             node = new TreeNode(data);
         } else {
-            if (data < node.data) {
+            if (data < node.val) {
                 //新结点小于当前结点，选择当前结点的左子树插入
                 node.left = insert(node.left, data);
                 // 插入节点后，若AVL树失去平衡，则进行相应的调节。
                 if (node.getBalance() == 2) {
-                    if (data < node.left.data) {
+                    if (data < node.left.val) {
                         node = leftLeftRotation(node);
                     } else {
                         node = leftRightRotation(node);
                     }
                 }
-            } else if (data > node.data)  {
+            } else if (data > node.val)  {
                 //新结点大于当前结点，选择当前结点的右子树插入
                 node.right = insert(node.right, data);
                 // 插入节点后，若AVL树失去平衡，则进行相应的调节。
                 if (node.getBalance() == -2) {
-                    if (data > node.right.data) {
+                    if (data > node.right.val) {
                         node = rightRightRotation(node);
                     } else {
                         node = rightLeftRotation(node);
@@ -125,7 +125,7 @@ public class AVLTree {
     public static void inOrderTraversal(TreeNode node){
         if(node != null) {
             inOrderTraversal(node.left);
-            System.out.print(node.data+" ");
+            System.out.print(node.val+" ");
             inOrderTraversal(node.right);
         }
     }
