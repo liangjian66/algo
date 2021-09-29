@@ -45,6 +45,9 @@
 *   [另一颗树的子树](https://github.com/liangjian66/algo/blob/main/src/IsSubtree.java)
 *   [统计左叶子节点的和](https://github.com/liangjian66/algo/blob/main/src/SumOfLeftLeaves.java)
 *   [二叉树中第二小的节点](https://github.com/liangjian66/algo/blob/main/src/FindSecondMinimumValue.java)
+*   [非递归的前序遍历](https://github.com/liangjian66/algo/blob/main/src/PreorderTraversal.java)
+*   [非递归的右序遍历](https://github.com/liangjian66/algo/blob/main/src/PostorderTraversal.java)
+
 
 
 

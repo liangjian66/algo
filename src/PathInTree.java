@@ -19,8 +19,8 @@ public class PathInTree {
         if (root == null){
             return;
         }
-        path.offerLast(root.data);
-        target -= root.data;
+        path.offerLast(root.val);
+        target -= root.val;
 //        叶子节点  target为0得到目标值
         if (root.left ==null&&root.right==null&&target==0){
             ret.add(new LinkedList<Integer>(path));
