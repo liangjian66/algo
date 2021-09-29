@@ -47,6 +47,7 @@
 *   [二叉树中第二小的节点](https://github.com/liangjian66/algo/blob/main/src/FindSecondMinimumValue.java)
 *   [非递归的前序遍历](https://github.com/liangjian66/algo/blob/main/src/PreorderTraversal.java)
 *   [非递归的右序遍历](https://github.com/liangjian66/algo/blob/main/src/PostorderTraversal.java)
+*   [非递归的中序遍历](https://github.com/liangjian66/algo/blob/main/src/InorderTraversal.java)
 
 
 
