@@ -1,3 +1,5 @@
+
+/*有点难 还没理解*/
 public class LastRemaining {
 
     public  int lastRemaining(int n , int m){
