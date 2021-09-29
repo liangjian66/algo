@@ -44,6 +44,8 @@
 *   [二叉树- 路径之和](https://github.com/liangjian66/algo/blob/main/src/HasPathSum.java)
 *   [另一颗树的子树](https://github.com/liangjian66/algo/blob/main/src/IsSubtree.java)
 *   [统计左叶子节点的和](https://github.com/liangjian66/algo/blob/main/src/SumOfLeftLeaves.java)
+*   [二叉树中第二小的节点](https://github.com/liangjian66/algo/blob/main/src/FindSecondMinimumValue.java)
+
 
 
 
