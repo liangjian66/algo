@@ -74,6 +74,8 @@
 *   [找出两个链表的交点](https://github.com/liangjian66/algo/blob/main/src/GetIntersectionNode.java)
 *   [反转链表](https://github.com/liangjian66/algo/blob/main/src/ReverseList.java)
 *   [合并两个有序链表](https://github.com/liangjian66/algo/blob/main/src/MergeTwoLists.java)
+*   [删除排序链表中的重复元素](https://github.com/liangjian66/algo/blob/main/src/DeleteDuplicates.java)
+
 
 
 
