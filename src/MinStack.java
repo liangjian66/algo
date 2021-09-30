@@ -51,3 +51,36 @@ public class MinStack {
 
 
 }
+
+
+class MinStackTwo {
+    Stack<Integer> mainSt;
+    Stack<Integer> minSt;
+
+    public MinStackTwo() {
+        mainSt = new Stack<Integer>();
+        minSt = new Stack<Integer>();
+        minSt.push(Integer.MAX_VALUE);
+
+    }
+
+    public void push(int val) {
+        mainSt.push(val);
+        minSt.push(Math.min(minSt.peek(),val));
+
+    }
+
+    public void pop() {
+        mainSt.pop();
+        minSt.pop();
+    }
+
+    public int top() {
+        return   mainSt.peek();
+    }
+
+    public int getMin() {
+        return minSt.peek();
+    }
+}
+

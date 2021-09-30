@@ -58,6 +58,7 @@
 *   [有序的链表转换二叉搜索树](https://github.com/liangjian66/algo/blob/main/src/SortedListToBST.java)
 *   [两数之和 IV - 输入 BST](https://github.com/liangjian66/algo/blob/main/src/FindTargetInBST.java)
 *   [二叉搜索树的最小绝对差](https://github.com/liangjian66/algo/blob/main/src/GetMinimumDifference.java)
+*   [二叉搜索树中的众数](https://github.com/liangjian66/algo/blob/main/src/FindPublicNums.java)
 
 
 
