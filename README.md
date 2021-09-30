@@ -54,6 +54,8 @@
 *   [把二叉搜索树转换为累加树](https://github.com/liangjian66/algo/blob/main/src/ConvertBST.java)
 *   [二叉搜索树的最近公共祖先](https://github.com/liangjian66/algo/blob/main/src/LowestCommonAncestor.java)
 *   [二叉树的最近公共祖先](https://github.com/liangjian66/algo/blob/main/src/LowestCommonAncestorTwo.java)
+*   [将有序数组转换成二叉搜索树](https://github.com/liangjian66/algo/blob/main/src/SortedArrayToBST.java)
+
 
 
 
