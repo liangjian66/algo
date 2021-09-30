@@ -10,6 +10,7 @@ public class ReverseList {
 //           先记录 cur 下一个节点
             ListNode next = cur.next;
             cur.next = prev;
+            prev = cur;
             cur = next;
 
         }
