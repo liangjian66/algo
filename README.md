@@ -52,13 +52,7 @@
 *   [ 修剪二叉搜索树](https://github.com/liangjian66/algo/blob/main/src/TrimBST.java)
 *   [二叉搜索树中第K小的元素](https://github.com/liangjian66/algo/blob/main/src/KthSmallest.java)
 *   [把二叉搜索树转换为累加树](https://github.com/liangjian66/algo/blob/main/src/ConvertBST.java)
-
-
-
-
-
-
-
+*   [二叉搜索树的最近公共祖先](https://github.com/liangjian66/algo/blob/main/src/LowestCommonAncestor.java)
 
 
 
