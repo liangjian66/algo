@@ -79,6 +79,8 @@
 *   [两两交换链表中的节点](https://github.com/liangjian66/algo/blob/main/src/SwapPairs.java)
 *   [链表的两数之和](https://github.com/liangjian66/algo/blob/main/src/AddTwoNumbers.java)
 *   [回文链表](https://github.com/liangjian66/algo/blob/main/src/IsPalindrome.java)
+*   [分割链表](https://github.com/liangjian66/algo/blob/main/src/SplitListToParts.java)
+
 
 
 
