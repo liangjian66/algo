@@ -70,7 +70,6 @@
 
 
 ## 链表
-*  相交链表160 ：GetIntersectionNode  题解：HashSet
 *   [找出两个链表的交点](https://github.com/liangjian66/algo/blob/main/src/GetIntersectionNode.java)
 *   [反转链表](https://github.com/liangjian66/algo/blob/main/src/ReverseList.java)
 *   [合并两个有序链表](https://github.com/liangjian66/algo/blob/main/src/MergeTwoLists.java)
@@ -80,6 +79,8 @@
 *   [链表的两数之和](https://github.com/liangjian66/algo/blob/main/src/AddTwoNumbers.java)
 *   [回文链表](https://github.com/liangjian66/algo/blob/main/src/IsPalindrome.java)
 *   [分割链表](https://github.com/liangjian66/algo/blob/main/src/SplitListToParts.java)
+*   [奇偶链表](https://github.com/liangjian66/algo/blob/main/src/OddEvenList.java)
+
 
 
 
