@@ -80,6 +80,10 @@
 *   [二叉搜索树的最小绝对差](https://github.com/liangjian66/algo/blob/main/src/GetMinimumDifference.java)
 *   [二叉搜索树中的众数](https://github.com/liangjian66/algo/blob/main/src/FindPublicNums.java)
 
+##  哈希表
+*   [两数之和](https://github.com/liangjian66/algo/blob/main/src/TwoSum.java)    //    [力扣](https://leetcode-cn.com/problems/two-sum/description/)
+
+
 
 ##  栈和队列
 *   [用栈实现队列](https://github.com/liangjian66/algo/blob/main/src/QueuesWithStacks.java) //    [力扣](https://leetcode-cn.com/problems/implement-queue-using-stacks/description/)
