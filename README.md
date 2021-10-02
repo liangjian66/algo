@@ -4,6 +4,7 @@
    * [鸡汤篇](#鸡汤篇)
    * [排序算法](#排序算法)
    * [二叉树](#二叉树)
+   * [栈和队列](#栈和队列)
    * [数组](#数组)
    * [链表](#链表)
    * [字符串](#字符串)
@@ -80,6 +81,8 @@
 *   [二叉搜索树中的众数](https://github.com/liangjian66/algo/blob/main/src/FindPublicNums.java)
 
 
+##  栈和队列
+*   [用栈实现队列](https://github.com/liangjian66/algo/blob/main/src/QueuesWithStacks.java)
 
 
 
