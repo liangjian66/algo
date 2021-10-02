@@ -2,6 +2,7 @@ import java.util.HashMap;
 
 public class FindLHS {
     public int findLHS(int[] nums) {
+        /*分析问题的能力 条件是什么：两个差值是1 还有 这个数的数量   要得到什么 ： 两个差值为1的数的加起来的数量*/
          if (nums == null){
              return 0;
          }
