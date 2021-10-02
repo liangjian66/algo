@@ -84,6 +84,7 @@
 ##  栈和队列
 *   [用栈实现队列](https://github.com/liangjian66/algo/blob/main/src/QueuesWithStacks.java)
 *   [用队列实现栈](https://github.com/liangjian66/algo/blob/main/src/StacksWhithQueue.java)
+*   [最小栈](https://github.com/liangjian66/algo/blob/main/src/MinStack.java)   [力扣](https://leetcode-cn.com/problems/min-stack/description/)
 
 
 

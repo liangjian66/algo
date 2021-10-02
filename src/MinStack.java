@@ -52,7 +52,7 @@ public class MinStack {
 
 }
 
-
+/*辅助栈 每次加入值 取小的值就可以了*/
 class MinStackTwo {
     Stack<Integer> mainSt;
     Stack<Integer> minSt;
