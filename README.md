@@ -87,6 +87,7 @@
 *   [最小栈](https://github.com/liangjian66/algo/blob/main/src/MinStack.java)    //    [力扣](https://leetcode-cn.com/problems/min-stack/description/)
 *   [用栈实现括号匹配](https://github.com/liangjian66/algo/blob/main/src/IsValid.java)    //    [力扣](https://leetcode-cn.com/problems/valid-parentheses/description/)
 *   [数组中元素与下一个比它大的元素之间的距离](https://github.com/liangjian66/algo/blob/main/src/DailyTemperatures.java)    //    [力扣](https://leetcode-cn.com/problems/daily-temperatures/description/)
+*   [循环数组中比当前元素大的下一个元素](https://github.com/liangjian66/algo/blob/main/src/NextGreaterElements.java)    //    [力扣](https://leetcode-cn.com/problems/next-greater-element-ii/description/)
 
 
 
