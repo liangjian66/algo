@@ -24,7 +24,7 @@ public class KthNode {
         for (int i = 0; i < res.size(); i++) {
             if (i == k-1){
                 TreeNode kNode = res.get(i);
-                return kNode.data;
+                return kNode.val;
             }
         }
 

@@ -26,7 +26,7 @@ public class LevelOrder {
 //            如果节点的左/右 子树不为空 也放入队列中
             for (int i = 0; i<size;++i){
                 AVLTree.TreeNode t = queue.remove();
-                tmp.add(t.data);
+                tmp.add(t.val);
                 if (t.left != null){
                     queue.add(t.left);
                 }

@@ -22,9 +22,9 @@ public class ZigzagLevelOrder {
             for (int i = 0; i < size; i++) {
                 TreeNode curNode = nodeQueue.poll();
                 if (isOrderLeft){
-                    levelList.offerLast(curNode.data);
+                    levelList.offerLast(curNode.val);
                 }else {
-                    levelList.offerFirst(curNode.data);
+                    levelList.offerFirst(curNode.val);
                 }
 
                 if (curNode.left!=null){

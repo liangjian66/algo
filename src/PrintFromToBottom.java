@@ -17,7 +17,7 @@ public class PrintFromToBottom {
         ArrayList<Integer> ans = new ArrayList<Integer>();
         while (!queue.isEmpty()){
             TreeNode node = queue.poll();
-            ans.add(node.data);
+            ans.add(node.val);
            if (node.left!=null)queue.add(node.left);
            if (node.right != null)queue.add(node.right);
 

@@ -84,6 +84,7 @@
 *   [两数之和](https://github.com/liangjian66/algo/blob/main/src/TwoSum.java)    //    [力扣](https://leetcode-cn.com/problems/two-sum/description/)
 *   [数组存在重复元素](https://github.com/liangjian66/algo/blob/main/src/ContainsDuplicate.java)    //    [力扣](https://leetcode-cn.com/problems/contains-duplicate/description/)
 *   [最长和谐子序列](https://github.com/liangjian66/algo/blob/main/src/FindLHS.java)    //    [力扣](https://leetcode-cn.com/problems/longest-harmonious-subsequence/)
+*   [最长连续序列](https://github.com/liangjian66/algo/blob/main/src/LongestConsecutive.java)    //    [力扣](https://leetcode-cn.com/problems/longest-consecutive-sequence/description/)
 
 
 
