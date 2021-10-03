@@ -107,6 +107,7 @@
 *   [改变矩阵维度](https://github.com/liangjian66/algo/blob/main/src/MatrixReshape.java)    //    [力扣](https://leetcode-cn.com/problems/reshape-the-matrix/description/) 
 *   [最大连续 1 的个数](https://github.com/liangjian66/algo/blob/main/src/FindMaxConsecutiveOnes.java)    //    [力扣](https://leetcode-cn.com/problems/max-consecutive-ones/description/)
 *   [有序矩阵查找](https://github.com/liangjian66/algo/blob/main/src/SearchMatrix.java)    //    [力扣](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/description/)   //  [手绘图解](https://github.com/liangjian66/algo/blob/main/MdSet/ImageSet.md)
+*   [有序矩阵的 Kth Element](https://github.com/liangjian66/algo/blob/main/src/kthSmallestKth.java)    //    [力扣](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)   
 
 
 
