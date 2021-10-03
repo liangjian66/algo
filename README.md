@@ -263,7 +263,6 @@
 ### 有错误勘误，可以联系我
 * 邮箱： 2695621767@qq.com
 
-![这里写图片描述](https://github.com/liangjian66/algo/blob/main/Image/3831633228109_.pic_hd.jpg)
 
 
 
