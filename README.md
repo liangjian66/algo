@@ -109,6 +109,8 @@
 *   [有序矩阵查找](https://github.com/liangjian66/algo/blob/main/src/SearchMatrix.java)    //    [力扣](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/description/)   //  [手绘图解](https://github.com/liangjian66/algo/blob/main/MdSet/ImageSet.md)
 *   [有序矩阵的 Kth Element](https://github.com/liangjian66/algo/blob/main/src/kthSmallestKth.java)    //    [力扣](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)   
 *   [错误的集合](https://github.com/liangjian66/algo/blob/main/src/FindErrorNums.java)    //    [力扣](https://leetcode-cn.com/problems/set-mismatch/description/)   //  [手绘图解](https://github.com/liangjian66/algo/blob/main/MdSet/ImageSet.md)
+*   [寻找重复数](https://github.com/liangjian66/algo/blob/main/src/FindDuplicate.java)    //    [力扣](https://leetcode-cn.com/problems/find-the-duplicate-number/description/)   //  [手绘图解](https://github.com/liangjian66/algo/blob/main/MdSet/ImageSet.md)
+*   [对角元素相等的矩阵](https://github.com/liangjian66/algo/blob/main/src/IsToeplitzMatrix.java)    //    [力扣](https://leetcode-cn.com/problems/toeplitz-matrix/description/)   //  [手绘图解](https://github.com/liangjian66/algo/blob/main/MdSet/ImageSet.md)
 
 
 
