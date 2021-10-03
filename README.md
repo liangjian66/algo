@@ -105,6 +105,7 @@
 *  删除有序数组中的重复项 :  removeDuplicates  题解使用快慢指针
 *   [把数组中的 0 移到末尾](https://github.com/liangjian66/algo/blob/main/src/MoveZeroes.java)    //    [力扣](https://leetcode-cn.com/problems/move-zeroes/description/)  [手绘图解](https://github.com/liangjian66/algo/blob/main/MdSet/ImageSet.md)
 *   [改变矩阵维度](https://github.com/liangjian66/algo/blob/main/src/MatrixReshape.java)    //    [力扣](https://leetcode-cn.com/problems/reshape-the-matrix/description/) 
+*   [最大连续 1 的个数](https://github.com/liangjian66/algo/blob/main/src/FindMaxConsecutiveOnes.java)    //    [力扣](https://leetcode-cn.com/problems/max-consecutive-ones/description/)
 
 
 
