@@ -5,3 +5,6 @@
 
 ### 双栈实现队列
 ![双栈实现队列](https://github.com/liangjian66/algo/blob/main/Image/3841633228110_.pic_hd.jpg)
+
+### 移动0 
+![移动0](https://github.com/liangjian66/algo/blob/main/Image/3851633230983_.pic_hd.jpg)
