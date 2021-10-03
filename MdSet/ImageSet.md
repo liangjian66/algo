@@ -2,6 +2,8 @@
 * [双栈实现队列](#双栈实现队列)
 * [移动0 ](#移动0 )
 * [搜索二维矩阵](#搜索二维矩阵)
+* [错误的集合](#错误的集合)
+
 
 
 ### 队列实现栈
@@ -15,3 +17,6 @@
 
 ### 搜索二维矩阵
 ![搜索二维矩阵](https://github.com/liangjian66/algo/blob/main/Image/3861633240652_.pic_hd.jpg)
+
+### 错误的集合
+![错误的集合](https://github.com/liangjian66/algo/blob/main/Image/3871633242817_.pic_hd.jpg)
