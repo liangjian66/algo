@@ -11,6 +11,7 @@
    * [字符串](#字符串)
    * [算法套路](#算法套路)
      * [双指针](#双指针)
+     * [排序](#排序)
    * [算法题解](#算法题解)
    * [动态规划](#动态规划)
    * [剑指offer](#剑指offer)
@@ -142,6 +143,9 @@
 *   [归并两个有序数组](https://github.com/liangjian66/algo/blob/main/src/MergeTwoSortArray.java)  //    [力扣](https://leetcode-cn.com/problems/merge-sorted-array/description/)
 *   [判断链表是否存在环](https://github.com/liangjian66/algo/blob/main/src/HasCycle.java)  //    [力扣](https://leetcode-cn.com/problems/linked-list-cycle/description/)
 *   [最长子序列](https://github.com/liangjian66/algo/blob/main/src/FindLongestWord.java)  //    [力扣](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/description/)
+
+### 排序
+*   [数组中的第K个最大元素](https://github.com/liangjian66/algo/blob/main/src/FindKthLargest.java)  //    [力扣](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/description/)
 
 
 
