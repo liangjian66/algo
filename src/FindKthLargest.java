@@ -1,7 +1,7 @@
 public class FindKthLargest {
-/*可以维护一个个数为K 小顶堆*/
+    /*可以维护一个个数为K 小顶堆*/
     public int findKthLargest(int[] nums, int k) {
-           return  sort(nums,k);
+        return  sort(nums,k);
     }
 
     private static int  sort(int[]  arr ,int k ){
@@ -15,7 +15,7 @@ public class FindKthLargest {
         }
 //        先构建最初的小顶堆
         for (int t = k/2-1;t >=0 ;t--){
-             downAdjust(sort,t,k);
+            downAdjust(sort,t,k);
         }
 
 //        依次录入其他元素
@@ -32,12 +32,12 @@ public class FindKthLargest {
             }
 
         }
-    return  sort[0];
+        return  sort[0];
     }
-/*  下沉调整
-*   要下沉的父节点
-*   堆的有效大小
-* */
+    /*  下沉调整
+     *   要下沉的父节点
+     *   堆的有效大小
+     * */
     public static   void downAdjust(int[]  array ,int parentIndex , int length){
 //        temp保存父节点的值 ，用于最后的赋值
         int temp = array[parentIndex];
@@ -53,6 +53,7 @@ public class FindKthLargest {
 //                选择右子节点成为下沉目标值
                 childIndex++;
             }
+//            生成小顶堆  这行代码是关键
             if (temp<=array[childIndex])  break;
 //            父节点  和 左子节点交换数值
             array[parentIndex] = array[childIndex];
@@ -70,8 +71,8 @@ public class FindKthLargest {
 
     public static void main(String[] args) {
         int[] num1 = new int[]{3,2,3,1,2,4,5,6};
-      int kTh =   sort(num1,4);
-      System.out.println(kTh);
+        int kTh =   sort(num1,4);
+        System.out.println(kTh);
 
     }
 }
