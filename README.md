@@ -140,6 +140,8 @@
 *   [反转字符串中的元音字符](https://github.com/liangjian66/algo/blob/main/src/ReverseVowels.java)  //    [力扣](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/description/)
 *   [回文字符串](https://github.com/liangjian66/algo/blob/main/src/ValidPalindrome.java)  //    [力扣](https://leetcode-cn.com/problems/valid-palindrome-ii/description/)
 *   [归并两个有序数组](https://github.com/liangjian66/algo/blob/main/src/MergeTwoSortArray.java)  //    [力扣](https://leetcode-cn.com/problems/merge-sorted-array/description/)
+*   [判断链表是否存在环](https://github.com/liangjian66/algo/blob/main/src/HasCycle.java)  //    [力扣](https://leetcode-cn.com/problems/linked-list-cycle/description/)
+*   [最长子序列](https://github.com/liangjian66/algo/blob/main/src/FindLongestWord.java)  //    [力扣](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/description/)
 
 
 
