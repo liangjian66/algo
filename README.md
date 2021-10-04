@@ -9,6 +9,8 @@
    * [数组](#数组)
    * [链表](#链表)
    * [字符串](#字符串)
+   * [算法套路](#算法套路)
+     * [双指针](#双指针)
    * [算法题解](#算法题解)
    * [动态规划](#动态规划)
    * [剑指offer](#剑指offer)
@@ -127,14 +129,12 @@
 *   [奇偶链表](https://github.com/liangjian66/algo/blob/main/src/OddEvenList.java)
 
 
-
-
-
-
-## 字符串
+##  字符串
 * 无重复字符的最长子串:LengthOfLongestSubstring   滑动窗口
 *   [反转字符串](https://github.com/liangjian66/algo/blob/main/src/InversionString.java)
 
+##  算法套路
+###  双指针
 
 
 ##  算法题解
