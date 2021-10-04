@@ -135,7 +135,8 @@
 
 ##  算法套路
 ###  双指针
-*   [有序数组的 Two Sum](https://github.com/liangjian66/algo/blob/main/src/SortArrayTwoSum.java)
+*   [有序数组的 Two Sum](https://github.com/liangjian66/algo/blob/main/src/SortArrayTwoSum.java)  //    [力扣](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/description/)
+*   [两数平方和](https://github.com/liangjian66/algo/blob/main/src/JudgeSquareSum.java)  //    [力扣](https://leetcode-cn.com/problems/sum-of-square-numbers/description/)
 
 
 
