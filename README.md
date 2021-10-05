@@ -147,6 +147,7 @@
 ### 排序
 *   [数组中的第K个最大元素](https://github.com/liangjian66/algo/blob/main/src/FindKthLargest.java)  //    [力扣](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/description/)
 *   [出现频率最多的 k 个元素](https://github.com/liangjian66/algo/blob/main/src/TopKFrequent.java)  //    [力扣](https://leetcode-cn.com/problems/top-k-frequent-elements/description/)
+*   [按照字符出现次数对字符串排序](https://github.com/liangjian66/algo/blob/main/src/FrequencySort.java)  //    [力扣](https://leetcode-cn.com/problems/top-k-frequent-elements/description/)
 
 
 
