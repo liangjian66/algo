@@ -12,6 +12,7 @@
    * [算法套路](#算法套路)
      * [双指针](#双指针)
      * [排序](#排序)
+     * [贪心思想](#贪心思想)
    * [算法题解](#算法题解)
    * [动态规划](#动态规划)
    * [剑指offer](#剑指offer)
@@ -149,6 +150,10 @@
 *   [出现频率最多的 k 个元素](https://github.com/liangjian66/algo/blob/main/src/TopKFrequent.java)  //    [力扣](https://leetcode-cn.com/problems/top-k-frequent-elements/description/)
 *   [按照字符出现次数对字符串排序](https://github.com/liangjian66/algo/blob/main/src/FrequencySort.java)  //    [力扣](https://leetcode-cn.com/problems/top-k-frequent-elements/description/)
 *   [颜色分类](https://github.com/liangjian66/algo/blob/main/src/SortColors.java)  //    [力扣](https://leetcode-cn.com/problems/sort-colors/description/)
+
+### 贪心思想
+*   [分发饼干](https://github.com/liangjian66/algo/blob/main/src/FindContentChildren.java)  //    [力扣](https://leetcode-cn.com/problems/assign-cookies/description/)
+
 
 
 
