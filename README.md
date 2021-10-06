@@ -158,6 +158,7 @@
 *   [根据身高和序号重组队列](https://github.com/liangjian66/algo/blob/main/src/ReconstructQueue.java)  //    [力扣](https://leetcode-cn.com/problems/queue-reconstruction-by-height/description/)
 *   [买卖股票的最佳时机](https://github.com/liangjian66/algo/blob/main/src/MaxProfit.java)  //    [力扣](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/description/)
 *   [买卖股票的最佳时机2 多时段购买](https://github.com/liangjian66/algo/blob/main/src/MaxProfitMoreTime.java)  //    [力扣](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
+*   [判断子序列](https://github.com/liangjian66/algo/blob/main/src/IsSubsequence.java)  //    [力扣](https://leetcode-cn.com/problems/is-subsequence/description/)
 
 
 
