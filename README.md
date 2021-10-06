@@ -155,6 +155,7 @@
 *   [分发饼干](https://github.com/liangjian66/algo/blob/main/src/FindContentChildren.java)  //    [力扣](https://leetcode-cn.com/problems/assign-cookies/description/)
 *   [不重叠的区间个数](https://github.com/liangjian66/algo/blob/main/src/EraseOverlapIntervals.java)  //    [力扣](https://leetcode-cn.com/problems/non-overlapping-intervals/description/)
 *   [投飞镖刺破气球](https://github.com/liangjian66/algo/blob/main/src/FindMinArrowShots.java)  //    [力扣](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
+*   [根据身高和序号重组队列](https://github.com/liangjian66/algo/blob/main/src/ReconstructQueue.java)  //    [力扣](https://leetcode-cn.com/problems/queue-reconstruction-by-height/description/)
 
 
 
