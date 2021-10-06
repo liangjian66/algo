@@ -161,6 +161,7 @@
 *   [判断子序列](https://github.com/liangjian66/algo/blob/main/src/IsSubsequence.java)  //    [力扣](https://leetcode-cn.com/problems/is-subsequence/description/)
 *   [修改一个数成为非递减数组](https://github.com/liangjian66/algo/blob/main/src/CheckPossibility.java)  //    [力扣](https://leetcode-cn.com/problems/non-decreasing-array/description/)
 *   [子数组最大的和](https://github.com/liangjian66/algo/blob/main/src/MaxSubArray.java)  //    [力扣](https://leetcode-cn.com/problems/maximum-subarray/description/)
+*   [分隔字符串使同种字符出现在一起](https://github.com/liangjian66/algo/blob/main/src/PartitionLabels.java)  //    [力扣](https://leetcode-cn.com/problems/partition-labels/description/)
 
 
 
