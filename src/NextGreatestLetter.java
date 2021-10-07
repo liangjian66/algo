@@ -9,10 +9,8 @@ public class NextGreatestLetter {
         int i = 0 ;
         int j= letters.length-1;
         char ans = ' ';
-        while (i<j){
-            if (letters[j]-target>0){
-                return  letters[i];
-            }
+        while (i<=j){
+
             int mid  = i+ (j-i)/2;
             if (letters[mid]-target<=0){   //中间值较小
 //                找到最后一个比target 小的字母
@@ -22,7 +20,12 @@ public class NextGreatestLetter {
             }
 
         }
-        return letters[i];
+        if (i<letters.length){
+            return letters[i];
+        }
+        else {
+            return letters[0];
+        }
 
     }
 }
