@@ -13,6 +13,7 @@
      * [双指针](#双指针)
      * [排序](#排序)
      * [贪心思想](#贪心思想)
+     * [二分查找](#二分查找)
    * [算法题解](#算法题解)
    * [动态规划](#动态规划)
    * [剑指offer](#剑指offer)
@@ -164,6 +165,9 @@
 *   [修改一个数成为非递减数组](https://github.com/liangjian66/algo/blob/main/src/CheckPossibility.java)  //    [力扣](https://leetcode-cn.com/problems/non-decreasing-array/description/)
 *   [子数组最大的和](https://github.com/liangjian66/algo/blob/main/src/MaxSubArray.java)  //    [力扣](https://leetcode-cn.com/problems/maximum-subarray/description/)
 *   [分隔字符串使同种字符出现在一起](https://github.com/liangjian66/algo/blob/main/src/PartitionLabels.java)  //    [力扣](https://leetcode-cn.com/problems/partition-labels/description/)
+
+### 二分查找
+*   [求开方](https://github.com/liangjian66/algo/blob/main/src/MySqrt.java)  //    [力扣](https://leetcode-cn.com/problems/sqrtx/description/)
 
 
 
