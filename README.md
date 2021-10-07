@@ -169,6 +169,7 @@
 ### 二分查找
 *   [求开方](https://github.com/liangjian66/algo/blob/main/src/MySqrt.java)  //    [力扣](https://leetcode-cn.com/problems/sqrtx/description/)
 *   [大于给定元素的最小元素](https://github.com/liangjian66/algo/blob/main/src/NextGreatestLetter.java)  //    [力扣](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/description/)
+*   [有序数组的 Single Element](https://github.com/liangjian66/algo/blob/main/src/SingleNonDuplicate.java)  //    [力扣](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/description/)
 
 
 

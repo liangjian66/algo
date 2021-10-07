@@ -13,7 +13,7 @@ public class NextGreatestLetter {
 
             int mid  = i+ (j-i)/2;
             if (letters[mid]-target<=0){   //中间值较小
-//                找到最后一个比target 小的字母
+//                找到最后一个比target 小的字母  下一个就是比target大的字母
                  i = mid+1;
             }else {
                 j= mid-1;
