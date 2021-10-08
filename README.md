@@ -185,7 +185,7 @@
 ### 动态规划
 #### 斐波那契数列
 
-*   [组成整数的最小平方数数量](https://github.com/liangjian66/algo/blob/main/src/NumSquares.java)  //    [力扣](https://leetcode-cn.com/problems/perfect-squares/description/)
+*   [爬楼梯](https://github.com/liangjian66/algo/blob/main/src/ClimbStairs.java)  //    [力扣](https://leetcode-cn.com/problems/climbing-stairs/description/)
 
 
 
