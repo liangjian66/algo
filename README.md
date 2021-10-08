@@ -192,6 +192,7 @@
 
 #### 矩阵路径
 *   [矩阵的最小路径和](https://github.com/liangjian66/algo/blob/main/src/MinPathSum.java)  //    [力扣](https://leetcode-cn.com/problems/minimum-path-sum/description/)
+*   [矩阵的总路径数](https://github.com/liangjian66/algo/blob/main/src/UniquePaths.java)  //    [力扣](https://leetcode-cn.com/problems/unique-paths/description/)
 
 
 
