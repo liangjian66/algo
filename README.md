@@ -14,6 +14,7 @@
      * [排序](#排序)
      * [贪心思想](#贪心思想)
      * [二分查找](#二分查找)
+     * [搜索](#搜索)
    * [算法题解](#算法题解)
    * [动态规划](#动态规划)
    * [剑指offer](#剑指offer)
@@ -42,6 +43,7 @@
 * 高筑墙 ， 广积粮 ， 缓称王
 * 天道酬勤，勤能补拙。博观而约取，厚积而薄发
 * 算法： 先把一个大问题拆解成一个个小问题 ，  再解决小问题 ， 小问题解决了拼接起来解决大问题
+* 磨刀不误砍柴工， 磨石不误磨刀工
 
 ##  排序算法
 *  [冒泡排序](https://github.com/liangjian66/algo/blob/main/src/BubbleSort.java) ：BubbleSort
@@ -173,6 +175,11 @@
 *   [第一个错误的版本](https://github.com/liangjian66/algo/blob/main/src/FirstBadVersion.java)  //    [力扣](https://leetcode-cn.com/problems/first-bad-version/description/)
 *   [旋转数组的最小数字](https://github.com/liangjian66/algo/blob/main/src/FindMin.java)  //    [力扣](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/description/)
 *   [查找区间](https://github.com/liangjian66/algo/blob/main/src/SearchRange.java)  //    [力扣](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+
+### 搜索
+*   [计算在网格中从原点到特定点的最短路径长度](https://github.com/liangjian66/algo/blob/main/src/ShortestPathBinaryMatrix.java)  //    [力扣](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/)
+*   [组成整数的最小平方数数量](https://github.com/liangjian66/algo/blob/main/src/NumSquares.java)  //    [力扣](https://leetcode-cn.com/problems/perfect-squares/description/)
+
 
 
 
