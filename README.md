@@ -204,6 +204,7 @@
 #### 分割整数
 *   [分割整数的最大乘积](https://github.com/liangjian66/algo/blob/main/src/IntegerBreak.java)  //    [力扣](https://leetcode-cn.com/problems/integer-break/description/)
 *   [按平方数来分割整数](https://github.com/liangjian66/algo/blob/main/src/NumSquares.java)  //    [力扣](https://leetcode-cn.com/problems/perfect-squares/description/)
+*   [分割整数构成字母字符串](https://github.com/liangjian66/algo/blob/main/src/NumDecodings.java)  //    [力扣](https://leetcode-cn.com/problems/decode-ways/description/)
 
 
 
