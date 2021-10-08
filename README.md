@@ -15,6 +15,8 @@
      * [贪心思想](#贪心思想)
      * [二分查找](#二分查找)
      * [搜索](#搜索)
+     * [动态规划](#动态规划)
+        * [斐波那契数列](#斐波那契数列)
    * [算法题解](#算法题解)
    * [动态规划](#动态规划)
    * [剑指offer](#剑指offer)
@@ -178,6 +180,11 @@
 
 ### 搜索
 *   [计算在网格中从原点到特定点的最短路径长度](https://github.com/liangjian66/algo/blob/main/src/ShortestPathBinaryMatrix.java)  //    [力扣](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/)
+*   [组成整数的最小平方数数量](https://github.com/liangjian66/algo/blob/main/src/NumSquares.java)  //    [力扣](https://leetcode-cn.com/problems/perfect-squares/description/)
+
+### 动态规划
+#### 斐波那契数列
+
 *   [组成整数的最小平方数数量](https://github.com/liangjian66/algo/blob/main/src/NumSquares.java)  //    [力扣](https://leetcode-cn.com/problems/perfect-squares/description/)
 
 
