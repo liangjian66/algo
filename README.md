@@ -19,6 +19,7 @@
         * [斐波那契数列](#斐波那契数列)
         * [矩阵路径](#矩阵路径)
         * [数组区间](#数组区间)
+        * [分割整数](#分割整数)
    * [算法题解](#算法题解)
    * [动态规划](#动态规划)
    * [剑指offer](#剑指offer)
@@ -199,6 +200,10 @@
 
 *   [数组区间和](https://github.com/liangjian66/algo/blob/main/src/NumArray.java)  //    [力扣](https://leetcode-cn.com/problems/range-sum-query-immutable/description/)
 *   [数组中等差递增子区间的个数](https://github.com/liangjian66/algo/blob/main/src/NumberOfArithmeticSlices.java)  //    [力扣](https://leetcode-cn.com/problems/arithmetic-slices/description/)
+
+#### 分割整数
+*   [分割整数的最大乘积](https://github.com/liangjian66/algo/blob/main/src/IntegerBreak.java)  //    [力扣](https://leetcode-cn.com/problems/integer-break/description/)
+*   [按平方数来分割整数](https://github.com/liangjian66/algo/blob/main/src/NumSquares.java)  //    [力扣](https://leetcode-cn.com/problems/perfect-squares/description/)
 
 
 
