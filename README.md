@@ -18,6 +18,7 @@
      * [动态规划](#动态规划)
         * [斐波那契数列](#斐波那契数列)
         * [矩阵路径](#矩阵路径)
+        * [数组区间](#数组区间)
    * [算法题解](#算法题解)
    * [动态规划](#动态规划)
    * [剑指offer](#剑指offer)
@@ -193,7 +194,11 @@
 #### 矩阵路径
 *   [矩阵的最小路径和](https://github.com/liangjian66/algo/blob/main/src/MinPathSum.java)  //    [力扣](https://leetcode-cn.com/problems/minimum-path-sum/description/)
 *   [矩阵的总路径数](https://github.com/liangjian66/algo/blob/main/src/UniquePaths.java)  //    [力扣](https://leetcode-cn.com/problems/unique-paths/description/)
+
+#### 数组区间
+
 *   [数组区间和](https://github.com/liangjian66/algo/blob/main/src/NumArray.java)  //    [力扣](https://leetcode-cn.com/problems/range-sum-query-immutable/description/)
+*   [数组中等差递增子区间的个数](https://github.com/liangjian66/algo/blob/main/src/NumberOfArithmeticSlices.java)  //    [力扣](https://leetcode-cn.com/problems/arithmetic-slices/description/)
 
 
 
