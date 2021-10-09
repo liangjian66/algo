@@ -208,6 +208,7 @@
 
 #### 最长递增子序列
 *   [最长递增子序列](https://github.com/liangjian66/algo/blob/main/src/LengthOfLIS.java)  //    [力扣](https://leetcode-cn.com/problems/longest-increasing-subsequence/description/)
+*   [一组整数对能够构成的最长链](https://github.com/liangjian66/algo/blob/main/src/FindLongestChain.java)  //    [力扣](https://leetcode-cn.com/problems/maximum-length-of-pair-chain/description/)
 
 
 
