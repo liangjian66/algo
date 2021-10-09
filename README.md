@@ -214,6 +214,10 @@
 #### 最长公共子序列
 *   [最长公共子序列](https://github.com/liangjian66/algo/blob/main/src/LongestCommonSubsequence.java)  //    [力扣](https://leetcode-cn.com/problems/longest-common-subsequence/)
 
+####  0-1 背包
+
+*   [0-1背包](https://github.com/liangjian66/algo/blob/main/src/Knapsack.java)
+
 
 
 
