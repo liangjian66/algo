@@ -217,6 +217,8 @@
 ####  0-1 背包
 
 *   [0-1背包](https://github.com/liangjian66/algo/blob/main/src/Knapsack.java)
+*   [划分数组为和相等的两部分](https://github.com/liangjian66/algo/blob/main/src/CanPartition.java)  //    [力扣](https://leetcode-cn.com/problems/partition-equal-subset-sum/description/)
+
 
 
 
