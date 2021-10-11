@@ -347,6 +347,8 @@
 *  2021最新版数据结构与算法面试题手册 1
 *  程序员代码面试指南 IT名企算法与数据结构题目最优解
 *  程序员面试金典第六版pdf
+*  对白的数据结构与算法笔记
+*  对白的LeetCode笔记
 
 ###  [我的手绘图解杂集](https://github.com/liangjian66/algo/blob/main/MdSet/Myhand.md)
 ### 有错误勘误，可以联系我
