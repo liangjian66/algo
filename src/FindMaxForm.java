@@ -9,9 +9,9 @@ public class FindMaxForm {
         *  j 使用 jj 个 00 和 kk 个 11 的情况下最多可以得到的字符串数量
         *
         * */
-        int length  = strs.length;
+        int length = strs.length;
         int[][][] dp = new int[length+1][m+1][n+1];
-        for (int i = 1; i < length; i++) {
+        for (int i = 1; i <= length; i++) {
             int[] zerosOnes = getZerosOnes(strs[i-1]);
             int zeros = zerosOnes[0];
             int ones = zerosOnes[1];
