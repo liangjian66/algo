@@ -218,7 +218,8 @@
 
 *   [0-1背包](https://github.com/liangjian66/algo/blob/main/src/Knapsack.java)
 *   [划分数组为和相等的两部分](https://github.com/liangjian66/algo/blob/main/src/CanPartition.java)  //    [力扣](https://leetcode-cn.com/problems/partition-equal-subset-sum/description/)
-
+*   [改变一组数的正负号使得它们的和为一给定数](https://github.com/liangjian66/algo/blob/main/src/FindTargetSumWays.java)  //    [力扣](https://leetcode-cn.com/problems/target-sum/description/)
+*   [01 字符构成最多的字符串](https://github.com/liangjian66/algo/blob/main/src/FindMaxForm.java)  //    [力扣](https://leetcode-cn.com/problems/ones-and-zeroes/description/)
 
 
 
