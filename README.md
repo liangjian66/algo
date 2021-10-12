@@ -67,8 +67,8 @@
 
 ##  二叉树  
 *   <mark>二叉树问题大多使用递归解决  递归几大要素： 1.基线条件（终止条件） 2.子问题 3.递归参数  4. 递归返回值 、 <mark>
-*   二分查找：  HalfSearch        有序序列采用二分查找
-*   二叉树前序遍历题解  ：Solution   1. 根结点 ---> 左子树 ---> 右子树  2. 单层条件是先根节点，左节点 右节点 后使用递归 ，递归的基线条件是：root节点==null 终止
+*  [二叉树前序遍历](https://github.com/liangjian66/algo/blob/main/src/Solution.java) //  [力扣](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+       二叉树前序遍历题解  ：Solution   1. 根结点 ---> 左子树 ---> 右子树  2. 单层条件是先根节点，左节点 右节点 后使用递归 ，递归的基线条件是：root节点==null 终止
 *   二叉树中序遍历：MiddleSolution     ： 题解：  左子树——根节点——右子树   迭代解法  ：1. while   2 .入栈 3. 出栈
 *   平衡二叉搜索树 ： AVLTree            关键字1. LL 右旋  2.RR 左旋  3.LR 先左旋 再右旋  4 RL 先右旋  再左旋
 *   二叉堆:BinaryHeap                数学要好 1.  父节点的下标是P 他的左孩子下标就是 2P+1 2P+2          2. 最大堆上浮，跟自己的父节点对比 ， 比父节点大上浮， 不断对比
@@ -179,6 +179,8 @@
 *   [分隔字符串使同种字符出现在一起](https://github.com/liangjian66/algo/blob/main/src/PartitionLabels.java)  //    [力扣](https://leetcode-cn.com/problems/partition-labels/description/)
 
 ### 二分查找
+
+*   [二分查找](https://github.com/liangjian66/algo/blob/main/src/HalfSearch.java)  //    [力扣](https://leetcode-cn.com/problems/binary-search/)
 *   [求开方](https://github.com/liangjian66/algo/blob/main/src/MySqrt.java)  //    [力扣](https://leetcode-cn.com/problems/sqrtx/description/)
 *   [大于给定元素的最小元素](https://github.com/liangjian66/algo/blob/main/src/NextGreatestLetter.java)  //    [力扣](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/description/)
 *   [有序数组的 Single Element](https://github.com/liangjian66/algo/blob/main/src/SingleNonDuplicate.java)  //    [力扣](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/description/)
