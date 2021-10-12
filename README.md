@@ -20,6 +20,10 @@
         * [矩阵路径](#矩阵路径)
         * [数组区间](#数组区间)
         * [分割整数](#分割整数)
+        * [最长递增子序列](#最长递增子序列)
+        * [01背包](#01背包)
+        * [股票交易](#股票交易)
+        * [字符串编辑](#字符串编辑)
    * [算法题解](#算法题解)
    * [动态规划](#动态规划)
    * [剑指offer](#剑指offer)
@@ -215,7 +219,7 @@
 #### 最长公共子序列
 *   [最长公共子序列](https://github.com/liangjian66/algo/blob/main/src/LongestCommonSubsequence.java)  //    [力扣](https://leetcode-cn.com/problems/longest-common-subsequence/)
 
-####  0-1 背包
+####  01背包
 
 *   [0-1背包](https://github.com/liangjian66/algo/blob/main/src/Knapsack.java)
 *   [划分数组为和相等的两部分](https://github.com/liangjian66/algo/blob/main/src/CanPartition.java)  //    [力扣](https://leetcode-cn.com/problems/partition-equal-subset-sum/description/)
@@ -233,6 +237,7 @@
 *   [只能进行 k 次的股票交易](https://github.com/liangjian66/algo/blob/main/src/MaxProfitWithK.java)  //    [力扣](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/)
 
 ####  字符串编辑
+*   [删除两个字符串的字符使它们相等](https://github.com/liangjian66/algo/blob/main/src/MinDistance.java)  //    [力扣](https://leetcode-cn.com/problems/delete-operation-for-two-strings/description/)
 *   [删除两个字符串的字符使它们相等](https://github.com/liangjian66/algo/blob/main/src/MinDistance.java)  //    [力扣](https://leetcode-cn.com/problems/delete-operation-for-two-strings/description/)
 
 
