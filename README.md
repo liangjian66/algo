@@ -221,6 +221,7 @@
 
 ####  01背包
 
+*   [零钱兑换322](https://github.com/liangjian66/algo/blob/main/src/CoinChange.java)  //    [力扣](https://leetcode-cn.com/problems/coin-change/) ： 题解： 动态规划 求F(11)最优解 ，求出F(10)+1   求出F(9)+1
 *   [0-1背包](https://github.com/liangjian66/algo/blob/main/src/Knapsack.java)
 *   [划分数组为和相等的两部分](https://github.com/liangjian66/algo/blob/main/src/CanPartition.java)  //    [力扣](https://leetcode-cn.com/problems/partition-equal-subset-sum/description/)
 *   [改变一组数的正负号使得它们的和为一给定数](https://github.com/liangjian66/algo/blob/main/src/FindTargetSumWays.java)  //    [力扣](https://leetcode-cn.com/problems/target-sum/description/)
@@ -261,9 +262,6 @@
 *  KMP算法： Kmp  题解： KMP算法的整体思路：在已匹配的前缀当中寻找最长可匹配后缀子串和最长可匹配前缀子串 ，在下一轮直接把两者对齐，从而实现模式串的快速移动
 *  迪杰斯特拉 ： Dijkstra  思路： 维护一个距离表， 标记是否最短距离 ，动态规划更新最短距离表
 
-## 动态规划
-
-*  零钱兑换322：CoinChange 题解： 动态规划 求F(11)最优解 ，求出F(10)+1   求出F(9)+1
 
 ## 剑指offer
 ####  剑指offer-数据结构
