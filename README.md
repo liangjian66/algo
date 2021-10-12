@@ -225,6 +225,10 @@
 *   [字符串按单词列表分割](https://github.com/liangjian66/algo/blob/main/src/WordBreak.java)  //    [力扣](https://leetcode-cn.com/problems/word-break/description/)
 *   [组合总和](https://github.com/liangjian66/algo/blob/main/src/CombinationSum4.java)  //    [力扣](https://leetcode-cn.com/problems/combination-sum-iv/description/)
 
+####  股票交易
+*   [需要冷却期的股票交易](https://github.com/liangjian66/algo/blob/main/src/MaxProfitTwo.java)  //    [力扣](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)
+*   [需要交易费用的股票交易](https://github.com/liangjian66/algo/blob/main/src/MaxProfitFee.java)  //    [力扣](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/)
+
 
 
 
