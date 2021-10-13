@@ -33,7 +33,7 @@
      * [剑指offer-查找和排序](#剑指offer-查找和排序)
      * [剑指offer-回朔法](#剑指offer-回朔法)
      * [剑指offer](#剑指offer-1)
-   * [程序员代码面试指南(左程云)](#程序员代码面试指南(左程云))
+   * [程序员代码面试指南左程云](#程序员代码面试指南左程云)
      *[第一章:栈和队列](#第一章:栈和队列)
    * [算法图书 (文件放在Book文件夹下)](#算法图书-文件放在book文件夹下)
       * [有错误勘误，可以联系我](#有错误勘误可以联系我)
@@ -338,7 +338,7 @@
 
 
 
-## 程序员代码面试指南(左程云)
+## 程序员代码面试指南左程云
 
 ###  第一章:栈和队列
 *   [设计一个有getMin功能的栈](https://github.com/liangjian66/algo/blob/main/src/GetMinNumberStack.java)  //    [力扣](https://leetcode-cn.com/problems/min-stack/)
