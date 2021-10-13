@@ -342,6 +342,7 @@
 *   [由两个栈组成队列](https://github.com/liangjian66/algo/blob/main/src/CQueue.java)  //    [力扣](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
 *   [如何仅用递归函数和栈操作逆序一个栈](https://github.com/liangjian66/algo/blob/main/src/ReverseStackWithRecursion.java)  //   
 *   [用一个栈实现另一个栈的排序-栈排序](https://github.com/liangjian66/algo/blob/main/src/SortedStack.java)  //  [力扣](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
+*   [生成窗口最大值数组](https://github.com/liangjian66/algo/blob/main/src/MaxSlidingWindow.java)  //  [力扣](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/)
 
 
 
