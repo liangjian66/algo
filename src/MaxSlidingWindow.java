@@ -60,33 +60,30 @@ public class MaxSlidingWindow {
 
 }
 */
-
+/*  通过版本*/
 public class MaxSlidingWindow {
 
 
         public int[] maxSlidingWindow(int[] nums, int k) {
-            int n = nums.length;
-            Deque<Integer> deque = new LinkedList<Integer>();
-            for (int i = 0; i < k; ++i) {
-                while (!deque.isEmpty() && nums[i] >= nums[deque.peekLast()]) {
-                    deque.pollLast();
-                }
-                deque.offerLast(i);
+            if (nums == null || k<1||nums.length<k){
+                return new int[0];
             }
-
-            int[] ans = new int[n - k + 1];
-            ans[0] = nums[deque.peekFirst()];
-            for (int i = k; i < n; ++i) {
-                while (!deque.isEmpty() && nums[i] >= nums[deque.peekLast()]) {
-                    deque.pollLast();
+            LinkedList<Integer> qmax = new LinkedList<Integer>();
+            int[] res = new int[nums.length-k+1];
+            int index = 0;
+            for (int i = 0; i < nums.length; i++) {
+                while (!qmax.isEmpty()&& nums[qmax.peekLast()]<=nums[i]){
+                    qmax.pollLast();
                 }
-                deque.offerLast(i);
-                while (deque.peekFirst() <= i - k) {
-                    deque.pollFirst();
+                qmax.addLast(i);
+                if (qmax.peekFirst()==(i-k)){
+                    qmax.pollFirst();
                 }
-                ans[i - k + 1] = nums[deque.peekFirst()];
+                if (i>=k-1){
+                    res[index++] = nums[qmax.peekFirst()];
+                }
             }
-            return ans;
+            return  res;
         }
 
 }
