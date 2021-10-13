@@ -103,6 +103,7 @@
 *   [二叉搜索树中的众数](https://github.com/liangjian66/algo/blob/main/src/FindPublicNums.java)
 *   [二叉树的镜像](https://github.com/liangjian66/algo/blob/main/src/MirrorTree.java)       //    [力扣](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)
 *   [相同的树](https://github.com/liangjian66/algo/blob/main/src/IsSameTree.java)       //    [力扣](https://leetcode-cn.com/problems/same-tree/)
+*   [二叉树的最小深度](https://github.com/liangjian66/algo/blob/main/src/MinDepth.java)       //    [力扣](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
 
 
 ##  哈希表
