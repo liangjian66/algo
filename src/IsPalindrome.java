@@ -6,24 +6,27 @@ import java.util.List;
 public class IsPalindrome {
 
     public boolean isPalindrome(ListNode head) {
-          if (head == null){
-              return  false;
-          }
-        List<Integer> res = new ArrayList<Integer>();
-          while (head != null){
-              res.add(head.val);
-              head = head.next;
-          }
-          int i = 0;
-          int j = res.size()-1;
-          while (i<j){
-              if (res.get(i) != res.get(j)){
-                  return false;
-              }
-              i++;
-              j--;
-          }
+        if (head == null){
+            return  true;
+        }
+        ListNode curr = head;
+        List<Integer> arr = new ArrayList<Integer>();
+        while (curr != null){
+            arr.add(curr.val);
+            curr = curr.next;
 
-         return true;
+        }
+        int i = 0;
+        int j = arr.size()-1;
+        while (i<j){
+            if (!arr.get(i).equals(arr.get(j))){
+                return  false;
+            }
+            i++;
+            j--;
+
+        }
+        return  true;
+
     }
 }

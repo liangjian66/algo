@@ -351,6 +351,7 @@
 
 *   [两个链表的第一个公共节点](https://github.com/liangjian66/algo/blob/main/src/GetIntersectionNode.java)  //  [力扣](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)
 *   [链表中倒数第k个节点](https://github.com/liangjian66/algo/blob/main/src/GetKthFromEnd.java)  //  [力扣](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)
+*   [回文链表](https://github.com/liangjian66/algo/blob/main/src/IsPalindrome.java)  //  [力扣](https://leetcode-cn.com/problems/aMhZSa/submissions/)
 
 
 
