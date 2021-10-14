@@ -5,23 +5,26 @@ import java.util.Set;
 
 public class GetIntersectionNode {
 
-    public  ListNode getInterSectionNode(ListNode headA,ListNode headB){
-        Set<ListNode>  visited = new HashSet<ListNode>();
-        ListNode  temp = headA;
-        while (temp != null){
-            visited.add(temp);
-            temp = temp.next;
-        }
+    /*
+    * 指针 A 先遍历完链表 headA ，再开始遍历链表 headB ，当走到 node 时，共走步数为：
+    * a + (b - c)
+    * a+(b−c)
+    * 指针 B 先遍历完链表 headB ，再开始遍历链表 headA ，当走到 node 时，共走步数为：
+    * b + (a - c)
+    * b+(a−c)
+    * 如下式所示，此时指针 A , B 重合，并有两种情况：
+    * a + (b - c) = b + (a - c)
+    * a+(b−c)=b+(a−c)
+    *
+    * */
 
-        temp = headB;
-        while (temp != null){
-
-            if (visited.contains(temp)){
-                /*相交*/
-                return  temp;
+        public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+            ListNode A = headA, B = headB;
+            while (A != B) {
+                A = A != null ? A.next : headB;
+                B = B != null ? B.next : headA;
             }
-            temp = temp.next;
+            return A;
         }
-          return  null;
-    }
+
 }

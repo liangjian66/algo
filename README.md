@@ -105,6 +105,7 @@
 *   [二叉树的镜像](https://github.com/liangjian66/algo/blob/main/src/MirrorTree.java)       //    [力扣](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)
 *   [相同的树](https://github.com/liangjian66/algo/blob/main/src/IsSameTree.java)       //    [力扣](https://leetcode-cn.com/problems/same-tree/)
 *   [二叉树的最小深度](https://github.com/liangjian66/algo/blob/main/src/MinDepth.java)       //    [力扣](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
+*   [平衡二叉树](https://github.com/liangjian66/algo/blob/main/src/IsBalanced.java)       //    [力扣](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/)
 
 
 ##  哈希表
@@ -345,7 +346,11 @@
 *   [如何仅用递归函数和栈操作逆序一个栈](https://github.com/liangjian66/algo/blob/main/src/ReverseStackWithRecursion.java)  //   
 *   [用一个栈实现另一个栈的排序-栈排序](https://github.com/liangjian66/algo/blob/main/src/SortedStack.java)  //  [力扣](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
 *   [生成窗口最大值数组](https://github.com/liangjian66/algo/blob/main/src/MaxSlidingWindow.java)  //  [力扣](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/)
-*   [单调栈结构](https://github.com/liangjian66/algo/blob/main/src/GetNearLess.java)  //  [力扣](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/)
+
+###  第二章链表问题
+
+*   [两个链表的第一个公共节点](https://github.com/liangjian66/algo/blob/main/src/GetIntersectionNode.java)  //  [力扣](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)
+*   [链表中倒数第k个节点](https://github.com/liangjian66/algo/blob/main/src/GetKthFromEnd.java)  //  [力扣](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)
 
 
 
