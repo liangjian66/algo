@@ -355,6 +355,8 @@
 *   [移除重复节点](https://github.com/liangjian66/algo/blob/main/src/RemoveDuplicateNodes.java)  //  [力扣](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/)
 *   [在单链表中删除指定值的节点](https://github.com/liangjian66/algo/blob/main/src/DeleteNodeTwo.java)  //  [力扣](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 *   [将搜索二叉树转换成双向链表](https://github.com/liangjian66/algo/blob/main/src/TreeToDoublyListTwo.java)  //  [力扣](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/)
+*   [排序链表](https://github.com/liangjian66/algo/blob/main/src/SortList.java)  //  [力扣](https://leetcode-cn.com/problems/sort-list/)
+*   [向有序的环形单链表中插入新节点](https://github.com/liangjian66/algo/blob/main/src/InsertNum.java)  //  
 
 
 
