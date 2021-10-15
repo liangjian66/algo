@@ -55,7 +55,7 @@
 * 天道酬勤，勤能补拙。博观而约取，厚积而薄发
 * 算法： 先把一个大问题拆解成一个个小问题 ，  再解决小问题 ， 小问题解决了拼接起来解决大问题
 * 磨刀不误砍柴工， 磨石不误磨刀工
-* 
+* 坚持下去，会有突然间成长的一天
 
 ##  排序算法
 *  [冒泡排序](https://github.com/liangjian66/algo/blob/main/src/BubbleSort.java) ：BubbleSort
@@ -352,6 +352,7 @@
 *   [两个链表的第一个公共节点](https://github.com/liangjian66/algo/blob/main/src/GetIntersectionNode.java)  //  [力扣](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)
 *   [链表中倒数第k个节点](https://github.com/liangjian66/algo/blob/main/src/GetKthFromEnd.java)  //  [力扣](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)
 *   [回文链表](https://github.com/liangjian66/algo/blob/main/src/IsPalindrome.java)  //  [力扣](https://leetcode-cn.com/problems/aMhZSa/submissions/)
+*   [移除重复节点](https://github.com/liangjian66/algo/blob/main/src/RemoveDuplicateNodes.java)  //  [力扣](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/)
 
 
 
