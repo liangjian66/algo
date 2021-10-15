@@ -353,6 +353,7 @@
 *   [链表中倒数第k个节点](https://github.com/liangjian66/algo/blob/main/src/GetKthFromEnd.java)  //  [力扣](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)
 *   [回文链表](https://github.com/liangjian66/algo/blob/main/src/IsPalindrome.java)  //  [力扣](https://leetcode-cn.com/problems/aMhZSa/submissions/)
 *   [移除重复节点](https://github.com/liangjian66/algo/blob/main/src/RemoveDuplicateNodes.java)  //  [力扣](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/)
+*   [在单链表中删除指定值的节点](https://github.com/liangjian66/algo/blob/main/src/DeleteNodeTwo.java)  //  [力扣](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 
 
 
@@ -389,6 +390,7 @@
 *  程序员面试金典第六版pdf
 *  对白的数据结构与算法笔记
 *  对白的LeetCode笔记
+*  西法的刷题秘籍-2021-04-20
 
 ###  [我的手绘图解杂集](https://github.com/liangjian66/algo/blob/main/MdSet/Myhand.md)
 ### 有错误勘误，可以联系我
