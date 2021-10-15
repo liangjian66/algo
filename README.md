@@ -357,6 +357,8 @@
 *   [将搜索二叉树转换成双向链表](https://github.com/liangjian66/algo/blob/main/src/TreeToDoublyListTwo.java)  //  [力扣](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/)
 *   [排序链表](https://github.com/liangjian66/algo/blob/main/src/SortList.java)  //  [力扣](https://leetcode-cn.com/problems/sort-list/)
 *   [向有序的环形单链表中插入新节点](https://github.com/liangjian66/algo/blob/main/src/InsertNum.java)  //  
+*   [删除链表的倒数第 n 个结点](https://github.com/liangjian66/algo/blob/main/src/RemoveNthFromEndTwo.java)  //  [力扣](https://leetcode-cn.com/problems/SLwz0R/)
+*   [合并两个排序的链表](https://github.com/liangjian66/algo/blob/main/src/mergeTwoLists.java)  //  [力扣](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/)
 
 
 
@@ -396,6 +398,7 @@
 *  西法的刷题秘籍-2021-04-20
 
 ###  [我的手绘图解杂集](https://github.com/liangjian66/algo/blob/main/MdSet/Myhand.md)
+###  [我的故事](https://github.com/liangjian66/algo/blob/main/MdSet/MyStary.md)
 ### 有错误勘误，可以联系我
 * 邮箱： 2695621767@qq.com
 
