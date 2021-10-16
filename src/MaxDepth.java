@@ -6,9 +6,9 @@ public class MaxDepth {
               return  0;
           }
 //      转化成子问题
-          int left = maxDepth(root.left)+1;
-          int right = maxDepth(root.right)+1;
-          int res = Math.max(left,right);
+          int left = maxDepth(root.left);
+          int right = maxDepth(root.right);
+          int res = Math.max(left+1,right+1);
           return  res;
       }
 
