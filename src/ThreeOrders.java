@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class ThreeOrders {
     /**
      *
@@ -5,7 +7,7 @@ public class ThreeOrders {
      * @return int整型二维数组
      */
     public int[][] threeOrders (TreeNode root) {
-        ArrayList<TreeNode>  arr1 = new ArrayList<TreeNode>();
+        ArrayList<TreeNode> arr1 = new ArrayList<TreeNode>();
         frontOrders(root,arr1);
         int n = arr1.size();
         int[] ans1 = new int[n];
