@@ -370,6 +370,7 @@
 *   [二叉树的最小深度](https://github.com/liangjian66/algo/blob/main/src/minDepth.java)    // [力扣](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/solution/er-cha-shu-de-zui-xiao-shen-du-by-xiao-s-d8dz/)  
 *   [二叉树的最大深度](https://github.com/liangjian66/algo/blob/main/src/maxDepth.java)    // [力扣](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)   // [牛客](https://blog.nowcoder.net/n/4aef55d2d47f4908b72162424f398547)
 *   [二叉树中和为某一值的路径](https://github.com/liangjian66/algo/blob/main/src/PathSum.java)    // [力扣](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/solution/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-woxs/)   // [牛客](https://blog.nowcoder.net/n/4f4628aa0c6d4763955228ca6019d561)
+*   [二叉搜索树中两个节点之和](https://github.com/liangjian66/algo/blob/main/src/FindTarget.java)    // [力扣](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/solution/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-woxs/)   // [牛客](https://blog.nowcoder.net/n/4f4628aa0c6d4763955228ca6019d561)
 
 
 
