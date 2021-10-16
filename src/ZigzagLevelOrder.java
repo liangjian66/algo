@@ -3,7 +3,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-/*二叉树的锯齿形层序遍历: zigzagLevelOrder   题解 ： 利用双端队列锯齿形层次遍历*/
+/*二叉树的锯齿形层序遍历: zigzagLevelOrder   题解 ： 利用双端队列锯齿形层次遍历 正常加入 取得时候判断从左 往右 还是从右往左*/
 public class ZigzagLevelOrder {
 
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
@@ -37,8 +37,6 @@ public class ZigzagLevelOrder {
             }
             ans.add(new LinkedList<Integer>(levelList));
             isOrderLeft = !isOrderLeft;
-
-
         }
         return  ans;
 
