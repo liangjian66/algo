@@ -4,18 +4,22 @@
 public class SortedArrayToBST {
 
     public TreeNode sortedArrayToBST(int[] nums) {
-        return dfs(nums,0,nums.length-1);
+        if (nums==null|| nums.length==0){
+          return  null;
+        }
+         int n = nums.length;
+        return  recur(nums,0,n-1);
+
     }
 
-    public TreeNode dfs(int[] nums,int low ,int high){
-        if (low>high){
-            return null;
+    public  TreeNode recur(int[] nums,int left ,int right){
+        if (left>right){
+            return  null;
         }
-        int mid = (low+high)/2;
+        int mid = left + (right-left)/2;
         TreeNode root = new TreeNode(nums[mid]);
-        root.left = dfs(nums,low,mid-1);
-        root.right = dfs(nums,mid+1,high);
-
+        root.left = recur(nums,left,mid-1);
+        root.right = recur(nums,mid+1,right);
         return  root;
     }
 }

@@ -376,6 +376,7 @@
 *   [重建二叉树](https://github.com/liangjian66/algo/blob/main/src/MyBuildTreeTwo.java)    // [力扣](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/)    // [牛客](https://blog.nowcoder.net/n/befdc39215e54b25849590aed02c9ba8)
 *   [二叉搜索树的后序遍历序列](https://github.com/liangjian66/algo/blob/main/src/VerifyPostorder.java)    // [力扣](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)    // [牛客](https://blog.nowcoder.net/n/0a43680db9694eb3a3c505e031eb63a9)
 
+*   [将有序数组转换为二叉搜索树](https://github.com/liangjian66/algo/blob/main/src/sortedArrayToBST.java)    // [力扣](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)    
 
 
 
