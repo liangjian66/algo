@@ -372,6 +372,9 @@
 *   [二叉树中和为某一值的路径](https://github.com/liangjian66/algo/blob/main/src/PathSum.java)    // [力扣](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/solution/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-woxs/)   // [牛客](https://blog.nowcoder.net/n/4f4628aa0c6d4763955228ca6019d561)
 *   [二叉搜索树中两个节点之和](https://github.com/liangjian66/algo/blob/main/src/FindTarget.java)    // [力扣](https://leetcode-cn.com/problems/opLdQZ/)   
 *   [二叉树的锯齿形层序遍历](https://github.com/liangjian66/algo/blob/main/src/ZigzagLevelOrder.java)    // [力扣](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)
+*   [平衡二叉树](https://github.com/liangjian66/algo/blob/main/src/IsBalanced.java)    // [力扣](https://leetcode-cn.com/problems/balanced-binary-tree/)    // [牛客](https://blog.nowcoder.net/n/c773b692c9924f74af981cda0baa4053)
+*   [重建二叉树](https://github.com/liangjian66/algo/blob/main/src/MyBuildTreeTwo.java)    // [力扣](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/)    // [牛客](https://blog.nowcoder.net/n/befdc39215e54b25849590aed02c9ba8)
+*   [二叉搜索树的后序遍历序列](https://github.com/liangjian66/algo/blob/main/src/VerifyPostorder.java)    // [力扣](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)    // [牛客](https://blog.nowcoder.net/n/0a43680db9694eb3a3c505e031eb63a9)
 
 
 
