@@ -381,11 +381,16 @@
 *   [后继者：设计一个算法，找出二叉搜索树中指定节点的“下一个”节点（也即中序后继）](https://github.com/liangjian66/algo/blob/main/src/inorderSuccessor.java)    
 
 *   [二叉搜索树的后序遍历序列](https://github.com/liangjian66/algo/blob/main/src/VerifyPostorder.java)    // [力扣](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)    // [牛客](https://blog.nowcoder.net/n/0a43680db9694eb3a3c505e031eb63a9)
+*   [二叉树的最近公共祖先](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LowestCommonAncestorTwo.java)    // [力扣](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/zai-er-cha-shu-zhong-zhao-dao-liang-ge-j-6c6p/)    // [牛客](https://blog.nowcoder.net/n/000874999ec64d61828adf6b66a11095)
 
 
 
 
-
+1.  考虑根节点是最近的公共节点
+2. 然后  左子树是最近的公共节点
+3. 然后  右子树是最近的公共节点
+4. 单层条件是这样的
+5. 再递归就可以了
 
 
 
