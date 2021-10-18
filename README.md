@@ -383,6 +383,7 @@
 *   [二叉搜索树的后序遍历序列](https://github.com/liangjian66/algo/blob/main/src/VerifyPostorder.java)    // [力扣](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)    // [牛客](https://blog.nowcoder.net/n/0a43680db9694eb3a3c505e031eb63a9)
 *   [二叉树的最近公共祖先](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LowestCommonAncestorTwo.java)    // [力扣](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/zai-er-cha-shu-zhong-zhao-dao-liang-ge-j-6c6p/)    // [牛客](https://blog.nowcoder.net/n/000874999ec64d61828adf6b66a11095)
 *   [按之字形顺序打印二叉树](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/ZigzagLevelOrderTwo.java)    // [力扣](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/zai-er-cha-shu-zhong-zhao-dao-liang-ge-j-6c6p/)    // [牛客](https://blog.nowcoder.net/n/b90e81b810904fe4aaba7b02a3416ad1)
+*   [按之字形顺序打印二叉树](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/mirrorTree.java)    // [力扣](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/solution/jing-xiang-by-xiao-sheng-tong-xue-zvrr/)    // [牛客](https://blog.nowcoder.net/n/e2fdf65748fc42e3b71777c9aa46c825)
 
 
 
