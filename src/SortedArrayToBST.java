@@ -1,6 +1,8 @@
 
 /*二分思想 分左半部分 右半部分 再递归*/
 
+import java.util.List;
+
 public class SortedArrayToBST {
 
     public TreeNode sortedArrayToBST(int[] nums) {
@@ -22,4 +24,16 @@ public class SortedArrayToBST {
         root.right = recur(nums,mid+1,right);
         return  root;
     }
+
+    public void dfs(TreeNode root, List<TreeNode> res){
+        if(root == null){
+            return ;
+        }
+        dfs(root.left,res);
+        res.add(root);
+        dfs(root.right,res);
+
+    }
+
+
 }
