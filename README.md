@@ -378,6 +378,9 @@
 
 *   [将有序数组转换为二叉搜索树](https://github.com/liangjian66/algo/blob/main/src/sortedArrayToBST.java)    // [力扣](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)    
 
+*   [后继者：设计一个算法，找出二叉搜索树中指定节点的“下一个”节点（也即中序后继）](https://github.com/liangjian66/algo/blob/main/src/inorderSuccessor.java)    
+
+*   [二叉搜索树的后序遍历序列](https://github.com/liangjian66/algo/blob/main/src/VerifyPostorder.java)    // [力扣](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)    // [牛客](https://blog.nowcoder.net/n/0a43680db9694eb3a3c505e031eb63a9)
 
 
 
