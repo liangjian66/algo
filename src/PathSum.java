@@ -24,7 +24,7 @@ public class PathSum {
             res.add(new LinkedList<Integer>(path));
         }
          dfs(root.left,target);
-        dfs((root.right,target);
+        dfs(root.right,target);
         path.pollLast();
 //        ArrayList
     }
