@@ -394,6 +394,8 @@
 *   [零钱兑换 II](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/ChangeTwo.java)    // [力扣](https://leetcode-cn.com/problems/unique-paths-ii/solution/bu-tong-lu-jing-ii-you-zhang-ai-wu-by-xi-kjz2/)  请你计算并返回可以凑成总金额的硬币组合数
 *   [最长递增子序列](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LengthOfLISTwo.java)    // [力扣](https://leetcode-cn.com/problems/longest-increasing-subsequence/)  
 *   [最长公共子序列](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LongestCommonSubsequenceTwo.java)    // [力扣](https://leetcode-cn.com/problems/longest-common-subsequence/)
+*   [最长公共子串问题](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LCS.java)    // [牛客](https://blog.nowcoder.net/n/53f3f20588854055aafc75022387b8b9)
+*   [最小编辑代价](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/MinEditCost.java)    // [牛客](https://blog.nowcoder.net/n/f8f2ac69d4804aaab1d1ee8c53df049c)
 
 
 
