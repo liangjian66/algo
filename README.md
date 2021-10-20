@@ -273,6 +273,9 @@
 *  字符串匹配算法（RK算法）：RabinKarp 题解： 比较两个字符串的hash
 *  KMP算法： Kmp  题解： KMP算法的整体思路：在已匹配的前缀当中寻找最长可匹配后缀子串和最长可匹配前缀子串 ，在下一轮直接把两者对齐，从而实现模式串的快速移动
 *  迪杰斯特拉 ： Dijkstra  思路： 维护一个距离表， 标记是否最短距离 ，动态规划更新最短距离表
+*   [LRU缓存机制](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LRUCacheTwo.java)    // [力扣](https://leetcode-cn.com/problems/lru-cache/solution/lruhuan-cun-ji-zhi-by-xiao-sheng-tong-xu-2om1/)
+*   [合并两个有序数组](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/TwoArrayMerge.java)    // [牛客](https://blog.nowcoder.net/n/655fa33cff9f465fa5380d3d4c22afb6)
+
 
 
 ## 剑指offer

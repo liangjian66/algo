@@ -54,11 +54,54 @@ public class mergeSort {
 
     public static void main(String[] args) {
 //        removeKdigits("1593212",3);
-        int[] arr = new int[] { 1, 4, 7, 8, 3, 6, 9 };
-        sort(arr,0,6);
-//        int[] tempArr =    sort(arr);
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i]);
-        }
+//        int[] arr = new int[] { 1, 4, 7, 8, 3, 6, 9 };
+//        sort(arr,0,6);
+////        int[] tempArr =    sort(arr);
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.print(arr[i]);
+//        }
+     int[] a = new int[]{1};
+        int[] b = new int[]{2};
+
+        mergeTwo(a,1,b,1);
+
     }
+
+
+    public  static  void mergeTwo(int A[], int m, int B[], int n) {
+        if(m==0){
+            for(int i = 0;i<n;i++){
+                A[i] = B[i];
+            }
+            return ;
+        }
+        if(n==0){
+
+            return ;
+        }
+        int[]  res = new int[m+n];
+        int i = 0;
+        int j = 0;
+        int k = 0;
+
+        while((i<m)&&(j<n)){
+            if(A[i]<=B[j]){
+                res[k++] = A[i++];
+            }else{
+                res[k++] = B[j++];
+            }
+        }
+        while(i<m){
+            res[k++] = A[i++];
+        }
+        while(j<n){
+            res[k++] = B[j++];
+        }
+
+        for(int x=0;x<m+n;x++){
+            A[x] = res[x];
+        }
+
+    }
+
 }

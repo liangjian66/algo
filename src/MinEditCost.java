@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class MinEditCost {
 
 
@@ -57,5 +60,13 @@ public class MinEditCost {
         String s2 = "adc";
         System.out.println(minEditCost(s1,s2,5,3,2));
     }
+
+
+//    Map<Integer,Node> map  = new HashMap<Integer,Node>();
+//    public LRUCache(int capacity) {
+//
+//    }
+
+
 
 }
