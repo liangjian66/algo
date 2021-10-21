@@ -423,7 +423,7 @@
 * 我的第一本算法书
 * [labuladong的算法小抄官方完整版.pdf](https://github.com/labuladong/fucking-algorithm)
 * 阿里P8霜神的letCode刷题手册
-* 代码随想录 PDF
+
 *  剑指OFFER  名企面试官精讲典型编程题  第2版
 *  算法设计  经典算法教材 豆瓣9.4评分
 *  200349  算法笔记.胡凡
