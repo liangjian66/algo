@@ -47,6 +47,7 @@ public class LRUCacheTwo {
             return  -1;
         }
         DictNode node = map.get(key);
+        /*设置为最近使用*/
         makeReently(key);
         return  node.val;
     }

@@ -390,6 +390,15 @@
 
 ###  第四章递归和动态规划
 
+####递推三部曲
+```
+递推三部曲
+* 1. 边界条件
+* 2. 递推公式
+* 3. dp数组取值
+* 套路 ； dp[i][j]  往往依赖  dp[i][i-1]  dp[i-1][j]  dp[i-1][j-1]  只要是动态规划就依赖这三个
+```
+
 *   [斐波那契数列](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/FibTwo.java)    // [力扣](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)   
 *   [最小路径之和](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/MinPathSumTwo.java)    // [力扣](https://leetcode-cn.com/problems/0i0mDW/)
 *   [换钱的最少货币数](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/CoinChangeTwo.java)    // [力扣](https://leetcode-cn.com/problems/coin-change/)
@@ -399,6 +408,7 @@
 *   [最长公共子序列](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LongestCommonSubsequenceTwo.java)    // [力扣](https://leetcode-cn.com/problems/longest-common-subsequence/)
 *   [最长公共子串问题](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LCS.java)    // [牛客](https://blog.nowcoder.net/n/53f3f20588854055aafc75022387b8b9)
 *   [最小编辑代价](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/MinEditCost.java)    // [牛客](https://blog.nowcoder.net/n/f8f2ac69d4804aaab1d1ee8c53df049c)
+*   [字符串的交错组成](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/IsInterleave.java)    // [力扣](https://leetcode-cn.com/problems/interleaving-string/solution/zi-fu-chuan-de-jiao-cuo-zu-cheng-by-xiao-i1r1/)
 
 
 
