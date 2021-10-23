@@ -41,23 +41,35 @@
       * [有错误勘误，可以联系我](#有错误勘误可以联系我)
 # algo
 ## 鸡汤篇
-* 创作不易，感觉有帮助到你，可以顺手star
-* 用产品思维帮助更多的人学习算法 更多的为用户考虑而写的一个仓库
-* 用老罗的话 彪悍的人生不需要解释 挑一点恶心的干干 先开始写算法，像打造产品一样写一个算法仓库， 帮助更多的人学习算法，同样也是自我学习的过程
-* Java写的算法仓库  算法最重要的是心得
+> 创作不易，感觉有帮助到你，可以顺手star
 
-* 准备做一个长期的算法仓库 ，像阿甘一样做个傻子，不停奔跑，每天学习一个算法，复利思维
+> 用产品思维帮助更多的人学习算法 更多的为用户考虑而写的一个仓库
 
-* 日拱一卒，功不唐捐
+> 用老罗的话 彪悍的人生不需要解释 挑一点恶心的干干 先开始写算法，像打造产品一样写一个算法仓库， 帮助更多的人学习算法，同样也是自我学习的过程
 
-* 把人生比作公司或者游戏的话 ， 我准备长期做的事情，一个是跑步锻炼身体，一个阅读书籍（技术类，非技术类书籍），一个就是这个算法仓库了
-* 纸上得来终觉浅 ，绝知此事要躬行
-* 三部曲： 模仿，学习， 超越
-* 高筑墙 ， 广积粮 ， 缓称王
-* 天道酬勤，勤能补拙。博观而约取，厚积而薄发
-* 算法： 先把一个大问题拆解成一个个小问题 ，  再解决小问题 ， 小问题解决了拼接起来解决大问题
-* 磨刀不误砍柴工， 磨石不误磨刀工
-* 坚持下去，会有突然间成长的一天
+> Java写的算法仓库  算法最重要的是心得
+
+> 准备做一个长期的算法仓库 ，像阿甘一样做个傻子，不停奔跑，每天学习一个算法，复利思维
+
+> 日拱一卒，功不唐捐
+
+> 把人生比作公司或者游戏的话 ， 我准备长期做的事情，一个是跑步锻炼身体，一个阅读书籍（技术类，非技术类书籍），一个就是这个算法仓库了
+
+> 纸上得来终觉浅 ，绝知此事要躬行
+
+> 三部曲： 模仿，学习， 超越
+
+> 高筑墙 ， 广积粮 ， 缓称王
+
+> 天道酬勤，勤能补拙。博观而约取，厚积而薄发
+
+> 算法： 先把一个大问题拆解成一个个小问题 ，  再解决小问题 ， 小问题解决了拼接起来解决大问题
+
+> 磨刀不误砍柴工， 磨石不误磨刀工
+
+> 坚持下去，会有突然间成长的一天
+
+> 算法虐我千百遍，我待算法如初恋
 
 ##  排序算法
 *  [冒泡排序](https://github.com/liangjian66/algo/blob/main/src/BubbleSort.java) ：BubbleSort
@@ -409,6 +421,7 @@
 *   [最长公共子串问题](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LCS.java)    // [牛客](https://blog.nowcoder.net/n/53f3f20588854055aafc75022387b8b9)
 *   [最小编辑代价](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/MinEditCost.java)    // [牛客](https://blog.nowcoder.net/n/f8f2ac69d4804aaab1d1ee8c53df049c)
 *   [字符串的交错组成](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/IsInterleave.java)    // [力扣](https://leetcode-cn.com/problems/interleaving-string/solution/zi-fu-chuan-de-jiao-cuo-zu-cheng-by-xiao-i1r1/)
+*   [龙与地下城游戏问题](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/CalculateMinimumHP.java)    // [力扣](https://leetcode-cn.com/problems/dungeon-game/)
 
 
 
