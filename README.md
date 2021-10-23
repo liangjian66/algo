@@ -423,6 +423,7 @@
 *   [龙与地下城游戏问题](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/CalculateMinimumHP.java)    // [力扣](https://leetcode-cn.com/problems/dungeon-game/)
 *   [把数字翻译成字符串](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/TranslateNum.java)    // [力扣](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/solution/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-by-xi-2pe8/)
 *   [跳跃游戏](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/CanJump.java)    // [力扣](https://leetcode-cn.com/problems/jump-game/solution/tiao-yue-you-xi-by-xiao-sheng-tong-xue-5yj0/)
+*   [最长连续序列](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LongestConsecutive.java)    // [力扣](https://leetcode-cn.com/problems/longest-consecutive-sequence/)
 
 
 
