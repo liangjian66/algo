@@ -69,7 +69,6 @@
 
 > 坚持下去，会有突然间成长的一天
 
-> 算法虐我千百遍，我待算法如初恋
 
 ##  排序算法
 *  [冒泡排序](https://github.com/liangjian66/algo/blob/main/src/BubbleSort.java) ：BubbleSort
@@ -422,6 +421,7 @@
 *   [最小编辑代价](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/MinEditCost.java)    // [牛客](https://blog.nowcoder.net/n/f8f2ac69d4804aaab1d1ee8c53df049c)
 *   [字符串的交错组成](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/IsInterleave.java)    // [力扣](https://leetcode-cn.com/problems/interleaving-string/solution/zi-fu-chuan-de-jiao-cuo-zu-cheng-by-xiao-i1r1/)
 *   [龙与地下城游戏问题](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/CalculateMinimumHP.java)    // [力扣](https://leetcode-cn.com/problems/dungeon-game/)
+*   [把数字翻译成字符串](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/TranslateNum.java)    // [力扣](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/solution/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-by-xi-2pe8/)
 
 
 
