@@ -424,9 +424,13 @@
 *   [把数字翻译成字符串](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/TranslateNum.java)    // [力扣](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/solution/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-by-xi-2pe8/)
 *   [跳跃游戏](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/CanJump.java)    // [力扣](https://leetcode-cn.com/problems/jump-game/solution/tiao-yue-you-xi-by-xiao-sheng-tong-xue-5yj0/)
 *   [最长连续序列](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LongestConsecutive.java)    // [力扣](https://leetcode-cn.com/problems/longest-consecutive-sequence/)
+
+####  回溯
 *   [N皇后问题](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/SolveNQueens.java)    // [力扣](https://leetcode-cn.com/problems/n-queens/)
 *   [全排列](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/Permute.java)    // [力扣](https://leetcode-cn.com/problems/permutations/solution/quan-pai-lie-wen-ti-by-xiao-sheng-tong-x-s7ax/)
-
+*   [组合总和](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/CombinationSum.java)    // [力扣](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-xiao-sheng-tong-xue-1l7e/)
+*   [组合](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/Combine.java)    // [力扣](https://leetcode-cn.com/problems/combinations/solution/zu-he-by-xiao-sheng-tong-xue-29jh/)
+*   [KMP](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/KMPTwo.java)    // [力扣](https://leetcode-cn.com/problems/implement-strstr/solution/kmp-by-xiao-sheng-tong-xue-etng/)
 
 
 
