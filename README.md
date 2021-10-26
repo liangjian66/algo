@@ -435,6 +435,8 @@
 *   [KMP](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/KMPTwo.java)    // [力扣](https://leetcode-cn.com/problems/implement-strstr/solution/kmp-by-xiao-sheng-tong-xue-etng/)
 
 ###  第五章字符串问题
+*   [判断两个字符串是否互为变形词](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/IsDeformation.java)    
+
 
 ##  算法图书
 * 上述书籍学习资料均来源于网络，免费分享给大家仅供学习使用。如有侵犯到创作者的相应权益，请及时与我联系，我会第一时间删除创作者对应的资源分享。
