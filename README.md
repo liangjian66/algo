@@ -436,6 +436,7 @@
 
 ###  第五章字符串问题
 *   [判断两个字符串是否互为变形词](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/IsDeformation.java)    
+*   [判断两个字符串是否互为旋转词](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/RotateString.java)
 
 
 ##  算法图书
