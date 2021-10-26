@@ -438,6 +438,9 @@
 *   [判断两个字符串是否互为变形词](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/IsDeformation.java)    
 *   [判断两个字符串是否互为旋转词](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/RotateString.java)   // [力扣](https://leetcode-cn.com/problems/rotate-string/)
 *   [字符串转换成整数](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/MyAtoi.java)   // [力扣](https://leetcode-cn.com/problems/string-to-integer-atoi/)
+*   [比较版本号](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/CompareVersion.java)   // [力扣](https://leetcode-cn.com/problems/compare-version-numbers/solution/ban-ben-hao-bi-jiao-by-xiao-sheng-tong-x-jupf/)
+*   [判断字符数组中是否所有的字符都只出现过一次](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/IsUniquel.java)   // [力扣](https://leetcode-cn.com/problems/compare-version-numbers/solution/ban-ben-hao-bi-jiao-by-xiao-sheng-tong-x-jupf/)
+*   [ 翻转字符串里的单词](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/ReverseWords.java)   // [力扣](https://leetcode-cn.com/problems/reverse-words-in-a-string/solution/fan-zhuan-zi-fu-zhuan-by-xiao-sheng-tong-s13v/)
 
 
 ##  算法图书
