@@ -37,7 +37,9 @@
      * [第一章栈和队列](#第一章栈和队列)
      * [第二章链表问题](#第二章链表问题)
      * [第三章二叉树问题](#第三章二叉树问题)
-   * [算法图书 (文件放在Book文件夹下)](#算法图书-文件放在book文件夹下)
+     * [第四章递归和动态规划](#第四章递归和动态规划)
+     * [第五章字符串问题](#第五章字符串问题)
+   * [算法图书](#算法图书)
       * [有错误勘误，可以联系我](#有错误勘误可以联系我)
 # algo
 ## 鸡汤篇
@@ -432,9 +434,9 @@
 *   [组合](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/Combine.java)    // [力扣](https://leetcode-cn.com/problems/combinations/solution/zu-he-by-xiao-sheng-tong-xue-29jh/)
 *   [KMP](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/KMPTwo.java)    // [力扣](https://leetcode-cn.com/problems/implement-strstr/solution/kmp-by-xiao-sheng-tong-xue-etng/)
 
+###  第五章字符串问题
 
-
-##  算法图书 (文件放在Book文件夹下)
+##  算法图书
 * 上述书籍学习资料均来源于网络，免费分享给大家仅供学习使用。如有侵犯到创作者的相应权益，请及时与我联系，我会第一时间删除创作者对应的资源分享。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版
 * 算法图解.PDF
