@@ -441,6 +441,7 @@
 *   [比较版本号](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/CompareVersion.java)   // [力扣](https://leetcode-cn.com/problems/compare-version-numbers/solution/ban-ben-hao-bi-jiao-by-xiao-sheng-tong-x-jupf/)
 *   [判断字符数组中是否所有的字符都只出现过一次](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/IsUniquel.java)   // [力扣](https://leetcode-cn.com/problems/compare-version-numbers/solution/ban-ben-hao-bi-jiao-by-xiao-sheng-tong-x-jupf/)
 *   [ 翻转字符串里的单词](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/ReverseWords.java)   // [力扣](https://leetcode-cn.com/problems/reverse-words-in-a-string/solution/fan-zhuan-zi-fu-zhuan-by-xiao-sheng-tong-s13v/)
+*   [最长不重复子字符串](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/LengthOfLongestSubstringTwo.java)   // [力扣](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/zui-chang-bu-zhong-fu-zi-zi-fu-chuan-by-x7m91/)
 
 
 ##  算法图书
