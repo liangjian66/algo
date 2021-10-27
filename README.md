@@ -442,6 +442,8 @@
 *   [判断字符数组中是否所有的字符都只出现过一次](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/IsUniquel.java)   // [力扣](https://leetcode-cn.com/problems/compare-version-numbers/solution/ban-ben-hao-bi-jiao-by-xiao-sheng-tong-x-jupf/)
 *   [ 翻转字符串里的单词](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/ReverseWords.java)   // [力扣](https://leetcode-cn.com/problems/reverse-words-in-a-string/solution/fan-zhuan-zi-fu-zhuan-by-xiao-sheng-tong-s13v/)
 *   [最长不重复子字符串](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/LengthOfLongestSubstringTwo.java)   // [力扣](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/zui-chang-bu-zhong-fu-zi-zi-fu-chuan-by-x7m91/)  //  [牛客](https://blog.nowcoder.net/n/e69655f356c54c2d9044e978bed2ab5f)
+*   [最长公共前缀](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/LongestCommonPrefix.java)   // [力扣](https://leetcode-cn.com/problems/longest-common-prefix/solution/zui-chang-gong-gong-qian-zhui-by-xiao-sh-8j5k/)  
+*   [最长回文子串](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/LongestPalindrome.java)   // [力扣](https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zui-chang-hui-wen-zi-chuan-by-xiao-sheng-9cko/)
 
 
 ##  算法图书
