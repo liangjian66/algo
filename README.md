@@ -401,6 +401,7 @@
 *   [按之字形顺序打印二叉树](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/ZigzagLevelOrderTwo.java)    // [力扣](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/zai-er-cha-shu-zhong-zhao-dao-liang-ge-j-6c6p/)    // [牛客](https://blog.nowcoder.net/n/b90e81b810904fe4aaba7b02a3416ad1)
 *   [二叉树的镜像](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/mirrorTree.java)    // [力扣](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/solution/jing-xiang-by-xiao-sheng-tong-xue-zvrr/)    // [牛客](https://blog.nowcoder.net/n/e2fdf65748fc42e3b71777c9aa46c825)
 *   [二叉树的层序遍历 II](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LevelOrderBottom.java)    // [力扣](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/solution/er-cha-shu-de-ceng-xu-bian-li-ii-by-xiao-iyf5/)  
+*   [二叉树的所有路径](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/BinaryTreePaths.java)    // [力扣](https://leetcode-cn.com/problems/binary-tree-paths/solution/er-cha-shu-de-suo-you-lu-jing-by-xiao-sh-uwm4/)
 
 ###  第四章递归和动态规划
 
