@@ -448,6 +448,7 @@
 *   [最长回文子串](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/LongestPalindrome.java)   // [力扣](https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zui-chang-hui-wen-zi-chuan-by-xiao-sheng-9cko/)
 *   [数组中两个字符串的最小距离](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/ArrayStrMinDistance.java)   // [力扣](https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zui-chang-hui-wen-zi-chuan-by-xiao-sheng-9cko/)
 *   [编辑距离](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/MinDistanceTwo.java)   // [力扣](https://leetcode-cn.com/problems/edit-distance/solution/bian-ji-ju-chi-by-xiao-sheng-tong-xue-jz62/)
+*   [字典树（前缀树）的实现](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/TrieTree.java)   // [力扣](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
 
 
 ##  算法图书

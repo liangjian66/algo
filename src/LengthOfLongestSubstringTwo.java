@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -30,5 +31,15 @@ public class LengthOfLongestSubstringTwo {
     public static void main(String[] args) {
         String temp = "abcabcbb";
         System.out.println(lengthOfLongestSubstring(temp));
+    }
+
+
+    public int[] getLeastNumbersTwo(int[] arr, int k) {
+        Arrays.sort(arr);
+        int[] res = new int[k];
+        for (int i = 0; i < k; i++) {
+            res[i] = arr[i];
+        }
+        return  res;
     }
 }

@@ -30,4 +30,8 @@ public class GetLeastNumbers {
         }
            return  res;
     }
+
+    public int[] getLeastNumbers(int[] arr, int k) {
+
+    }
 }
