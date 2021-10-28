@@ -10,11 +10,12 @@ public class AddTwo {
      * */
 
     public  int add(int  a , int b){
-       while (b != 0){
-           b = (a&b)<<1;
-           int temp = a^b;
-           a = temp;
-       }
-       return  a;
+        // b 进位
+        while(b !=0){
+            int temp = a^b;
+            b = (a&b)<<1;
+            a = temp;
+        }
+        return a;
     }
 }

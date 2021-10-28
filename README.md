@@ -453,6 +453,7 @@
 ### 第七章位运算
 *   [二进制加法](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/AddBinary.java)   // [力扣](https://leetcode-cn.com/problems/JFETK5/solution/wei-yun-suan-shi-xian-jia-fa-by-xiao-she-iwcl/)
 *   [不用加减乘除做加法](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/AddTwo.java)   // [力扣](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/solution/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-by-t6in/)
+*   [只出现一次的数字](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/SingleNumber.java)   // [力扣](https://leetcode-cn.com/problems/single-number/)
 
 ##  算法图书
 * 上述书籍学习资料均来源于网络，免费分享给大家仅供学习使用。如有侵犯到创作者的相应权益，请及时与我联系，我会第一时间删除创作者对应的资源分享。
