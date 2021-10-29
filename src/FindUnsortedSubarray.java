@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class FindUnsortedSubarray {
 
@@ -42,5 +44,73 @@ public class FindUnsortedSubarray {
         while (i<=j&&(tempArr[j] == nums[j])) j--;
         return  j-i+1;
     }
+
+    public ListNode sortInList (ListNode head) {
+        // write code here
+        if (head == null){
+            return  head;
+        }
+        List<Integer> res = new ArrayList<Integer>();
+        ListNode curr =head;
+        while (curr != null){
+            res.add(curr.val);
+            curr = curr.next;
+        }
+        int[]  arr =  new int[res.size()];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = res.get(i);
+        }
+        Arrays.sort(arr);
+        ListNode newHead = new ListNode(arr[0]);
+        curr = newHead;
+
+        int i = 1;
+        while (i<arr.length){
+            ListNode newNode = new ListNode(arr[i]);
+            curr.next = newNode;
+            curr = newNode;
+            i++;
+
+
+        }
+        return  newHead;
+    }
+
+    public ListNode addInList (ListNode head1, ListNode head2) {
+        // write code here
+        StringBuilder builder1 = new StringBuilder();
+        ListNode curr1 = head1;
+        while (curr1 != null){
+            builder1.append(curr1.val);
+            curr1 = curr1.next;
+        }
+        String str1 = builder1.toString();
+        int num1 = Integer.parseInt(str1);
+
+        StringBuilder builder2 = new StringBuilder();
+        ListNode curr2 = head2;
+        while (curr2 != null){
+            builder2.append(curr2.val);
+            curr2 = curr2.next;
+        }
+        String str2 = builder2.toString();
+        int num2 = Integer.parseInt(str2);
+        int sum = num1+num2;
+        String res = String.valueOf(sum);
+        char[] arr = res.toCharArray();
+        int firstNode = arr[0] - '0';
+        ListNode head = new ListNode(firstNode);
+        ListNode curr = head;
+        int i = 1;
+        while (i<arr.length){
+            ListNode tempNode = new ListNode(arr[i] - '0');
+            curr.next = tempNode;
+            curr = tempNode;
+            i++;
+
+        }
+        return  head;
+    }
+
 
 }
