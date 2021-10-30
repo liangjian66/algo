@@ -121,6 +121,7 @@
 *   [相同的树](https://github.com/liangjian66/algo/blob/main/src/IsSameTree.java)       //    [力扣](https://leetcode-cn.com/problems/same-tree/)
 *   [二叉树的最小深度](https://github.com/liangjian66/algo/blob/main/src/MinDepth.java)       //    [力扣](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
 *   [平衡二叉树](https://github.com/liangjian66/algo/blob/main/src/IsBalanced.java)       //    [力扣](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/)
+*   [输出二叉树的右视图](https://github.com/liangjian66/algo/blob/main/src/Solve.java)       //    [牛客](https://blog.nowcoder.net/n/8a80802fd6cf4e569c8c7a05e8b645d2)
 
 
 ##  哈希表
@@ -460,7 +461,8 @@
 *   [转圈打印矩阵](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/SpiralOrder.java)   // [力扣](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/solution/zhuan-quan-da-yin-ju-zhen-by-xiao-sheng-mvq9a/)
 *   [旋转图像](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/RotateMatrix.java)   // [力扣](https://leetcode-cn.com/problems/rotate-image/solution/ju-zhen-shun-shi-zhuan-dong-by-xiao-shen-a2jo/)
 *   [Z字形变化](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/Convert.java)   // [力扣](https://leetcode-cn.com/problems/zigzag-conversion/solution/zzi-xing-bian-hua-by-xiao-sheng-tong-xue-ubdl/)
-*   [最短无序连续子数组](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/FindUnsortedSubarray.java)   // [力扣](https://leetcode-cn.com/problems/zigzag-conversion/solution/zzi-xing-bian-hua-by-xiao-sheng-tong-xue-ubdl/)
+*   [最短无序连续子数组](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/FindUnsortedSubarray.java)   // [力扣](https://leetcode-cn.com/problems/zigzag-conversion/solution/zzi-xing-bian-hua-by-xiao-sheng-tong-xue-ubdl/)
+*   [二维数组中的查找](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/FindNumberIn2DArrayTwo.java)   // [力扣](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)
 
 
 
