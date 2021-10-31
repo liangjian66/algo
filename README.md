@@ -463,6 +463,7 @@
 *   [Z字形变化](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/Convert.java)   // [力扣](https://leetcode-cn.com/problems/zigzag-conversion/solution/zzi-xing-bian-hua-by-xiao-sheng-tong-xue-ubdl/)
 *   [最短无序连续子数组](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/FindUnsortedSubarray.java)   // [力扣](https://leetcode-cn.com/problems/zigzag-conversion/solution/zzi-xing-bian-hua-by-xiao-sheng-tong-xue-ubdl/)
 *   [二维数组中的查找](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/FindNumberIn2DArrayTwo.java)   // [力扣](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)
+*   [长度最小的子数组](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/MinSubArrayLen.java)   // [力扣](https://leetcode-cn.com/problems/minimum-size-subarray-sum/solution/chang-du-zui-xiao-de-zi-shu-zu-by-xiao-s-cby7/)
 
 
 
