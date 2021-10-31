@@ -464,6 +464,9 @@
 *   [最短无序连续子数组](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/FindUnsortedSubarray.java)   // [力扣](https://leetcode-cn.com/problems/zigzag-conversion/solution/zzi-xing-bian-hua-by-xiao-sheng-tong-xue-ubdl/)
 *   [二维数组中的查找](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/FindNumberIn2DArrayTwo.java)   // [力扣](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)
 *   [长度最小的子数组](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/MinSubArrayLen.java)   // [力扣](https://leetcode-cn.com/problems/minimum-size-subarray-sum/solution/chang-du-zui-xiao-de-zi-shu-zu-by-xiao-s-cby7/)
+*   [删除排序数组中的重复项](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/RemoveDuplicates.java)   // [力扣](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/solution/shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-4mee/)
+*   [按奇偶排序数组 II](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/SortArrayByParityII.java)   // [力扣](https://leetcode-cn.com/problems/sort-array-by-parity-ii/)
+*   [在数组中找到一个局部最小的位置](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/GetLessIndex.java)   // [力扣](https://leetcode-cn.com/problems/sort-array-by-parity-ii/)
 
 
 
