@@ -467,6 +467,7 @@
 *   [删除排序数组中的重复项](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/RemoveDuplicates.java)   // [力扣](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/solution/shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-4mee/)
 *   [按奇偶排序数组 II](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/SortArrayByParityII.java)   // [力扣](https://leetcode-cn.com/problems/sort-array-by-parity-ii/)
 *   [在数组中找到一个局部最小的位置](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/GetLessIndex.java)   // [力扣](https://leetcode-cn.com/problems/sort-array-by-parity-ii/)
+*   [乘积最大子数组](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/MaxProduct.java)   // [力扣](https://leetcode-cn.com/problems/maximum-product-subarray/solution/cheng-ji-zui-da-zi-shu-zu-by-xiao-sheng-yo4u4/)
 
 
 
