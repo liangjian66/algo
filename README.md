@@ -123,6 +123,8 @@
 *   [平衡二叉树](https://github.com/liangjian66/algo/blob/main/src/IsBalanced.java)       //    [力扣](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/)
 *   [输出二叉树的右视图](https://github.com/liangjian66/algo/blob/main/src/Solve.java)       //    [牛客](https://blog.nowcoder.net/n/8a80802fd6cf4e569c8c7a05e8b645d2)
 *   [二叉树根节点到叶子节点的所有路径和](https://github.com/liangjian66/algo/blob/main/src/SumNumbers.java)       //    [牛客](https://blog.nowcoder.net/n/79ae4b4017e742ed8192212b6a71e265)
+*   [验证二叉搜索树](https://github.com/liangjian66/algo/blob/main/src/IsValidBST.java)       //    [力扣](https://leetcode-cn.com/problems/validate-binary-search-tree/solution/er-cha-sou-suo-shu-by-xiao-sheng-tong-xu-urjv/)
+*   [ 二叉树的完全性检验](https://github.com/liangjian66/algo/blob/main/src/IsCompleteTree.java)       //    [力扣](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/solution/wan-quan-er-cha-shu-xiao-yan-by-xiao-she-cjr3/)
 
 
 ##  哈希表
