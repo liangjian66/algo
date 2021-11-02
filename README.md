@@ -129,6 +129,7 @@
 *   [二叉树中的最大路径和](https://github.com/liangjian66/algo/blob/main/src/MaxPathSum.java)       //    [力扣](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/er-cha-shu-zhong-de-zui-da-lu-jing-he-by-a73z/)     //    [牛客](https://blog.nowcoder.net/n/52e744808dfb44b0840c1cf2d18ffc5e)
 *   [二叉树的右视图](https://github.com/liangjian66/algo/blob/main/src/RightSideView.java)       //    [力扣](https://leetcode-cn.com/problems/binary-tree-right-side-view/solution/er-cha-shu-de-you-shi-tu-by-xiao-sheng-t-m58d/)   
 
+*   [从前序与中序遍历序列构造二叉树](https://github.com/liangjian66/algo/blob/main/src/BuildTree.java)       //    [力扣](https://leetcode-cn.com/problems/binary-tree-right-side-view/solution/er-cha-shu-de-you-shi-tu-by-xiao-sheng-t-m58d/)
 
 ##  哈希表
 *   [两数之和](https://github.com/liangjian66/algo/blob/main/src/TwoSum.java)    //    [力扣](https://leetcode-cn.com/problems/two-sum/description/)
