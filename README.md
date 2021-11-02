@@ -127,6 +127,7 @@
 *   [ 二叉树的完全性检验](https://github.com/liangjian66/algo/blob/main/src/IsCompleteTree.java)       //    [力扣](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/solution/wan-quan-er-cha-shu-xiao-yan-by-xiao-she-cjr3/)
 *   [ 判断一棵二叉树是否为搜索二叉树和完全二叉树](https://github.com/liangjian66/algo/blob/main/src/JudgeIt.java)       //    [牛客](https://blog.nowcoder.net/n/35ff8588448f45a89742a79d2e915f93)
 *   [二叉树中的最大路径和](https://github.com/liangjian66/algo/blob/main/src/MaxPathSum.java)       //    [力扣](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/er-cha-shu-zhong-de-zui-da-lu-jing-he-by-a73z/)     //    [牛客](https://blog.nowcoder.net/n/52e744808dfb44b0840c1cf2d18ffc5e)
+*   [二叉树的右视图](https://github.com/liangjian66/algo/blob/main/src/RightSideView.java)       //    [力扣](https://leetcode-cn.com/problems/binary-tree-right-side-view/solution/er-cha-shu-de-you-shi-tu-by-xiao-sheng-t-m58d/)   
 
 
 ##  哈希表
