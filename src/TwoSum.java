@@ -17,7 +17,6 @@ public class TwoSum {
             if (map.containsKey(min) && i !=map.get(min)){
                 res[0] = map.get(min);
                 res[1] = i;
-//                return new int[]{map.get(min), i};
             }
         }
 

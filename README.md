@@ -481,6 +481,13 @@
 *   [盛最多水的容器](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/MaxArea.java)   // [力扣](https://leetcode-cn.com/problems/container-with-most-water/solution/rong-qi-sheng-shui-wen-ti-by-xiao-sheng-rfko7/)
 
 
+##  算法通关之路 
+
+### 预备知识
+
+### 数学之美
+*   [两数之和](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/TwoSum.java)   // [力扣](https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-by-xiao-sheng-tong-xue-ia86/)
+
 
 
 ##  算法图书
