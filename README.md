@@ -485,7 +485,7 @@
 
 ### 预备知识
 
-### 数学之美
+### 数学之美lowestCommonAncestor
 *   [两数之和](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/TwoSum.java)   // [力扣](https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-by-xiao-sheng-tong-xue-ia86/)
 *   [三数之和](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/ThreeSum.java)   // [力扣](https://leetcode-cn.com/problems/3sum/solution/san-shu-zhi-he-by-xiao-sheng-tong-xue-hadc/)
 
