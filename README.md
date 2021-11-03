@@ -275,6 +275,9 @@
 *   [删除两个字符串的字符使它们相等](https://github.com/liangjian66/algo/blob/main/src/MinDistance.java)  //    [力扣](https://leetcode-cn.com/problems/delete-operation-for-two-strings/description/)
 
 
+####  接雨水
+*   [接雨水](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/Trap.java)   // [力扣](https://leetcode-cn.com/problems/trapping-rain-water/solution/jie-yu-shui-by-xiao-sheng-tong-xue-gs4z/)  //    [牛客](https://blog.nowcoder.net/n/724b3c546234447d8dca14cdc597c6f9)
+
 
 
 
