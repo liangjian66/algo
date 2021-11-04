@@ -1,13 +1,14 @@
 import java.util.Arrays;
 // 判断一个链表是否有环： ListNode
 class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
+          int val;
+     ListNode next;
+     ListNode() {}
+      ListNode(int val) { this.val = val; }
+      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
+
+
 
 public class HasCycle {
     public static boolean hasCycle(ListNode head) {
