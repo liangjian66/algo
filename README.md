@@ -492,6 +492,7 @@
 *   [最大数](https://github.com/liangjian66/algo/blob/main/KongFu/179.最大数.java)   // [力扣](https://leetcode-cn.com/problems/largest-number/solution/zui-da-shu-by-xiao-sheng-tong-xue-zj2y/)
 *   [两数相加](https://github.com/liangjian66/algo/blob/main/KongFu/2.两数相加.java)   // [力扣](https://leetcode-cn.com/problems/add-two-numbers/solution/liang-shu-xiang-jia-by-xiao-sheng-tong-x-vvbk/)
 *   [368.最大整除子集](https://github.com/liangjian66/algo/blob/main/KongFu/368.最大整除子集.java)   // [力扣](https://leetcode-cn.com/problems/largest-divisible-subset/solution/zui-da-zheng-chu-zi-ji-by-xiao-sheng-ton-toqz/)
+*   [7.整数反转](https://github.com/liangjian66/algo/blob/main/KongFu/7.整数反转.java)   // [力扣](https://leetcode-cn.com/problems/largest-divisible-subset/solution/zui-da-zheng-chu-zi-ji-by-xiao-sheng-ton-toqz/)
 
 
 
