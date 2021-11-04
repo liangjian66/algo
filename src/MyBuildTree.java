@@ -4,17 +4,31 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class  TreeNode {
-    int val;
-    int height;
-    TreeNode left;
-    TreeNode right;
+//class  TreeNode {
+//    int val;
+//    int height;
+//    TreeNode left;
+//    TreeNode right;
+//
+//    public TreeNode(int val) {
+//        this.val = val;
+//        this.height = 0;
+//    }
+//}
 
-    public TreeNode(int val) {
-        this.val = val;
-        this.height = 0;
-    }
-}
+class TreeNode {
+      int val;
+      TreeNode left;
+      TreeNode right;
+      TreeNode() {}
+      TreeNode(int val) { this.val = val; }
+      TreeNode(int val, TreeNode left, TreeNode right) {
+         this.val = val;
+          this.left = left;
+          this.right = right;
+      }
+  }
+
 
 
 public class MyBuildTree {
