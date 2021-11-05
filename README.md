@@ -500,7 +500,7 @@
 *   [234.回文链表](https://github.com/liangjian66/algo/blob/main/KongFu/234.回文链表.java)   // [力扣](https://leetcode-cn.com/problems/palindrome-linked-list/solution/hui-wen-lian-biao-by-xiao-sheng-tong-xue-lefa/)
 *   [680.验证回文字符串-ⅱ.java](https://github.com/liangjian66/algo/blob/main/KongFu/680.验证回文字符串-ⅱ.java)   // [力扣](https://leetcode-cn.com/problems/valid-palindrome-ii/solution/yan-zheng-hui-wen-zi-fu-chuan-by-xiao-sh-87rl/)
 *   [5.最长回文子串.java](https://github.com/liangjian66/algo/blob/main/KongFu/5.最长回文子串.java)   // [力扣-中心扩散法](https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zui-chang-hui-wen-zi-chuan-by-xiao-sheng-r6nv/) // [力扣-动态规划法](https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zui-chang-hui-wen-zi-chuan-by-xiao-sheng-k487/)
-
+*   [516.最长回文子序列.java](https://github.com/liangjian66/algo/blob/main/KongFu/516.最长回文子序列.java)   // [力扣-动态规划法](https://leetcode-cn.com/problems/longest-palindromic-subsequence/solution/zui-chang-hui-wen-zi-xu-lie-by-xiao-shen-z11x/) 
 
 
 
