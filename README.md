@@ -497,6 +497,8 @@
 ### 第三章回文的艺术
 > 发现规律 算法核心   有什么条件 要达到什么目的 例如：回文字符串要求是正读反读结果都是一样的句子 隐含条件 偶数个字符的话 每个字符都是成对出现的  奇数字符的话 只有一个字符是单独一个的 ， 其他字符都是成对出现的
 *   [409.最长回文串](https://github.com/liangjian66/algo/blob/main/KongFu/409.最长回文串.java)   // [力扣](https://leetcode-cn.com/problems/longest-palindrome/solution/zui-chang-hui-wen-chuan-by-xiao-sheng-to-cfgl/)
+*   [234.回文链表](https://github.com/liangjian66/algo/blob/main/KongFu/234.回文链表.java)   // [力扣](https://leetcode-cn.com/problems/palindrome-linked-list/solution/hui-wen-lian-biao-by-xiao-sheng-tong-xue-lefa/)
+*   [680.验证回文字符串-ⅱ.java](https://github.com/liangjian66/algo/blob/main/KongFu/680.验证回文字符串-ⅱ.java)   // [力扣](https://leetcode-cn.com/problems/valid-palindrome-ii/solution/yan-zheng-hui-wen-zi-fu-chuan-by-xiao-sh-87rl/)
 
 
 
