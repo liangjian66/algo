@@ -495,6 +495,9 @@
 *   [7.整数反转](https://github.com/liangjian66/algo/blob/main/KongFu/7.整数反转.java)   // [力扣](https://leetcode-cn.com/problems/largest-divisible-subset/solution/zui-da-zheng-chu-zi-ji-by-xiao-sheng-ton-toqz/)
 
 ### 第三章回文的艺术
+> 发现规律 
+*   [409.最长回文串](https://github.com/liangjian66/algo/blob/main/KongFu/409.最长回文串.java)   // [力扣](https://leetcode-cn.com/problems/longest-palindrome/solution/zui-chang-hui-wen-chuan-by-xiao-sheng-to-cfgl/)
+
 
 
 
