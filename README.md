@@ -510,6 +510,7 @@
 ### 深度优先遍历和广度优先遍历
 *  [112. 路径总和](https://github.com/liangjian66/algo/blob/main/src/HasPathSum.java)    [力扣](https://leetcode-cn.com/problems/path-sum/solution/lu-jing-zhi-he-by-xiao-sheng-tong-xue-gilp/)
 *   [113.路径总和-ii.java](https://github.com/liangjian66/algo/blob/main/KongFu/113.路径总和-ii.java)   // [力扣](https://leetcode-cn.com/problems/path-sum-ii/solution/lu-jing-zong-he-by-xiao-sheng-tong-xue-vov3/)
+*   [124.二叉树中的最大路径和.java](https://github.com/liangjian66/algo/blob/main/KongFu/124.二叉树中的最大路径和.java)   // [力扣](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/zui-da-lu-jing-by-xiao-sheng-tong-xue-4miw/)
 
 ##  算法图书
 * 上述书籍学习资料均来源于网络，免费分享给大家仅供学习使用。如有侵犯到创作者的相应权益，请及时与我联系，我会第一时间删除创作者对应的资源分享。
