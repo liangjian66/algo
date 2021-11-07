@@ -503,7 +503,8 @@
 *   [516.最长回文子序列.java](https://github.com/liangjian66/algo/blob/main/KongFu/516.最长回文子序列.java)   // [力扣-动态规划法](https://leetcode-cn.com/problems/longest-palindromic-subsequence/solution/zui-chang-hui-wen-zi-xu-lie-by-xiao-shen-z11x/) 
 *   [647.回文子串.java](https://github.com/liangjian66/algo/blob/main/KongFu/647.回文子串.java)   // [力扣-动态规划法](https://leetcode-cn.com/problems/palindromic-substrings/solution/hui-wen-zi-chuan-by-xiao-sheng-tong-xue-t721/)
 
-
+### 第四章游戏之乐
+*   [38.外观数列.java](https://github.com/liangjian66/algo/blob/main/KongFu/38.外观数列.java)   // [力扣](https://leetcode-cn.com/problems/count-and-say/solution/wai-guan-shu-lie-by-xiao-sheng-tong-xue-w92s/)
 
 
 ##  算法图书
