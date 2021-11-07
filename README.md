@@ -276,7 +276,7 @@
 
 
 ####  接雨水
-*   [接雨水](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/Trap.java)   // [力扣](https://leetcode-cn.com/problems/trapping-rain-water/solution/jie-yu-shui-by-xiao-sheng-tong-xue-gs4z/)  //    [牛客](https://blog.nowcoder.net/n/724b3c546234447d8dca14cdc597c6f9)
+*   [接雨水](https://github.com/liangjian66/algo/blob/main/src/Trap.java)   // [力扣](https://leetcode-cn.com/problems/trapping-rain-water/solution/jie-yu-shui-by-xiao-sheng-tong-xue-gs4z/)  //    [牛客](https://blog.nowcoder.net/n/724b3c546234447d8dca14cdc597c6f9)
 
 
 
@@ -444,41 +444,41 @@
 *   [N皇后问题](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/SolveNQueens.java)    // [力扣](https://leetcode-cn.com/problems/n-queens/)
 *   [全排列](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/Permute.java)    // [力扣](https://leetcode-cn.com/problems/permutations/solution/quan-pai-lie-wen-ti-by-xiao-sheng-tong-x-s7ax/)
 *   [组合总和](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/CombinationSum.java)    // [力扣](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-xiao-sheng-tong-xue-1l7e/)
-*   [组合](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/Combine.java)    // [力扣](https://leetcode-cn.com/problems/combinations/solution/zu-he-by-xiao-sheng-tong-xue-29jh/)
-*   [KMP](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/KMPTwo.java)    // [力扣](https://leetcode-cn.com/problems/implement-strstr/solution/kmp-by-xiao-sheng-tong-xue-etng/)
+*   [组合](https://github.com/liangjian66/algo/blob/main/src/Combine.java)    // [力扣](https://leetcode-cn.com/problems/combinations/solution/zu-he-by-xiao-sheng-tong-xue-29jh/)
+*   [KMP](https://github.com/liangjian66/algo/blob/main/src/KMPTwo.java)    // [力扣](https://leetcode-cn.com/problems/implement-strstr/solution/kmp-by-xiao-sheng-tong-xue-etng/)
 
 ###  第五章字符串问题
-*   [判断两个字符串是否互为变形词](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/IsDeformation.java)    
-*   [判断两个字符串是否互为旋转词](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/RotateString.java)   // [力扣](https://leetcode-cn.com/problems/rotate-string/)
-*   [字符串转换成整数](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/MyAtoi.java)   // [力扣](https://leetcode-cn.com/problems/string-to-integer-atoi/)
-*   [比较版本号](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/CompareVersion.java)   // [力扣](https://leetcode-cn.com/problems/compare-version-numbers/solution/ban-ben-hao-bi-jiao-by-xiao-sheng-tong-x-jupf/)
-*   [判断字符数组中是否所有的字符都只出现过一次](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/IsUniquel.java)   // [力扣](https://leetcode-cn.com/problems/compare-version-numbers/solution/ban-ben-hao-bi-jiao-by-xiao-sheng-tong-x-jupf/)
-*   [ 翻转字符串里的单词](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/ReverseWords.java)   // [力扣](https://leetcode-cn.com/problems/reverse-words-in-a-string/solution/fan-zhuan-zi-fu-zhuan-by-xiao-sheng-tong-s13v/)
-*   [最长不重复子字符串](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/LengthOfLongestSubstringTwo.java)   // [力扣](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/zui-chang-bu-zhong-fu-zi-zi-fu-chuan-by-x7m91/)  //  [牛客](https://blog.nowcoder.net/n/e69655f356c54c2d9044e978bed2ab5f)
-*   [最长公共前缀](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/LongestCommonPrefix.java)   // [力扣](https://leetcode-cn.com/problems/longest-common-prefix/solution/zui-chang-gong-gong-qian-zhui-by-xiao-sh-8j5k/)  
-*   [最长回文子串](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/LongestPalindrome.java)   // [力扣](https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zui-chang-hui-wen-zi-chuan-by-xiao-sheng-9cko/)
-*   [数组中两个字符串的最小距离](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/ArrayStrMinDistance.java)   // [力扣](https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zui-chang-hui-wen-zi-chuan-by-xiao-sheng-9cko/)
-*   [编辑距离](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/MinDistanceTwo.java)   // [力扣](https://leetcode-cn.com/problems/edit-distance/solution/bian-ji-ju-chi-by-xiao-sheng-tong-xue-jz62/)
-*   [字典树（前缀树）的实现](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/TrieTree.java)   // [力扣](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
+*   [判断两个字符串是否互为变形词](https://github.com/liangjian66/algo/blob/main/src/IsDeformation.java)    
+*   [判断两个字符串是否互为旋转词](https://github.com/liangjian66/algo/blob/main/src/RotateString.java)   // [力扣](https://leetcode-cn.com/problems/rotate-string/)
+*   [字符串转换成整数](https://github.com/liangjian66/algo/blob/main/src/MyAtoi.java)   // [力扣](https://leetcode-cn.com/problems/string-to-integer-atoi/)
+*   [比较版本号](https://github.com/liangjian66/algo/blob/main/src/CompareVersion.java)   // [力扣](https://leetcode-cn.com/problems/compare-version-numbers/solution/ban-ben-hao-bi-jiao-by-xiao-sheng-tong-x-jupf/)
+*   [判断字符数组中是否所有的字符都只出现过一次](https://github.com/liangjian66/algo/blob/main/src/IsUniquel.java)   // [力扣](https://leetcode-cn.com/problems/compare-version-numbers/solution/ban-ben-hao-bi-jiao-by-xiao-sheng-tong-x-jupf/)
+*   [ 翻转字符串里的单词](https://github.com/liangjian66/algo/blob/main/src/ReverseWords.java)   // [力扣](https://leetcode-cn.com/problems/reverse-words-in-a-string/solution/fan-zhuan-zi-fu-zhuan-by-xiao-sheng-tong-s13v/)
+*   [最长不重复子字符串](https://github.com/liangjian66/algo/blob/main/src/LengthOfLongestSubstringTwo.java)   // [力扣](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/zui-chang-bu-zhong-fu-zi-zi-fu-chuan-by-x7m91/)  //  [牛客](https://blog.nowcoder.net/n/e69655f356c54c2d9044e978bed2ab5f)
+*   [最长公共前缀](https://github.com/liangjian66/algo/blob/main/src/LongestCommonPrefix.java)   // [力扣](https://leetcode-cn.com/problems/longest-common-prefix/solution/zui-chang-gong-gong-qian-zhui-by-xiao-sh-8j5k/)  
+*   [最长回文子串](https://github.com/liangjian66/algo/blob/main/src/LongestPalindrome.java)   // [力扣](https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zui-chang-hui-wen-zi-chuan-by-xiao-sheng-9cko/)
+*   [数组中两个字符串的最小距离](https://github.com/liangjian66/algo/blob/main/src/ArrayStrMinDistance.java)   // [力扣](https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zui-chang-hui-wen-zi-chuan-by-xiao-sheng-9cko/)
+*   [编辑距离](https://github.com/liangjian66/algo/blob/main/src/MinDistanceTwo.java)   // [力扣](https://leetcode-cn.com/problems/edit-distance/solution/bian-ji-ju-chi-by-xiao-sheng-tong-xue-jz62/)
+*   [字典树（前缀树）的实现](https://github.com/liangjian66/algo/blob/main/src/TrieTree.java)   // [力扣](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
 
 ### 第七章位运算
-*   [二进制加法](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/AddBinary.java)   // [力扣](https://leetcode-cn.com/problems/JFETK5/solution/wei-yun-suan-shi-xian-jia-fa-by-xiao-she-iwcl/)
-*   [不用加减乘除做加法](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/AddTwo.java)   // [力扣](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/solution/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-by-t6in/)
-*   [只出现一次的数字](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/SingleNumber.java)   // [力扣](https://leetcode-cn.com/problems/single-number/)
+*   [二进制加法](https://github.com/liangjian66/algo/blob/main/src/AddBinary.java)   // [力扣](https://leetcode-cn.com/problems/JFETK5/solution/wei-yun-suan-shi-xian-jia-fa-by-xiao-she-iwcl/)
+*   [不用加减乘除做加法](https://github.com/liangjian66/algo/blob/main/src/AddTwo.java)   // [力扣](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/solution/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-by-t6in/)
+*   [只出现一次的数字](https://github.com/liangjian66/algo/blob/main/src/SingleNumber.java)   // [力扣](https://leetcode-cn.com/problems/single-number/)
 
 
 ### 第八章数组和矩阵问题
-*   [转圈打印矩阵](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/SpiralOrder.java)   // [力扣](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/solution/zhuan-quan-da-yin-ju-zhen-by-xiao-sheng-mvq9a/)
-*   [旋转图像](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/RotateMatrix.java)   // [力扣](https://leetcode-cn.com/problems/rotate-image/solution/ju-zhen-shun-shi-zhuan-dong-by-xiao-shen-a2jo/)
-*   [Z字形变化](https://github.com/lilowestCommonAncestoranstrStrgjian66/algo/blob/main/src/Convert.java)   // [力扣](https://leetcode-cn.com/problems/zigzag-conversion/solution/zzi-xing-bian-hua-by-xiao-sheng-tong-xue-ubdl/)
-*   [最短无序连续子数组](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/FindUnsortedSubarray.java)   // [力扣](https://leetcode-cn.com/problems/zigzag-conversion/solution/zzi-xing-bian-hua-by-xiao-sheng-tong-xue-ubdl/)
-*   [二维数组中的查找](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/FindNumberIn2DArrayTwo.java)   // [力扣](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)
-*   [长度最小的子数组](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/MinSubArrayLen.java)   // [力扣](https://leetcode-cn.com/problems/minimum-size-subarray-sum/solution/chang-du-zui-xiao-de-zi-shu-zu-by-xiao-s-cby7/)
-*   [删除排序数组中的重复项](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/RemoveDuplicates.java)   // [力扣](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/solution/shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-4mee/)
-*   [按奇偶排序数组 II](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/SortArrayByParityII.java)   // [力扣](https://leetcode-cn.com/problems/sort-array-by-parity-ii/)
-*   [在数组中找到一个局部最小的位置](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/GetLessIndex.java)   // [力扣](https://leetcode-cn.com/problems/sort-array-by-parity-ii/)
-*   [乘积最大子数组](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/MaxProduct.java)   // [力扣](https://leetcode-cn.com/problems/maximum-product-subarray/solution/cheng-ji-zui-da-zi-shu-zu-by-xiao-sheng-yo4u4/)
-*   [盛最多水的容器](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/MaxArea.java)   // [力扣](https://leetcode-cn.com/problems/container-with-most-water/solution/rong-qi-sheng-shui-wen-ti-by-xiao-sheng-rfko7/)
+*   [转圈打印矩阵](https://github.com/liangjian66/algo/blob/main/src/SpiralOrder.java)   // [力扣](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/solution/zhuan-quan-da-yin-ju-zhen-by-xiao-sheng-mvq9a/)
+*   [旋转图像](https://github.com/liangjian66/algo/blob/main/src/RotateMatrix.java)   // [力扣](https://leetcode-cn.com/problems/rotate-image/solution/ju-zhen-shun-shi-zhuan-dong-by-xiao-shen-a2jo/)
+*   [Z字形变化](https://github.com/liangjian66/algo/blob/main/src/Convert.java)   // [力扣](https://leetcode-cn.com/problems/zigzag-conversion/solution/zzi-xing-bian-hua-by-xiao-sheng-tong-xue-ubdl/)
+*   [最短无序连续子数组](https://github.com/liangjian66/algo/blob/main/src/FindUnsortedSubarray.java)   // [力扣](https://leetcode-cn.com/problems/zigzag-conversion/solution/zzi-xing-bian-hua-by-xiao-sheng-tong-xue-ubdl/)
+*   [二维数组中的查找](https://github.com/liangjian66/algo/blob/main/src/FindNumberIn2DArrayTwo.java)   // [力扣](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)
+*   [长度最小的子数组](https://github.com/liangjian66/algo/blob/main/src/MinSubArrayLen.java)   // [力扣](https://leetcode-cn.com/problems/minimum-size-subarray-sum/solution/chang-du-zui-xiao-de-zi-shu-zu-by-xiao-s-cby7/)
+*   [删除排序数组中的重复项](https://github.com/liangjian66/algo/blob/main/src/RemoveDuplicates.java)   // [力扣](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/solution/shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-4mee/)
+*   [按奇偶排序数组 II](https://github.com/liangjian66/algo/blob/main/src/SortArrayByParityII.java)   // [力扣](https://leetcode-cn.com/problems/sort-array-by-parity-ii/)
+*   [在数组中找到一个局部最小的位置](https://github.com/liangjian66/algo/blob/main/src/GetLessIndex.java)   // [力扣](https://leetcode-cn.com/problems/sort-array-by-parity-ii/)
+*   [乘积最大子数组](https://github.com/liangjian66/algo/blob/main/src/MaxProduct.java)   // [力扣](https://leetcode-cn.com/problems/maximum-product-subarray/solution/cheng-ji-zui-da-zi-shu-zu-by-xiao-sheng-yo4u4/)
+*   [盛最多水的容器](https://github.com/liangjian66/algo/blob/main/src/MaxArea.java)   // [力扣](https://leetcode-cn.com/problems/container-with-most-water/solution/rong-qi-sheng-shui-wen-ti-by-xiao-sheng-rfko7/)
 
 
 ##  算法通关之路 
@@ -486,8 +486,8 @@
 ### 第一章预备知识 
 
 ### 第二章数学之美
-*   [两数之和](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/TwoSum.java)   // [力扣](https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-by-xiao-sheng-tong-xue-ia86/)
-*   [三数之和](https://github.com/lilowestCommonAncestfindNumberIn2DArrayoranstrStrgjian66/algo/blob/main/src/ThreeSum.java)   // [力扣](https://leetcode-cn.com/problems/3sum/solution/san-shu-zhi-he-by-xiao-sheng-tong-xue-hadc/)
+*   [两数之和](https://github.com/liangjian66/algo/blob/main/src/TwoSum.java)   // [力扣](https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-by-xiao-sheng-tong-xue-ia86/)
+*   [三数之和](https://github.com/liangjian66/algo/blob/main/src/ThreeSum.java)   // [力扣](https://leetcode-cn.com/problems/3sum/solution/san-shu-zhi-he-by-xiao-sheng-tong-xue-hadc/)
 *   [最大子序和](https://github.com/liangjian66/algo/blob/main/KongFu/53.最大子序和.java)   // [力扣](https://leetcode-cn.com/problems/3sum/solution/san-shu-zhi-he-by-xiao-sheng-tong-xue-hadc/)
 *   [最大数](https://github.com/liangjian66/algo/blob/main/KongFu/179.最大数.java)   // [力扣](https://leetcode-cn.com/problems/largest-number/solution/zui-da-shu-by-xiao-sheng-tong-xue-zj2y/)
 *   [两数相加](https://github.com/liangjian66/algo/blob/main/KongFu/2.两数相加.java)   // [力扣](https://leetcode-cn.com/problems/add-two-numbers/solution/liang-shu-xiang-jia-by-xiao-sheng-tong-x-vvbk/)
@@ -507,6 +507,8 @@
 *   [38.外观数列.java](https://github.com/liangjian66/algo/blob/main/KongFu/38.外观数列.java)   // [力扣](https://leetcode-cn.com/problems/count-and-say/solution/wai-guan-shu-lie-by-xiao-sheng-tong-xue-w92s/)
 
 
+### 深度优先遍历和广度优先遍历
+*  [112. 路径总和]()   [力扣](https://leetcode-cn.com/problems/count-and-say/solution/wai-guan-shu-lie-by-xiao-sheng-tong-xue-w92s/)
 ##  算法图书
 * 上述书籍学习资料均来源于网络，免费分享给大家仅供学习使用。如有侵犯到创作者的相应权益，请及时与我联系，我会第一时间删除创作者对应的资源分享。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版
