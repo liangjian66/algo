@@ -168,10 +168,42 @@ public class Test {
         return res;
     }
 
+    int row ;
+    int col ;
+    //  int count = 0;
+    public  int islandPerimeter(int[][] grid) {
+        if(grid == null || grid.length == 0){
+            return 0;
+        }
+        row = grid.length;
+        col = grid[0].length;
+        int sum  = 0;
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                if(grid[i][j] == 1){
+                    int count =  countTest(grid,i,j);
+                    sum +=count;
+                }
+
+            }
+
+        }
+        return sum;
+
+
+    }
+
+
+
 
     public static void main(String[] args) {
         String temp = "abc";
-        System.out.println(countSubstrings(temp));
+
+        Test test = new Test();
+        int[][] grid = new int[][] {{0,1,0,0},{1,1,1,0},{0,1,0,0},{1,1,0,0}};
+
+
+        System.out.println(test.islandPerimeter(grid));
 
     }
 }

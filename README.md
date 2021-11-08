@@ -507,11 +507,16 @@
 *   [38.外观数列.java](https://github.com/liangjian66/algo/blob/main/KongFu/38.外观数列.java)   // [力扣](https://leetcode-cn.com/problems/count-and-say/solution/wai-guan-shu-lie-by-xiao-sheng-tong-xue-w92s/)
 
 
-### 深度优先遍历和广度优先遍历
+### 第五章深度优先遍历和广度优先遍历
 *  [112. 路径总和](https://github.com/liangjian66/algo/blob/main/src/HasPathSum.java)    [力扣](https://leetcode-cn.com/problems/path-sum/solution/lu-jing-zhi-he-by-xiao-sheng-tong-xue-gilp/)
 *   [113.路径总和-ii.java](https://github.com/liangjian66/algo/blob/main/KongFu/113.路径总和-ii.java)   // [力扣](https://leetcode-cn.com/problems/path-sum-ii/solution/lu-jing-zong-he-by-xiao-sheng-tong-xue-vov3/)
 *   [124.二叉树中的最大路径和.java](https://github.com/liangjian66/algo/blob/main/KongFu/124.二叉树中的最大路径和.java)   // [力扣](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/zui-da-lu-jing-by-xiao-sheng-tong-xue-4miw/)
 *   [200.岛屿数量.java](https://github.com/liangjian66/algo/blob/main/KongFu/200.岛屿数量.java)   // [力扣](https://leetcode-cn.com/problems/number-of-islands/solution/dao-yu-shu-liang-by-xiao-sheng-tong-xue-h0lw/)
+
+### 第六章二分查找
+
+*   [704.二分查找.java](https://github.com/liangjian66/algo/blob/main/KongFu/704.二分查找.java)  
+
 
 
 ##  算法图书
