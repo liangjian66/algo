@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.LinkedHashSet;
 
 public class Test {
 
@@ -198,6 +199,8 @@ public class Test {
 
     public static void main(String[] args) {
         String temp = "abc";
+        LinkedHashSet<Integer>  keyList = new LinkedHashSet<>();
+        keyList.iterator().next();
 
         Test test = new Test();
         int[][] grid = new int[][] {{0,1,0,0},{1,1,1,0},{0,1,0,0},{1,1,0,0}};

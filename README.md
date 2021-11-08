@@ -71,6 +71,8 @@
 
 > 坚持下去，会有突然间成长的一天
 
+>自顶向下 ，逐步求精
+
 
 ##  排序算法
 *  [冒泡排序](https://github.com/liangjian66/algo/blob/main/src/BubbleSort.java) ：BubbleSort
@@ -526,6 +528,8 @@
 ### 第八章设计
 *   [155.最小栈.java](https://github.com/liangjian66/algo/blob/main/KongFu/155.最小栈.java)
 *   [208.实现-trie-前缀树.java](https://github.com/liangjian66/algo/blob/main/KongFu/208.实现-trie-前缀树.java)
+*   [LRU缓存机制](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LRUCacheTwo.java)    // [力扣](https://leetcode-cn.com/problems/lru-cache/solution/lruhuan-cun-ji-zhi-by-xiao-sheng-tong-xu-2om1/)  [牛客](https://blog.nowcoder.net/n/b71f0073b13a48eeb45fe810595a4f32)
+*   [460.lfu-缓存.java](https://github.com/liangjian66/algo/blob/main/KongFu/460.lfu-缓存.java)  //[力扣](https://leetcode-cn.com/problems/lfu-cache/solution/lfuhuan-cun-tao-tai-suan-fa-by-xiao-shen-zffx/)
 
 
 
