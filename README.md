@@ -518,6 +518,10 @@
 *   [704.二分查找.java](https://github.com/liangjian66/algo/blob/main/KongFu/704.二分查找.java)  
 
 
+### 第七章位运算
+*   [191.位-1-的个数.java](https://github.com/liangjian66/algo/blob/main/KongFu/191.位-1-的个数.java)
+
+
 
 ##  算法图书
 * 上述书籍学习资料均来源于网络，免费分享给大家仅供学习使用。如有侵犯到创作者的相应权益，请及时与我联系，我会第一时间删除创作者对应的资源分享。
