@@ -520,6 +520,8 @@
 
 ### 第七章位运算
 *   [191.位-1-的个数.java](https://github.com/liangjian66/algo/blob/main/KongFu/191.位-1-的个数.java)
+*   [371.两整数之和.java](https://github.com/liangjian66/algo/blob/main/KongFu/371.两整数之和.java)
+
 
 
 
