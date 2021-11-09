@@ -299,8 +299,8 @@
 *  字符串匹配算法（RK算法）：RabinKarp 题解： 比较两个字符串的hash
 *  KMP算法： Kmp  题解： KMP算法的整体思路：在已匹配的前缀当中寻找最长可匹配后缀子串和最长可匹配前缀子串 ，在下一轮直接把两者对齐，从而实现模式串的快速移动
 *  迪杰斯特拉 ： Dijkstra  思路： 维护一个距离表， 标记是否最短距离 ，动态规划更新最短距离表
-*   [LRU缓存机制](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LRUCacheTwo.java)    // [力扣](https://leetcode-cn.com/problems/lru-cache/solution/lruhuan-cun-ji-zhi-by-xiao-sheng-tong-xu-2om1/)  [牛客](https://blog.nowcoder.net/n/b71f0073b13a48eeb45fe810595a4f32)
-*   [合并两个有序数组](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/TwoArrayMerge.java)    // [牛客](https://blog.nowcoder.net/n/655fa33cff9f465fa5380d3d4c22afb6)
+*   [LRU缓存机制](https://github.com/liangjian66/algo/blob/main/src/LRUCacheTwo.java)    // [力扣](https://leetcode-cn.com/problems/lru-cache/solution/lruhuan-cun-ji-zhi-by-xiao-sheng-tong-xu-2om1/)  [牛客](https://blog.nowcoder.net/n/b71f0073b13a48eeb45fe810595a4f32)
+*   [合并两个有序数组](https://github.com/liangjian66/algo/blob/main/src/TwoArrayMerge.java)    // [牛客](https://blog.nowcoder.net/n/655fa33cff9f465fa5380d3d4c22afb6)
 
 
 
@@ -410,11 +410,11 @@
 *   [后继者：设计一个算法，找出二叉搜索树中指定节点的“下一个”节点（也即中序后继）](https://github.com/liangjian66/algo/blob/main/src/inorderSuccessor.java)    
 
 *   [二叉搜索树的后序遍历序列](https://github.com/liangjian66/algo/blob/main/src/VerifyPostorder.java)    // [力扣](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)    // [牛客](https://blog.nowcoder.net/n/0a43680db9694eb3a3c505e031eb63a9)
-*   [二叉树的最近公共祖先](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LowestCommonAncestorTwo.java)    // [力扣](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/zai-er-cha-shu-zhong-zhao-dao-liang-ge-j-6c6p/)    // [牛客](https://blog.nowcoder.net/n/000874999ec64d61828adf6b66a11095)
-*   [按之字形顺序打印二叉树](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/ZigzagLevelOrderTwo.java)    // [力扣](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/zai-er-cha-shu-zhong-zhao-dao-liang-ge-j-6c6p/)    // [牛客](https://blog.nowcoder.net/n/b90e81b810904fe4aaba7b02a3416ad1)
-*   [二叉树的镜像](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/mirrorTree.java)    // [力扣](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/solution/jing-xiang-by-xiao-sheng-tong-xue-zvrr/)    // [牛客](https://blog.nowcoder.net/n/e2fdf65748fc42e3b71777c9aa46c825)
-*   [二叉树的层序遍历 II](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LevelOrderBottom.java)    // [力扣](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/solution/er-cha-shu-de-ceng-xu-bian-li-ii-by-xiao-iyf5/)  
-*   [二叉树的所有路径](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/BinaryTreePaths.java)    // [力扣](https://leetcode-cn.com/problems/binary-tree-paths/solution/er-cha-shu-de-suo-you-lu-jing-by-xiao-sh-uwm4/)
+*   [二叉树的最近公共祖先](https://github.com/liangjian66/algo/blob/main/src/LowestCommonAncestorTwo.java)    // [力扣](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/zai-er-cha-shu-zhong-zhao-dao-liang-ge-j-6c6p/)    // [牛客](https://blog.nowcoder.net/n/000874999ec64d61828adf6b66a11095)
+*   [按之字形顺序打印二叉树](https://github.com/liangjian66/algo/blob/main/src/ZigzagLevelOrderTwo.java)    // [力扣](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/zai-er-cha-shu-zhong-zhao-dao-liang-ge-j-6c6p/)    // [牛客](https://blog.nowcoder.net/n/b90e81b810904fe4aaba7b02a3416ad1)
+*   [二叉树的镜像](https://github.com/liangjian66/algo/blob/main/src/mirrorTree.java)    // [力扣](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/solution/jing-xiang-by-xiao-sheng-tong-xue-zvrr/)    // [牛客](https://blog.nowcoder.net/n/e2fdf65748fc42e3b71777c9aa46c825)
+*   [二叉树的层序遍历 II](https://github.com/liangjian66/algo/blob/main/src/LevelOrderBottom.java)    // [力扣](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/solution/er-cha-shu-de-ceng-xu-bian-li-ii-by-xiao-iyf5/)  
+*   [二叉树的所有路径](https://github.com/liangjian66/algo/blob/main/src/BinaryTreePaths.java)    // [力扣](https://leetcode-cn.com/problems/binary-tree-paths/solution/er-cha-shu-de-suo-you-lu-jing-by-xiao-sh-uwm4/)
 
 ###  第四章递归和动态规划
 
@@ -427,25 +427,25 @@
 * 套路 ； dp[i][j]  往往依赖  dp[i][i-1]  dp[i-1][j]  dp[i-1][j-1]  只要是动态规划就依赖这三个
 ```
 
-*   [斐波那契数列](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/FibTwo.java)    // [力扣](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)   
-*   [最小路径之和](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/MinPathSumTwo.java)    // [力扣](https://leetcode-cn.com/problems/0i0mDW/)
-*   [换钱的最少货币数](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/CoinChangeTwo.java)    // [力扣](https://leetcode-cn.com/problems/coin-change/)
-*   [不同路径 II  有障碍物](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/UniquePathsWithObstacles.java)    // [力扣](https://leetcode-cn.com/problems/unique-paths-ii/solution/bu-tong-lu-jing-ii-you-zhang-ai-wu-by-xi-kjz2/)
-*   [零钱兑换 II](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/ChangeTwo.java)    // [力扣](https://leetcode-cn.com/problems/unique-paths-ii/solution/bu-tong-lu-jing-ii-you-zhang-ai-wu-by-xi-kjz2/)  请你计算并返回可以凑成总金额的硬币组合数
-*   [最长递增子序列](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LengthOfLISTwo.java)    // [力扣](https://leetcode-cn.com/problems/longest-increasing-subsequence/)  
-*   [最长公共子序列](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LongestCommonSubsequenceTwo.java)    // [力扣](https://leetcode-cn.com/problems/longest-common-subsequence/)
-*   [最长公共子串问题](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LCS.java)    // [牛客](https://blog.nowcoder.net/n/53f3f20588854055aafc75022387b8b9)
-*   [最小编辑代价](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/MinEditCost.java)    // [牛客](https://blog.nowcoder.net/n/f8f2ac69d4804aaab1d1ee8c53df049c)
-*   [字符串的交错组成](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/IsInterleave.java)    // [力扣](https://leetcode-cn.com/problems/interleaving-string/solution/zi-fu-chuan-de-jiao-cuo-zu-cheng-by-xiao-i1r1/)
-*   [龙与地下城游戏问题](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/CalculateMinimumHP.java)    // [力扣](https://leetcode-cn.com/problems/dungeon-game/)
-*   [把数字翻译成字符串](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/TranslateNum.java)    // [力扣](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/solution/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-by-xi-2pe8/)
-*   [跳跃游戏](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/CanJump.java)    // [力扣](https://leetcode-cn.com/problems/jump-game/solution/tiao-yue-you-xi-by-xiao-sheng-tong-xue-5yj0/)
-*   [最长连续序列](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LongestConsecutive.java)    // [力扣](https://leetcode-cn.com/problems/longest-consecutive-sequence/)
+*   [斐波那契数列](https://github.com/liangjian66/algo/blob/main/src/FibTwo.java)    // [力扣](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)   
+*   [最小路径之和](https://github.com/liangjian66/algo/blob/main/src/MinPathSumTwo.java)    // [力扣](https://leetcode-cn.com/problems/0i0mDW/)
+*   [换钱的最少货币数](https://github.com/liangjian66/algo/blob/main/src/CoinChangeTwo.java)    // [力扣](https://leetcode-cn.com/problems/coin-change/)
+*   [不同路径 II  有障碍物](https://github.com/liangjian66/algo/blob/main/src/UniquePathsWithObstacles.java)    // [力扣](https://leetcode-cn.com/problems/unique-paths-ii/solution/bu-tong-lu-jing-ii-you-zhang-ai-wu-by-xi-kjz2/)
+*   [零钱兑换 II](https://github.com/liangjian66/algo/blob/main/src/ChangeTwo.java)    // [力扣](https://leetcode-cn.com/problems/unique-paths-ii/solution/bu-tong-lu-jing-ii-you-zhang-ai-wu-by-xi-kjz2/)  请你计算并返回可以凑成总金额的硬币组合数
+*   [最长递增子序列](https://github.com/liangjian66/algo/blob/main/src/LengthOfLISTwo.java)    // [力扣](https://leetcode-cn.com/problems/longest-increasing-subsequence/)  
+*   [最长公共子序列](https://github.com/liangjian66/algo/blob/main/src/LongestCommonSubsequenceTwo.java)    // [力扣](https://leetcode-cn.com/problems/longest-common-subsequence/)
+*   [最长公共子串问题](https://github.com/liangjian66/algo/blob/main/src/LCS.java)    // [牛客](https://blog.nowcoder.net/n/53f3f20588854055aafc75022387b8b9)
+*   [最小编辑代价](https://github.com/liangjian66/algo/blob/main/src/MinEditCost.java)    // [牛客](https://blog.nowcoder.net/n/f8f2ac69d4804aaab1d1ee8c53df049c)
+*   [字符串的交错组成](https://github.com/liangjian66/algo/blob/main/src/IsInterleave.java)    // [力扣](https://leetcode-cn.com/problems/interleaving-string/solution/zi-fu-chuan-de-jiao-cuo-zu-cheng-by-xiao-i1r1/)
+*   [龙与地下城游戏问题](https://github.com/liangjian66/algo/blob/main/src/CalculateMinimumHP.java)    // [力扣](https://leetcode-cn.com/problems/dungeon-game/)
+*   [把数字翻译成字符串](https://github.com/liangjian66/algo/blob/main/src/TranslateNum.java)    // [力扣](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/solution/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-by-xi-2pe8/)
+*   [跳跃游戏](https://github.com/liangjian66/algo/blob/main/src/CanJump.java)    // [力扣](https://leetcode-cn.com/problems/jump-game/solution/tiao-yue-you-xi-by-xiao-sheng-tong-xue-5yj0/)
+*   [最长连续序列](https://github.com/liangjian66/algo/blob/main/src/LongestConsecutive.java)    // [力扣](https://leetcode-cn.com/problems/longest-consecutive-sequence/)
 
 ####  回溯
-*   [N皇后问题](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/SolveNQueens.java)    // [力扣](https://leetcode-cn.com/problems/n-queens/)
-*   [全排列](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/Permute.java)    // [力扣](https://leetcode-cn.com/problems/permutations/solution/quan-pai-lie-wen-ti-by-xiao-sheng-tong-x-s7ax/)
-*   [组合总和](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/CombinationSum.java)    // [力扣](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-xiao-sheng-tong-xue-1l7e/)
+*   [N皇后问题](https://github.com/liangjian66/algo/blob/main/src/SolveNQueens.java)    // [力扣](https://leetcode-cn.com/problems/n-queens/)
+*   [全排列](https://github.com/liangjian66/algo/blob/main/src/Permute.java)    // [力扣](https://leetcode-cn.com/problems/permutations/solution/quan-pai-lie-wen-ti-by-xiao-sheng-tong-x-s7ax/)
+*   [组合总和](https://github.com/liangjian66/algo/blob/main/src/CombinationSum.java)    // [力扣](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-xiao-sheng-tong-xue-1l7e/)
 *   [组合](https://github.com/liangjian66/algo/blob/main/src/Combine.java)    // [力扣](https://leetcode-cn.com/problems/combinations/solution/zu-he-by-xiao-sheng-tong-xue-29jh/)
 *   [KMP](https://github.com/liangjian66/algo/blob/main/src/KMPTwo.java)    // [力扣](https://leetcode-cn.com/problems/implement-strstr/solution/kmp-by-xiao-sheng-tong-xue-etng/)
 
@@ -528,7 +528,7 @@
 ### 第八章设计
 *   [155.最小栈.java](https://github.com/liangjian66/algo/blob/main/KongFu/155.最小栈.java)
 *   [208.实现-trie-前缀树.java](https://github.com/liangjian66/algo/blob/main/KongFu/208.实现-trie-前缀树.java)
-*   [LRU缓存机制](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LRUCacheTwo.java)    // [力扣](https://leetcode-cn.com/problems/lru-cache/solution/lruhuan-cun-ji-zhi-by-xiao-sheng-tong-xu-2om1/)  [牛客](https://blog.nowcoder.net/n/b71f0073b13a48eeb45fe810595a4f32)
+*   [LRU缓存机制](https://github.com/liangjian66/algo/blob/main/src/LRUCacheTwo.java)    // [力扣](https://leetcode-cn.com/problems/lru-cache/solution/lruhuan-cun-ji-zhi-by-xiao-sheng-tong-xu-2om1/)  [牛客](https://blog.nowcoder.net/n/b71f0073b13a48eeb45fe810595a4f32)
 *   [460.lfu-缓存.java](https://github.com/liangjian66/algo/blob/main/KongFu/460.lfu-缓存.java)  //[力扣](https://leetcode-cn.com/problems/lfu-cache/solution/lfuhuan-cun-tao-tai-suan-fa-by-xiao-shen-zffx/)
 
 ### 第九章双指针
