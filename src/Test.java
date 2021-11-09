@@ -171,69 +171,47 @@ public class Test {
         return res;
     }
 
-    int row ;
-    int col ;
-    //  int count = 0;
-    public  int islandPerimeter(int[][] grid) {
-        if(grid == null || grid.length == 0){
+    public int rob(int[] nums) {
+        if(nums == null || nums.length ==0){
             return 0;
         }
-        row = grid.length;
-        col = grid[0].length;
-        int sum  = 0;
-        for (int i = 0; i < row; i++) {
-            for (int j = 0; j < col; j++) {
-                if(grid[i][j] == 1){
-//                    int count =  countTest(grid,i,j);
-//                    sum +=count;
-                }
-
-            }
-
+        int len = nums.length;
+        if(len == 1){
+            return nums[0];
         }
-        return sum;
-
+        int[] one = Arrays.copyOfRange(nums,0,len-1);
+        int[] two =  Arrays.copyOfRange(nums,1,len);
+        return Math.max(countRob(one),countRob(two));
 
     }
-
-
-    public static int lengthOfLongestSubstring(String s) {
-        if(s == null || s.length()==0){
+    public int countRob(int[] nums){
+        if(nums == null || nums.length ==0){
             return 0;
         }
-        int len = s.length();
-        Map<Integer,Character> map = new HashMap<>();
-        int left = 0;
-        int right = 0;
-        int res = 0;
-        while(left<len &&right<len){
-//            Character rightC = new Character(s.charAt(right));
-            while(right<len &&(!map.containsValue(s.charAt(right)))){
-                map.put(right,s.charAt(right));
-                right++;
-                int temp = right-left;
-                res = Math.max(res,temp);
-            }
-//            Character leftC = new Character(s.charAt(left));
-            if (left<len &&map.containsValue(s.charAt(left))){
-                map.remove(left);
-                left++;
-            }
+        int len = nums.length;
+        if(len == 1){
+            return nums[0];
         }
-        return res;
-
+        int[] dp = new int[len];
+        dp[0] = nums[0];
+        dp[1] = Math.max(nums[0],nums[1]);
+        for(int i =2;i<len;i++){
+            dp[i] = Math.max(dp[i-2]+nums[i],dp[i-1]);
+        }
+        return dp[len-1];
     }
 
     public static void main(String[] args) {
-        String temp = "dvdf";
+//        String temp = "dvdf";
 //        LinkedHashSet<Integer>  keyList = new LinkedHashSet<>();
 //        keyList.iterator().next();
 //
-//        Test test = new Test();
+        Test test = new Test();
 //        int[][] grid = new int[][] {{0,1,0,0},{1,1,1,0},{0,1,0,0},{1,1,0,0}};
+//        Arrays.copyOf()
+        int[] temp = new int[]{1,2,3};
 
-
-        System.out.println(lengthOfLongestSubstring(temp));
+        System.out.println(test.rob(temp));
 
     }
 }
