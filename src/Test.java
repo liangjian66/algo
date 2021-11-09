@@ -171,35 +171,33 @@ public class Test {
         return res;
     }
 
-    public int rob(int[] nums) {
-        if(nums == null || nums.length ==0){
+    public int coinChange(int[] coins, int amount) {
+        int[]  dp = new int[amount+1];
+        Arrays.fill(dp,amount+1);
+        dp[0] = 0;
+        if(amount == 0){
             return 0;
         }
-        int len = nums.length;
-        if(len == 1){
-            return nums[0];
+        for(int i=0;i<coins.length;i++){
+            int coin = coins[i];
+            if (coin<=amount){
+                dp[coin] = 1;
+            }
         }
-        int[] one = Arrays.copyOfRange(nums,0,len-1);
-        int[] two =  Arrays.copyOfRange(nums,1,len);
-        return Math.max(countRob(one),countRob(two));
 
+        for(int i= 1;i<=amount;i++){
+            for(int j =0;j<coins.length;j++){
+                int coin = coins[j];
+                if(coin<=i){
+                    //  dp[i] = dp[i-coin]+1;
+
+                    dp[i] = Math.min(dp[i],dp[i-coin]+1);
+                }
+            }
+        }
+        return dp[amount]>amount?-1:dp[amount];
     }
-    public int countRob(int[] nums){
-        if(nums == null || nums.length ==0){
-            return 0;
-        }
-        int len = nums.length;
-        if(len == 1){
-            return nums[0];
-        }
-        int[] dp = new int[len];
-        dp[0] = nums[0];
-        dp[1] = Math.max(nums[0],nums[1]);
-        for(int i =2;i<len;i++){
-            dp[i] = Math.max(dp[i-2]+nums[i],dp[i-1]);
-        }
-        return dp[len-1];
-    }
+
 
     public static void main(String[] args) {
 //        String temp = "dvdf";
@@ -209,9 +207,9 @@ public class Test {
         Test test = new Test();
 //        int[][] grid = new int[][] {{0,1,0,0},{1,1,1,0},{0,1,0,0},{1,1,0,0}};
 //        Arrays.copyOf()
-        int[] temp = new int[]{1,2,3};
+        int[] temp = new int[]{2};
 
-        System.out.println(test.rob(temp));
+        System.out.println(test.coinChange(temp,1));
 
     }
 }
