@@ -1,5 +1,7 @@
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.LinkedHashSet;
+import java.util.Map;
 
 public class Test {
 
@@ -182,8 +184,8 @@ public class Test {
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                 if(grid[i][j] == 1){
-                    int count =  countTest(grid,i,j);
-                    sum +=count;
+//                    int count =  countTest(grid,i,j);
+//                    sum +=count;
                 }
 
             }
@@ -195,18 +197,43 @@ public class Test {
     }
 
 
+    public static int lengthOfLongestSubstring(String s) {
+        if(s == null || s.length()==0){
+            return 0;
+        }
+        int len = s.length();
+        Map<Integer,Character> map = new HashMap<>();
+        int left = 0;
+        int right = 0;
+        int res = 0;
+        while(left<len &&right<len){
+//            Character rightC = new Character(s.charAt(right));
+            while(right<len &&(!map.containsValue(s.charAt(right)))){
+                map.put(right,s.charAt(right));
+                right++;
+                int temp = right-left;
+                res = Math.max(res,temp);
+            }
+//            Character leftC = new Character(s.charAt(left));
+            if (left<len &&map.containsValue(s.charAt(left))){
+                map.remove(left);
+                left++;
+            }
+        }
+        return res;
 
+    }
 
     public static void main(String[] args) {
-        String temp = "abc";
-        LinkedHashSet<Integer>  keyList = new LinkedHashSet<>();
-        keyList.iterator().next();
+        String temp = "dvdf";
+//        LinkedHashSet<Integer>  keyList = new LinkedHashSet<>();
+//        keyList.iterator().next();
+//
+//        Test test = new Test();
+//        int[][] grid = new int[][] {{0,1,0,0},{1,1,1,0},{0,1,0,0},{1,1,0,0}};
 
-        Test test = new Test();
-        int[][] grid = new int[][] {{0,1,0,0},{1,1,1,0},{0,1,0,0},{1,1,0,0}};
 
-
-        System.out.println(test.islandPerimeter(grid));
+        System.out.println(lengthOfLongestSubstring(temp));
 
     }
 }
