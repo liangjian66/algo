@@ -531,6 +531,8 @@
 *   [LRU缓存机制](https://github.com/lilowestCommonAncestorangjian66/algo/blob/main/src/LRUCacheTwo.java)    // [力扣](https://leetcode-cn.com/problems/lru-cache/solution/lruhuan-cun-ji-zhi-by-xiao-sheng-tong-xu-2om1/)  [牛客](https://blog.nowcoder.net/n/b71f0073b13a48eeb45fe810595a4f32)
 *   [460.lfu-缓存.java](https://github.com/liangjian66/algo/blob/main/KongFu/460.lfu-缓存.java)  //[力扣](https://leetcode-cn.com/problems/lfu-cache/solution/lfuhuan-cun-tao-tai-suan-fa-by-xiao-shen-zffx/)
 
+### 第九章双指针
+*   [167.两数之和-ii-输入有序数组.java](https://github.com/liangjian66/algo/blob/main/KongFu/167.两数之和-ii-输入有序数组.java)
 
 
 
