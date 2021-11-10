@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode.cn id=567 lang=java
+ *
+ * [567] 字符串的排列
+ */
+
+// @lc code=start
 import java.util.*;
-
-public class Test {
-
+class Solution {
     public  boolean checkInclusion(String s1, String s2) {
         if(s1 == null || s2 == null){
             return false;
@@ -50,21 +55,7 @@ public class Test {
 
     }
 
-
-    public static void main(String[] args) {
-//        String temp = "dvdf";
-//        LinkedHashSet<Integer>  keyList = new LinkedHashSet<>();
-//        keyList.iterator().next();
-//
-        Test test = new Test();
-//        int[][] grid = new int[][] {{0,1,0,0},{1,1,1,0},{0,1,0,0},{1,1,0,0}};
-//        Arrays.copyOf()
-        int[] temp = new int[]{2};
-
-        String s1 = "ab";
-        String s2 = "a";
-
-        System.out.println(test.checkInclusion(s1,s2));
-
-    }
+    
 }
+// @lc code=end
+
