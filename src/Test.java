@@ -189,6 +189,25 @@ public class Test {
         return  sumMax;
     }
 
+    public boolean verifyPostorder(int[] postorder) {
+       return  recur(postorder,0,postorder.length-1);
+
+    }
+
+    public  boolean recur(int[] postorder,int i, int j){
+        if (i>=j){
+            return  true;
+        }
+        int root = postorder[j];
+        int p = i;
+        while (postorder[p]<root) p++;
+        int mid = p;
+        while (postorder[p]>root) p++;
+        boolean isVerifyPostorder = p == j;
+        return  isVerifyPostorder&&(recur(postorder,i,mid-1))&&(recur(postorder,mid,j-1));
+
+    }
+
 
     public static void main(String[] args) {
 //        String temp = "dvdf";

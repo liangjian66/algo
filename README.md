@@ -547,6 +547,7 @@
 ### 第十一章滑动窗口
 
 *   [239.滑动窗口最大值.java](https://github.com/liangjian66/algo/blob/main/KongFu/239.滑动窗口最大值.java)     // [力扣题解](https://leetcode-cn.com/problems/sliding-window-maximum/solution/hua-dong-chuang-kou-zui-da-zhi-by-xiao-s-9xji/)  // [题解-双指针](https://leetcode-cn.com/problems/sliding-window-maximum/solution/hua-dong-chuang-kou-zui-da-zhi-by-xiao-s-anuy/)
+*   [76.最小覆盖子串.java](https://github.com/liangjian66/algo/blob/main/KongFu/76.最小覆盖子串.java)     // [力扣题解](https://leetcode-cn.com/problems/minimum-window-substring/solution/zui-xiao-fu-gai-zi-chuan-by-xiao-sheng-t-utrn/)  
 
 
 ##  算法图书
