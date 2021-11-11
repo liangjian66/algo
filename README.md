@@ -553,6 +553,7 @@
 
 ### 第十二章博弈问题
 *   [877.石子游戏.java](https://github.com/liangjian66/algo/blob/main/KongFu/877.石子游戏.java)     // [力扣题解](https://leetcode-cn.com/problems/stone-game/solution/shi-zi-you-xi-by-xiao-sheng-tong-xue-83ys/)
+*   [486.预测赢家.java](https://github.com/liangjian66/algo/blob/main/KongFu/486.预测赢家.java)     
 
 
 

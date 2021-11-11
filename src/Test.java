@@ -50,6 +50,31 @@ public class Test {
 
     }
 
+    public void merge(int[] A, int m, int[] B, int n) {
+        int[] C =new int[m];
+        for (int i = 0; i < m; i++) {
+            C[i] = A[i];
+        }
+        int i = 0;
+        int j=0;
+        int k =0;
+        while (i<m&&j<n){
+            if (C[i]<=B[j]){
+                A[k++] = C[i++];
+            }else {
+                A[k++] = B[j++];
+            }
+        }
+            while (i<m){
+                A[k++] = C[i++];
+
+            }
+        while (j<n){
+            A[k++] = B[j++];
+        }
+
+    }
+
 
     public static void main(String[] args) {
 //        String temp = "dvdf";
@@ -63,8 +88,10 @@ public class Test {
 
         String s1 = "ab";
         String s2 = "a";
-
-        System.out.println(test.checkInclusion(s1,s2));
+        int[] A = new int[]{1,2,3,0,0,0};
+        int[] B = new int[]{2,5,6};
+        test.merge(A,3,B,3);
+        System.out.println();
 
     }
 }
