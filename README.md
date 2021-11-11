@@ -556,10 +556,10 @@
 *   [486.预测赢家.java](https://github.com/liangjian66/algo/blob/main/KongFu/486.预测赢家.java)     
 
 ### 第十三章股票问题
-*   [121.买卖股票的最佳时机.java](https://github.com/liangjian66/algo/blob/main/KongFu/121.买卖股票的最佳时机.java)
-*   [122.买卖股票的最佳时机-ii.java](https://github.com/liangjian66/algo/blob/main/KongFu/122.买卖股票的最佳时机-ii.java)
-*   [714.买卖股票的最佳时机含手续费.java](https://github.com/liangjian66/algo/blob/main/KongFu/714.买卖股票的最佳时机含手续费.java)
-*   [309.最佳买卖股票时机含冷冻期.java](https://github.com/liangjian66/algo/blob/main/KongFu/309.最佳买卖股票时机含冷冻期.java)
+*   [121.买卖股票的最佳时机.java](https://github.com/liangjian66/algo/blob/main/KongFu/121.买卖股票的最佳时机.java)   // [力扣题解](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/)
+*   [122.买卖股票的最佳时机-ii.java](https://github.com/liangjian66/algo/blob/main/KongFu/122.买卖股票的最佳时机-ii.java)  // [力扣题解](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/solution/)
+*   [714.买卖股票的最佳时机含手续费.java](https://github.com/liangjian66/algo/blob/main/KongFu/714.买卖股票的最佳时机含手续费.java)   // [力扣题解](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/solution/)
+*   [309.最佳买卖股票时机含冷冻期.java](https://github.com/liangjian66/algo/blob/main/KongFu/309.最佳买卖股票时机含冷冻期.java)    // [力扣题解](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/)
 
 
 
