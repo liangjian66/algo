@@ -11,8 +11,15 @@ class Solution {
 
     public String minWindow(String s, String t) {
 
-     HashMap<Character,Integer>  hs = new HashMap<Character,Integer>();
-     HashMap<Character,Integer>   ht = new HashMap<Character,Integer>();
+        /**
+         * hs 表示 s包含的字符 以及字符个数
+         */
+        HashMap<Character,Integer>  hs = new HashMap<Character,Integer>();
+
+        /**
+         * ht 表示 t包含的字符 以及字符个数
+         */
+        HashMap<Character,Integer>   ht = new HashMap<Character,Integer>();
 
         for(int i=0;i<t.length();i++){
             ht.put(t.charAt(i),ht.getOrDefault(t.charAt(i),0)+1);
@@ -21,7 +28,7 @@ class Solution {
         int len = Integer.MAX_VALUE;
         // 有多少个元素符合
         int cnt = 0;
-        // j表示左指针  i表示右指针
+        // left表示左指针  right表示右指针
         for(int right = 0,left=0;right<s.length();right++){
             hs.put(s.charAt(right),hs.getOrDefault(s.charAt(right),0)+1);
             if(ht.containsKey(s.charAt(right))&&hs.get(s.charAt(right))<=ht.get(s.charAt(right))) cnt++;

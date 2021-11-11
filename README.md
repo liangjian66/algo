@@ -551,6 +551,10 @@
 *   [424.替换后的最长重复字符.java](https://github.com/liangjian66/algo/blob/main/KongFu/424.替换后的最长重复字符.java)     // [力扣题解](https://leetcode-cn.com/problems/minimum-window-substring/solution/zui-xiao-fu-gai-zi-chuan-by-xiao-sheng-t-utrn/)
 *   [567.字符串的排列.java](https://github.com/liangjian66/algo/blob/main/KongFu/567.字符串的排列.java)     // [力扣题解](https://leetcode-cn.com/problems/permutation-in-string/solution/zi-fu-chuan-de-pai-lie-by-xiao-sheng-ton-2je9/)
 
+### 第十二章博弈问题
+*   [877.石子游戏.java](https://github.com/liangjian66/algo/blob/main/KongFu/877.石子游戏.java)     // [力扣题解](https://leetcode-cn.com/problems/stone-game/solution/shi-zi-you-xi-by-xiao-sheng-tong-xue-83ys/)
+
+
 
 ##  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
