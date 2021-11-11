@@ -555,6 +555,12 @@
 *   [877.石子游戏.java](https://github.com/liangjian66/algo/blob/main/KongFu/877.石子游戏.java)     // [力扣题解](https://leetcode-cn.com/problems/stone-game/solution/shi-zi-you-xi-by-xiao-sheng-tong-xue-83ys/)
 *   [486.预测赢家.java](https://github.com/liangjian66/algo/blob/main/KongFu/486.预测赢家.java)     
 
+### 第十三章股票问题
+*   [121.买卖股票的最佳时机.java](https://github.com/liangjian66/algo/blob/main/KongFu/121.买卖股票的最佳时机.java)
+*   [122.买卖股票的最佳时机-ii.java](https://github.com/liangjian66/algo/blob/main/KongFu/122.买卖股票的最佳时机-ii.java)
+*   [714.买卖股票的最佳时机含手续费.java](https://github.com/liangjian66/algo/blob/main/KongFu/714.买卖股票的最佳时机含手续费.java)
+*   [309.最佳买卖股票时机含冷冻期.java](https://github.com/liangjian66/algo/blob/main/KongFu/309.最佳买卖股票时机含冷冻期.java)
+
 
 
 ##  算法图书
