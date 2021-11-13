@@ -570,7 +570,9 @@
 *   [135.分发糖果.java](https://github.com/liangjian66/algo/blob/main/KongFu/135.分发糖果.java)    
 *   [435.无重叠区间.java](https://github.com/liangjian66/algo/blob/main/KongFu/435.无重叠区间.java)    // [力扣题解](https://leetcode-cn.com/problems/non-overlapping-intervals/solution/wu-zhong-die-qu-jian-by-xiao-sheng-tong-c1qgv/)
 
-
+### 第十六章回溯法
+> 回溯法是一种复杂度很高的暴力算法 ，实现简单且有固定模板 。 不同于普通的暴力搜索 ，回溯法会在每一步判断状态是否合法，而不是等到状态全部生成后再进行确认
+*   [46.全排列.java](https://github.com/liangjian66/algo/blob/main/KongFu/46.全排列.java)
 
 ##  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
