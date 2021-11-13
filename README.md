@@ -563,7 +563,7 @@
 
 ### 第十四章分治法
 *   [23.合并k个升序链表.java](https://github.com/liangjian66/algo/blob/main/KongFu/23.合并k个升序链表.java)    // [力扣题解](https://leetcode-cn.com/problems/merge-k-sorted-lists/solution/he-bing-kge-sheng-xu-lian-biao-by-xiao-s-vnmn/)
-### 第十四章贪心
+### 第十五章贪心
 
 *   [455.分发饼干.java](https://github.com/liangjian66/algo/blob/main/KongFu/455.分发饼干.java)    // [力扣题解](https://leetcode-cn.com/problems/assign-cookies/solution/fen-fa-bing-gan-by-xiao-sheng-tong-xue-sq7v/)
 *   [55.跳跃游戏.java](https://github.com/liangjian66/algo/blob/main/KongFu/55.跳跃游戏.java)    // [力扣题解](https://leetcode-cn.com/problems/jump-game/solution/tiao-yue-you-xi-by-xiao-sheng-tong-xue-zvcu/)
