@@ -29,6 +29,7 @@ class Solution {
         }
         for(int i = 0 ;i<len;i++){
             // if(!isUsed[i]){
+                // 遇到使用过得 终止本次循环
                 if(isUsed[i])  continue;
                 int num = nums[i];
                 path.addLast(num);

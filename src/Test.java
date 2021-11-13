@@ -76,6 +76,35 @@ public class Test {
     }
 
 
+    /**
+     * 深度优先遍历
+     * @param nums 数据
+     * @param isUsed 标记这个元素是否使用
+     * @param index  标记遍历到了第几层 也可以理解成排列需要排第几个元素了
+     * @param path  遍历到的元素加入队列
+     * @param res  遍历完成的排列 加入结果集合
+     */
+    public void dfs(int[] nums,boolean[] isUsed,int index,Deque path,List<List<Integer>> res){
+        int len = nums.length;
+        if(path.size() == len){
+            res.add(new ArrayList<>(path));
+            return;
+        }
+        for(int i = 0 ;i<len;i++){
+            // if(!isUsed[i]){
+            // 遇到使用过得 终止本次循环
+            if(isUsed[i])  continue;
+            int num = nums[i];
+            path.addLast(num);
+            isUsed[i] = true;
+            dfs(nums,isUsed,index+1,path,res);
+            isUsed[i] = false;
+            path.removeLast();
+            // }
+
+        }
+    }
+
     public static void main(String[] args) {
 //        String temp = "dvdf";
 //        LinkedHashSet<Integer>  keyList = new LinkedHashSet<>();
