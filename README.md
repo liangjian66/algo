@@ -567,6 +567,7 @@
 
 *   [455.分发饼干.java](https://github.com/liangjian66/algo/blob/main/KongFu/455.分发饼干.java)    // [力扣题解](https://leetcode-cn.com/problems/assign-cookies/solution/fen-fa-bing-gan-by-xiao-sheng-tong-xue-sq7v/)
 *   [55.跳跃游戏.java](https://github.com/liangjian66/algo/blob/main/KongFu/55.跳跃游戏.java)    // [力扣题解](https://leetcode-cn.com/problems/jump-game/solution/tiao-yue-you-xi-by-xiao-sheng-tong-xue-zvcu/)
+*   [135.分发糖果.java](https://github.com/liangjian66/algo/blob/main/KongFu/135.分发糖果.java)    
 
 
 ##  算法图书
