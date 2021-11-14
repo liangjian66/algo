@@ -573,6 +573,8 @@
 ### 第十六章回溯法
 > 回溯法是一种复杂度很高的暴力算法 ，实现简单且有固定模板 。 不同于普通的暴力搜索 ，回溯法会在每一步判断状态是否合法，而不是等到状态全部生成后再进行确认
 *   [46.全排列.java](https://github.com/liangjian66/algo/blob/main/KongFu/46.全排列.java)     // [力扣题解](https://leetcode-cn.com/problems/permutations/solution/quan-pai-lie-by-xiao-sheng-tong-xue-pl2q/)   // [牛客题解](https://blog.nowcoder.net/n/a736391494ba4ad49b1db8ff891bfde9)
+*   [39.组合总和.java](https://github.com/liangjian66/algo/blob/main/KongFu/39.组合总和.java)     // [力扣题解](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-xiao-sheng-tong-xue-a7g0/)
+*   [40.组合总和-ii.java](https://github.com/liangjian66/algo/blob/main/KongFu/40.组合总和-ii.java)     // [力扣题解](https://leetcode-cn.com/problems/combination-sum-ii/solution/40-zu-he-zong-he-ii-by-xiao-sheng-tong-x-s2ie/)   
 
 ##  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
