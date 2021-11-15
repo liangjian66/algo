@@ -148,6 +148,29 @@ public class Test {
 
     }
 
+        public String removeKdigits(String num, int k) {
+            char[] numArr  = num.toCharArray();
+            int len = numArr.length;
+            if(len == 0|| len<k){
+                return "";
+            }
+            int prevLen = len -k;
+            int minVal = Integer.MAX_VALUE;
+            for(int i = 0;i<prevLen;i++){
+                minVal = Math.min(minVal,numArr[i]-'0');
+            }
+            StringBuilder sb = new StringBuilder();
+            if(minVal>0){
+                sb.append(String.valueOf(minVal));
+            }
+            for(int i = len-k;i<len;i++){
+                sb.append(numArr[i]);
+            }
+
+            return sb.toString();
+        }
+
+
 
     public static void main(String[] args) {
 //        String temp = "dvdf";
@@ -157,9 +180,10 @@ public class Test {
         Test test = new Test();
 //        int[][] grid = new int[][] {{0,1,0,0},{1,1,1,0},{0,1,0,0},{1,1,0,0}};
 //        Arrays.copyOf()    [0,1,0,2,1,0,1,3,2,1,2,1]
-        int[] heights = new int[]{0,1,0,2,1,0,1,3,2,1,2,1};
+//        int[] heights = new int[]{0,1,0,2,1,0,1,3,2,1,2,1};
+      String num = "10200";
 
-        System.out.println(test.trap(heights));
+        System.out.println(test.removeKdigits(num,1));
 
     }
 }
