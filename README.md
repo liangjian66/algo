@@ -581,10 +581,12 @@
 *   [90.子集-ii.java](https://github.com/liangjian66/algo/blob/main/KongFu/90.子集-ii.java)     // [力扣题解](https://leetcode-cn.com/problems/subsets-ii/solution/zi-ji-ii-by-xiao-sheng-tong-xue-rt4m/)
 
 ### 第十七章一些有趣的题目
-
+> 单调栈
 *   [229.求众数-ii.java](https://github.com/liangjian66/algo/blob/main/KongFu/229.求众数-ii.java)
 *   [84.柱状图中最大的矩形.java](https://github.com/liangjian66/algo/blob/main/KongFu/84.柱状图中最大的矩形.java)         // [力扣题解](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/zhu-zhuang-tu-zhong-zui-da-de-ju-xing-by-ejvo/)
 *   [42.接雨水.java](https://github.com/liangjian66/algo/blob/main/KongFu/42.接雨水.java)         // [力扣题解](https://leetcode-cn.com/problems/trapping-rain-water/solution/jie-yu-shui-dan-diao-di-jian-zhan-jie-fa-qhpw/)
+*   [739.每日温度.java](https://github.com/liangjian66/algo/blob/main/KongFu/739.每日温度.java)
+*   [496.下一个更大元素-i.java](https://github.com/liangjian66/algo/blob/main/KongFu/496.下一个更大元素-i.java)
 
 
 
