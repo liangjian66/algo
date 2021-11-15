@@ -105,6 +105,40 @@ public class Test {
         }
     }
 
+
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>>  res = new  ArrayList<List<Integer>>();
+        if (root == null){
+            return  res;
+        }
+        Deque<TreeNode> deque = new LinkedList<>();
+        deque.addLast(root);
+        while (!deque.isEmpty()){
+            int len = deque.size();
+            Deque<Integer>  rowData = new LinkedList<>();
+
+            for (int i = 0; i < len; i++) {
+                TreeNode node = deque.pollFirst();
+                if (node != null){
+                    if(res.size() %2 ==0){
+                        rowData.addLast(node.val);
+                    }else{
+                        rowData.addFirst(node.val);
+                    }
+                }
+                if (node.left != null){
+                    deque.addLast(node.left);
+                }
+                if (node.right != null){
+                    deque.addLast(node.right);
+                }
+            }
+            res.add(new ArrayList<>(rowData));
+        }
+        return  res;
+    }
+
+
     public static void main(String[] args) {
 //        String temp = "dvdf";
 //        LinkedHashSet<Integer>  keyList = new LinkedHashSet<>();

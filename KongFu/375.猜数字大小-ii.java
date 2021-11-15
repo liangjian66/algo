@@ -7,7 +7,7 @@
 // @lc code=start
 class Solution {
     public int getMoneyAmount(int n) {
-
+          
     }
 }
 // @lc code=end

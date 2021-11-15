@@ -580,6 +580,14 @@
 *   [78.子集.java](https://github.com/liangjian66/algo/blob/main/KongFu/78.子集.java)     // [力扣题解](https://leetcode-cn.com/problems/subsets/solution/zi-ji-by-xiao-sheng-tong-xue-bdaz/)
 *   [90.子集-ii.java](https://github.com/liangjian66/algo/blob/main/KongFu/90.子集-ii.java)     // [力扣题解](https://leetcode-cn.com/problems/subsets-ii/solution/zi-ji-ii-by-xiao-sheng-tong-xue-rt4m/)
 
+### 第十七章一些有趣的题目
+
+*   [229.求众数-ii.java](https://github.com/liangjian66/algo/blob/main/KongFu/229.求众数-ii.java)
+*   [84.柱状图中最大的矩形.java](https://github.com/liangjian66/algo/blob/main/KongFu/84.柱状图中最大的矩形.java)         // [力扣题解](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/zhu-zhuang-tu-zhong-zui-da-de-ju-xing-by-ejvo/)
+
+
+
+
 ##  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版
