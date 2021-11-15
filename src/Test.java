@@ -106,36 +106,46 @@ public class Test {
     }
 
 
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>>  res = new  ArrayList<List<Integer>>();
-        if (root == null){
-            return  res;
+    public int trap(int[] height) {
+        int len  = height.length;
+        if(height == null || len ==0){
+            return 0;
         }
-        Deque<TreeNode> deque = new LinkedList<>();
-        deque.addLast(root);
-        while (!deque.isEmpty()){
-            int len = deque.size();
-            Deque<Integer>  rowData = new LinkedList<>();
-
-            for (int i = 0; i < len; i++) {
-                TreeNode node = deque.pollFirst();
-                if (node != null){
-                    if(res.size() %2 ==0){
-                        rowData.addLast(node.val);
-                    }else{
-                        rowData.addFirst(node.val);
-                    }
-                }
-                if (node.left != null){
-                    deque.addLast(node.left);
-                }
-                if (node.right != null){
-                    deque.addLast(node.right);
-                }
+        int res = 0 ;
+        int[] left  = new int[len];
+        int[] right = new int[len];
+        // stack存储的是下标
+        Deque<Integer>  stack = new  ArrayDeque<Integer>();
+        for(int i =  0 ;i<len;i++){
+            int num = height[i];
+            while(!stack.isEmpty()&&(height[stack.peekLast()]>num)){
+                stack.pollLast();
             }
-            res.add(new ArrayList<>(rowData));
+            left[i] = stack.isEmpty()?-1:stack.peekLast();
+            stack.offerLast(i);
         }
-        return  res;
+
+        for(int i = len-1;i>=0;i--){
+            int num = height[i];
+
+            while(!stack.isEmpty()&&(height[stack.peekLast()]>num)){
+                stack.pollLast();
+            }
+            right[i] = stack.isEmpty()?len:stack.peekLast();
+            stack.offerLast(i);
+        }
+        for(int i =1;i<len-1;i++){
+            int leftIndex = left[i]+1;
+            int rightIndex = right[i]-1;
+            int leftVal = height[leftIndex];
+            int rightVal =  height[rightIndex];
+            int heightVal = Math.min(leftVal,rightVal);
+            int temp = heightVal- height[i];
+            res +=temp;
+
+        }
+        return res;
+
     }
 
 
@@ -146,15 +156,10 @@ public class Test {
 //
         Test test = new Test();
 //        int[][] grid = new int[][] {{0,1,0,0},{1,1,1,0},{0,1,0,0},{1,1,0,0}};
-//        Arrays.copyOf()
-        int[] temp = new int[]{2};
+//        Arrays.copyOf()    [0,1,0,2,1,0,1,3,2,1,2,1]
+        int[] heights = new int[]{0,1,0,2,1,0,1,3,2,1,2,1};
 
-        String s1 = "ab";
-        String s2 = "a";
-        int[] A = new int[]{1,2,3,0,0,0};
-        int[] B = new int[]{2,5,6};
-        test.merge(A,3,B,3);
-        System.out.println();
+        System.out.println(test.trap(heights));
 
     }
 }
