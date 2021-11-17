@@ -73,6 +73,8 @@
 
 >自顶向下 ，逐步求精
 
+> 费曼算法： 1.将问题写下来 2. 好好思考 3.将答案写下来
+
 
 ##  排序算法
 *  [冒泡排序](https://github.com/liangjian66/algo/blob/main/src/BubbleSort.java) ：BubbleSort
@@ -589,6 +591,13 @@
 *   [739.每日温度.java](https://github.com/liangjian66/algo/blob/main/KongFu/739.每日温度.java)
 *   [496.下一个更大元素-i.java](https://github.com/liangjian66/algo/blob/main/KongFu/496.下一个更大元素-i.java)
 
+### 第十八章一些通用解题模板
+> 
+
+##  labuladong的算法小抄
+### 第一章核心套路篇
+>  数据结构的底层存储方式只有两种：数组（顺序存储）和链表（链式存储）。
+> 数据结构是工具 ，算法是通过合适的工具解决特定问题的方法
 
 
 

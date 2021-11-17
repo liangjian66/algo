@@ -5,28 +5,34 @@
  */
 
 // @lc code=start
-import java.util.*;
 class Solution {
     public int trap(int[] height) {
         int len  = height.length;
         if(height == null || len ==0){
             return 0;
         }
+        int left  = 0;
+        int right  = len-1;
         int res = 0 ;
-        // stack存储的是下标 单调递减栈
-        Deque<Integer>  stack = new  ArrayDeque<Integer>();
-        for(int i = 0 ;i<len;i++){
-            int num = height[i];
-            while(!stack.isEmpty()&&(height[stack.peekLast()]<num)){
-                  int cur = stack.peekLast();
-                  stack.pollLast();
-                  if(stack.isEmpty()) break;
-                  int l = stack.peekLast();
-                  int r =  i;
-                  int h = Math.min(height[l],height[r]) - height[cur];
-                  res += (r-l-1)*h;
+        int left_max= 0;
+        int right_max = 0;
+        while(left<right){
+            if(height[left]<height[right]){
+                if(height[left]>=left_max){
+                    left_max = height[left];
+                }else{
+                    res+= left_max - height[left];
+                }
+                left++;
+            }else{
+                if(height[right]>=right_max){
+                    right_max = height[right];
+
+                }else{
+                    res+= right_max - height[right];
+                }
+                right--;
             }
-            stack.offerLast(i);
         }
         return res;
     }
