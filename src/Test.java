@@ -183,7 +183,10 @@ public class Test {
 //        int[] heights = new int[]{0,1,0,2,1,0,1,3,2,1,2,1};
       String num = "10200";
 
-        System.out.println(test.removeKdigits(num,1));
+        Stack<TreeNode> stack = new
+
+
+                System.out.println(test.removeKdigits(num,1));
 
     }
 }

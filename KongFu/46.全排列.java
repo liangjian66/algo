@@ -8,37 +8,32 @@
 import java.util.*;
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
-
         List<List<Integer>> res = new ArrayList<>();
         int len = nums.length;
-        if(len == 0){
-            return res;
+        if(nums == null || len == 0){
+              return res;
         }
-        Deque<Integer>  path = new LinkedList<Integer>();
         boolean[] isUseds = new boolean[len];
-         dfs(nums,isUseds,0,path,res);
+        Deque<Integer> path  = new  ArrayDeque<>();
+         dfs(nums,isUseds,path,res);
         return res;
 
     }
-
-    public void dfs(int[] nums,boolean[] isUsed,int index,Deque path,List<List<Integer>> res){
+    public void dfs(int[] nums,boolean[] isUseds,Deque<Integer> path,List<List<Integer>> res){
         int len = nums.length;
         if(path.size() == len){
-            res.add(new ArrayList<>(path));
-            return;
+            ArrayList<Integer>  temp = new ArrayList<>(path);
+            res.add(temp);
+            // return;
         }
-        for(int i = 0 ;i<len;i++){
-            // if(!isUsed[i]){
-                // 遇到使用过得 终止本次循环
-                if(isUsed[i])  continue;
-                int num = nums[i];
-                path.addLast(num);
-                isUsed[i] = true;
-                dfs(nums,isUsed,index+1,path,res);
-                isUsed[i] = false;
-                path.removeLast();
-            // }
-            
+        for(int i=0;i<len;i++){
+            int num = nums[i];
+            if(isUseds[i]) continue;
+            path.addLast(num);
+            isUseds[i] = true;
+            dfs(nums,isUseds,path,res);
+            isUseds[i]  = false;
+            path.removeLast();
         }
     }
 }
