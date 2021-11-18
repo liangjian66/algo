@@ -591,7 +591,7 @@
 *   [739.每日温度.java](https://github.com/liangjian66/algo/blob/main/KongFu/739.每日温度.java)
 *   [496.下一个更大元素-i.java](https://github.com/liangjian66/algo/blob/main/KongFu/496.下一个更大元素-i.java)
 
-*   [25.k-个一组翻转链表.java](https://github.com/liangjian66/algo/blob/main/KongFu/25.k-个一组翻转链表.java)
+*   [25.k-个一组翻转链表.java](https://github.com/liangjian66/algo/blob/main/KongFu/25.k-个一组翻转链表.java)    // [力扣题解](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/kge-yi-zu-fan-zhuan-lian-biao-by-xiao-sh-m0i1/)
 
 ### 第十八章一些通用解题模板
 > 
