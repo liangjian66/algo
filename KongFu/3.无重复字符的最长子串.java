@@ -17,14 +17,12 @@ class Solution {
         int right = 0;
         int res = 0;
         while(left<len &&right<len){
-//            Character rightC = new Character(s.charAt(right));
             while(right<len &&(!map.containsValue(s.charAt(right)))){
                 map.put(right,s.charAt(right));
                 right++;
                 int temp = right-left;
                 res = Math.max(res,temp);
             }
-//            Character leftC = new Character(s.charAt(left));
             if (left<len &&map.containsValue(s.charAt(left))){
                 map.remove(left);
                 left++;
