@@ -608,6 +608,16 @@
 * 结束条件：也就是到达决策树底层，无法再做选择的条件
 * 写backtrack函数时，需要维护走过的"路径" 和当前可以做的"选择列表"，当触发""结束条件"时，将"路劲"加入结果集
 
+### 第二章动态规划系列
+**动态规划分为一下几步**
+*找到"状态"和"选择"
+*明确dp数组/函数的定义
+* 寻找状态之间的关系
+*动态规划的通用技巧：数学归纳思想
+
+*   [354.俄罗斯套娃信封问题.java](https://github.com/liangjian66/algo/blob/main/KongFu/354.俄罗斯套娃信封问题.java)    // [力扣题解](https://leetcode-cn.com/problems/russian-doll-envelopes/solution/e-luo-si-tao-wa-by-xiao-sheng-tong-xue-jg4k/)
+
+  
 
 
 ##  算法图书

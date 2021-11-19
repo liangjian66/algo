@@ -34,7 +34,7 @@ public class HeapSort {
             downAdjust(array , i, array.length-1);
 
         }
-        System.out.println(Arrays.toString(array));
+//        System.out.println(Arrays.toString(array));
 //        2. 循环删除堆顶 ，移到集合尾部 ，调整堆 产生新的堆顶
         for (int i = array.length-1; i >0 ; i--) {
             // 最后一个元素 和第一个 元素 交换
