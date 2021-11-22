@@ -614,8 +614,15 @@
 *明确dp数组/函数的定义
 * 寻找状态之间的关系
 *动态规划的通用技巧：数学归纳思想
+* 动态规划最优子结构以及dp遍历方向
+* 反向思考问题
+
+> 前面多次强调过，很显然只要涉及求最值，没有任何技巧，一定是穷举所有可能的结果，然后对比得出最值
+
+> 关于"状态"的穷举，最重要的一点就是：状态转移所依赖的状态必须被提前计算出来 
 
 *   [354.俄罗斯套娃信封问题.java](https://github.com/liangjian66/algo/blob/main/KongFu/354.俄罗斯套娃信封问题.java)    // [力扣题解](https://leetcode-cn.com/problems/russian-doll-envelopes/solution/e-luo-si-tao-wa-by-xiao-sheng-tong-xue-jg4k/)
+*   [312.戳气球.java](https://github.com/liangjian66/algo/blob/main/KongFu/312.戳气球.java)
 
   
 

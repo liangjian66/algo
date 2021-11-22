@@ -21,7 +21,7 @@ class Solution {
         int n = nums.length;
         int len  = n-k+1;
         int[] res  = new int[len];
-        res[0] = nums[deque.peekFirst()];
+        // res[0] = nums[deque.peekFirst()];
         for(int i=0;i<n-k+1;i++){
             int left = i;
             int right = left+k-1;
