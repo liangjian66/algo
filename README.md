@@ -549,7 +549,7 @@
 ### 第十一章滑动窗口
 
 *   [239.滑动窗口最大值.java](https://github.com/liangjian66/algo/blob/main/KongFu/239.滑动窗口最大值.java)     // [力扣题解](https://leetcode-cn.com/problems/sliding-window-maximum/solution/hua-dong-chuang-kou-zui-da-zhi-by-xiao-s-9xji/)  // [题解-双指针](https://leetcode-cn.com/problems/sliding-window-maximum/solution/hua-dong-chuang-kou-zui-da-zhi-by-xiao-s-anuy/)
-*   [76.最小覆盖子串.java](https://github.com/liangjian66/algo/blob/main/KongFu/76.最小覆盖子串.java)     // [力扣题解](https://leetcode-cn.com/problems/minimum-window-substring/solution/zui-xiao-fu-gai-zi-chuan-by-xiao-sheng-t-q9k3/)  
+*   [76.最小覆盖子串.java](https://github.com/liangjian66/algo/blob/main/KongFu/76.最小覆盖子串.java)     // [力扣题解](https://leetcode-cn.com/problems/minimum-window-substring/solution/zui-xiao-fu-gai-zi-chuan-by-xiao-sheng-t-q9k3/)    // [牛客题解](https://blog.nowcoder.net/n/16d4efa79ea8452796b871abb7595f6f)
 *   [424.替换后的最长重复字符.java](https://github.com/liangjian66/algo/blob/main/KongFu/424.替换后的最长重复字符.java)     // [力扣题解](https://leetcode-cn.com/problems/minimum-window-substring/solution/zui-xiao-fu-gai-zi-chuan-by-xiao-sheng-t-utrn/)
 *   [567.字符串的排列.java](https://github.com/liangjian66/algo/blob/main/KongFu/567.字符串的排列.java)     // [力扣题解](https://leetcode-cn.com/problems/permutation-in-string/solution/zi-fu-chuan-de-pai-lie-by-xiao-sheng-ton-2je9/)
 
