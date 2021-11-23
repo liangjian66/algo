@@ -84,7 +84,7 @@
 *  [计数排序](https://github.com/liangjian66/algo/blob/main/src/CountSort.java)
 *  [归并排序](https://github.com/liangjian66/algo/blob/main/src/mergeSort.java)  mergeSort  主要思想是递归   2. 主要是两个小的有序的数组合并成一个大的数组
 *  [希尔排序](https://github.com/liangjian66/algo/blob/main/src/ShellSort.java) : ShellSort  思路 : 先分组 再使用插入排序 ，再缩小间隔d
-*  [堆排序](https://github.com/liangjian66/algo/blob/main/src/HeapSort.java) ：HeapSort    题解： 1. 堆存储结构是个数组  2. 先构建一个大顶堆 3 ， 遍历取大顶堆  取最大值
+*  [堆排序](https://github.com/liangjian66/algo/blob/main/src/HeapSort.java) ：HeapSort    题解： 1. 堆存储结构是个数组  2. 先构建一个大顶堆 3 ， 遍历取大顶堆  取最大值  ==  [牛客题解](https://blog.nowcoder.net/n/ccad7f6d9c164685a11f59c2a155e15d)
 
 ##  二叉树  
 *   <mark>二叉树问题大多使用递归解决  递归几大要素： 1.基线条件（终止条件） 2.子问题 3.递归参数  4. 递归返回值 、 <mark>
