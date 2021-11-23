@@ -623,6 +623,9 @@
 
 *   [354.俄罗斯套娃信封问题.java](https://github.com/liangjian66/algo/blob/main/KongFu/354.俄罗斯套娃信封问题.java)    // [力扣题解](https://leetcode-cn.com/problems/russian-doll-envelopes/solution/e-luo-si-tao-wa-by-xiao-sheng-tong-xue-jg4k/)
 *   [312.戳气球.java](https://github.com/liangjian66/algo/blob/main/KongFu/312.戳气球.java)
+> 经典动态规划 0-1背包问题
+   [416.分割等和子集.java](https://github.com/liangjian66/algo/blob/main/KongFu/416.分割等和子集.java)
+
 
   
 

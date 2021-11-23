@@ -22,8 +22,6 @@ public class Knapsack {
                   }
             }
         }
-
         return dp[N][W];
-
     }
 }
