@@ -8,39 +8,50 @@ public class HeapSort {
 
 
     public static  void  downAdjust(int[] array , int parentIndex , int length){
-//        temp 保存父节点值 。 用于最后的赋值
-        int temp = array[parentIndex];
-        int childIndex = 2 * parentIndex + 1;
-
-        while (childIndex < length){
-            //默认定位到左孩子   如果有右孩子 ，且右孩子大于左孩子的值 ， 则定位右孩子
-            if (childIndex+1<length && array[childIndex+1]>array[childIndex]){
-                childIndex++;
-            }
-            // 如果 父节点小于任何一个孩子的值 ， 则直接跳出
-            if (temp >=  array[childIndex]) break;
-            // 无须真正交换 ， 单向赋值即可
-            array[parentIndex] = array [childIndex];
-            parentIndex = childIndex;
-            childIndex = 2* childIndex +1 ;
+          int large = parentIndex;
+          int  leftChild = 2*parentIndex+1;
+          int rightChild = 2*parentIndex+2;
+          if (leftChild<length&&(array[leftChild]>array[large])){
+                large = leftChild;
+          }
+        if (rightChild<length&&(array[rightChild]>array[large])){
+            large = rightChild;
         }
-        array[parentIndex]  = temp;
+        if (large == parentIndex){
+            return;
+        }
+        if (large != parentIndex){
+               swap(array,parentIndex,large);
+               downAdjust(array,large,length);
+        }
+    }
+
+    public static  void  swap(int[] array,int parent,int child){
+          int temp = array[parent];
+          array[parent] = array[child];
+          array[child] = temp;
     }
 
 
     public  static  void heapSort(int[] array){
         // 1. 把无序 数组构建成最大堆
+//        for (int i = array.length/2; i>=0 ; i--) {
+//            downAdjust(array , i, array.length-1);
+//
+//        }
+        // 2*parent+2 = len -1 推导出 parent = (len-3)/2 ;
         for (int i = array.length/2; i>=0 ; i--) {
-            downAdjust(array , i, array.length-1);
-
+            downAdjust(array , i, array.length);
         }
+
 //        System.out.println(Arrays.toString(array));
 //        2. 循环删除堆顶 ，移到集合尾部 ，调整堆 产生新的堆顶
         for (int i = array.length-1; i >0 ; i--) {
             // 最后一个元素 和第一个 元素 交换
-            int temp  = array[i];
-            array[i]  = array[0];
-            array[0] = temp;
+//            int temp  = array[i];
+//            array[i]  = array[0];
+//            array[0] = temp;
+            swap(array,0,i);
 //            "下沉" 调整最大堆
             downAdjust(array,0,i);
 
@@ -48,11 +59,8 @@ public class HeapSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[] {1,3,2,6,5,7,8,9,10,0};
+        int[] arr = new int[] {7,1,3,10,5,2,8,9,6};
         heapSort(arr);
         System.out.println(Arrays.toString(arr));
-
     }
-
-
 }
