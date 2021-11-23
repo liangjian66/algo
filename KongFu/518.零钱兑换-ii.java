@@ -7,14 +7,25 @@
 // @lc code=start
 class Solution {
     public int change(int amount, int[] coins) {
-        int[]  dp = new int[amount+1];
-        dp[0] = 1;
-        for(int coin:coins){
-            for(int i =coin; i<=amount;i++){
-                dp[i] += dp[i-coin];
-            }
-        }
-        return dp[amount];
+         int len = coins.length;
+         if(coins == null || len == 0){
+             return 0;
+         }
+         int[] dp = new int[amount+1]; 
+         dp[0] = 1;
+        //  dp[coins[0]] = 1;
+         for(int i = 0;i<len;i++){
+             int coin = coins[i];
+             for(int j= 0 ;j<=amount;j++){
+                //  int coin =  coins[j];
+                 if(coin<=j){
+                     dp[j] = dp[j] + dp[j-coin];
+                 }
+             }
+         }
+
+
+         return dp[amount];
     }
 }
 // @lc code=end
