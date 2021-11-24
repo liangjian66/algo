@@ -8,25 +8,23 @@
 import java.util.*;
 class Solution {
     public int[] dailyTemperatures(int[] temperatures) {
-        //  单调递减栈
         int len = temperatures.length;
-        int[] res = new int[len];
-        if(temperatures == null || len ==0){
+        int[]  res = new int[len];
+        if(temperatures == null || len == 0){
             return res;
         }
-        Deque<Integer> stack = new ArrayDeque<Integer>();
-         for(int i = 0;i<len;i++){
-             int num = temperatures[i];
-             while(!stack.isEmpty()&&(temperatures[stack.peekLast()]<num)){
-                 int prev = stack.peekLast();
-                 int temp = i - prev;
-                 res[prev] = temp;
-                 stack.pollLast();
-             }
-             stack.offerLast(i);
-         }
+        //  单调递减栈
+        Stack<Integer>  stack = new Stack();
+        for(int i = 0;i<len;i++){
+            int num = temperatures[i];
+            while(!stack.isEmpty()&&num>temperatures[stack.peek()]){
+                int index = stack.pop();
+                int val = i - index;
+                res[index] = val;
+            }
+            stack.push(i);
+        }
         return res;
-
     }
 }
 // @lc code=end
