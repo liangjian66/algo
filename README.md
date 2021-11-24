@@ -643,6 +643,10 @@
 > 得到函数的递归结果，你应该干什么
  [236.二叉树的最近公共祖先.java](https://github.com/liangjian66/algo/blob/main/KongFu/236.二叉树的最近公共祖先.java)
 
+#### 特殊数据结构 单调栈
+[496.下一个更大元素-i.java](https://github.com/liangjian66/algo/blob/main/KongFu/496.下一个更大元素-i.java)
+
+
 
   
 
