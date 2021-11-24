@@ -637,6 +637,12 @@
 
 ###  完全二叉树的节点数为什么那么难算
 [297.二叉树的序列化与反序列化.java](https://github.com/liangjian66/algo/blob/main/KongFu/297.二叉树的序列化与反序列化.java)
+> 遇到任何递归型的问题 ，无非就是"灵魂三问""
+> 这个函数是干什么的
+> 这个函数参数中的变量是什么
+> 得到函数的递归结果，你应该干什么
+ [236.二叉树的最近公共祖先.java](https://github.com/liangjian66/algo/blob/main/KongFu/236.二叉树的最近公共祖先.java)
+
 
   
 

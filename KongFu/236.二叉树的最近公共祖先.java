@@ -20,21 +20,27 @@ class Solution {
     }
     // 
     public TreeNode dfs(TreeNode root, TreeNode p, TreeNode q) {
-         if(root ==null){
+         if(root == null){
              return root;
          }
-        if(root == p|| root==q){
-              return root;
-        }
-          TreeNode leftNode = dfs(root.left,p,q);
-          TreeNode rightNode = dfs(root.right,p,q);
-         if(leftNode == null ){
-             return rightNode;
+         if(root ==p || root == q){
+             return root;
          }
-         if(rightNode == null ){
-             return leftNode;
+         TreeNode left = dfs(root.left,p,q);
+         TreeNode right = dfs(root.right,p,q);
+         if(left != null && right != null){
+             return root;
          }
-        return root;
+         if(left == null){
+             return right;
+         }
+         if(right == null){
+             return left;
+         }
+         return null;  // 2. if(left != null and right != null)
+        
+
+
     }
 }
 // @lc code=end
