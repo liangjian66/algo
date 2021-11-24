@@ -629,6 +629,12 @@
     [518.零钱兑换-ii.java](https://github.com/liangjian66/algo/blob/main/KongFu/518.零钱兑换-ii.java)   [力扣题解](https://leetcode-cn.com/problems/coin-change-2/solution/ling-qian-dui-huan-2-by-xiao-sheng-tong-tanmz/)
 
 > 二叉树算法的设计总路线：明确一个节点要做的事情，然后剩下的事抛给递归框架
+###二叉搜索树操作集锦 
+   [98.验证二叉搜索树.java](https://github.com/liangjian66/algo/blob/main/KongFu/98.验证二叉搜索树.java)
+   [700.二叉搜索树中的搜索.java](https://github.com/liangjian66/algo/blob/main/KongFu/700.二叉搜索树中的搜索.java)
+   [701.二叉搜索树中的插入操作.java](https://github.com/liangjian66/algo/blob/main/KongFu/701.二叉搜索树中的插入操作.java)
+
+
   
 
 
