@@ -635,6 +635,8 @@
    [701.二叉搜索树中的插入操作.java](https://github.com/liangjian66/algo/blob/main/KongFu/701.二叉搜索树中的插入操作.java)
    [450.删除二叉搜索树中的节点.java](https://github.com/liangjian66/algo/blob/main/KongFu/450.删除二叉搜索树中的节点.java)
 
+###  完全二叉树的节点数为什么那么难算
+[297.二叉树的序列化与反序列化.java](https://github.com/liangjian66/algo/blob/main/KongFu/297.二叉树的序列化与反序列化.java)
 
   
 
