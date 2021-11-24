@@ -16,6 +16,7 @@
  * }
  */
 import java.util.*;
+
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         if(head == null){
@@ -88,6 +89,53 @@ class Solution {
 
        return guard.next;
     }
+
+    /**
+     * 输入：
+     * [[1,2,3],[4,5,6],[7,8,9]]
+     * 复制
+     * 返回值：
+     * [1,2,3,6,9,8,7,4,5]
+     * @param node
+     * @return
+     */
+    public ArrayList<Integer> spiralOrder(int[][] matrix) {
+        ArrayList<Integer> res = new  ArrayList<>();
+        int len = matrix.length;
+        if (matrix == null || len == 0){
+            return  res;
+        }
+        int left = 0;
+        int right = matrix[0].length;
+        int top = 0;
+        int bottom = matrix.length-1;
+        while (true){
+            while (left<=right){
+                int val = matrix[top][left++];
+                res.add(val);
+            }
+            if (++top>bottom) break;
+            while (top<bottom){
+                int val = matrix[top++][right];
+                res.add(val);
+            }
+            if (--right<left)break;
+            while (left<=right){
+                int val = matrix[bottom][right--];
+                res.add(val);
+            }
+            if (top>--bottom) break;
+            while (top<=bottom){
+                int val = matrix[bottom][left];
+                res.add(val);
+            }
+            if (++left>right) break;
+        }
+
+        return  res;
+    }
+
+
 
     public ListNode  reverseListNode(ListNode node){
            if(node == null){
