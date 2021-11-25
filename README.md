@@ -651,6 +651,10 @@
 [739.每日温度.java](https://github.com/liangjian66/algo/blob/main/KongFu/739.每日温度.java)
 
 #### 特殊数据结构 单调队列
+#### 秀操作之K个一组反转链表
+
+*   [25.k-个一组翻转链表.java](https://github.com/liangjian66/algo/blob/main/KongFu/25.k-个一组翻转链表.java)     // [力扣题解-递归解法](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/k-ge-yi-zu-fan-zhuan-lian-biao-by-xiao-s-djqd/)
+
 
 
 
