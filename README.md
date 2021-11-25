@@ -676,7 +676,8 @@ result = []
 *   [46.全排列.java](https://github.com/liangjian66/algo/blob/main/KongFu/46.全排列.java)     // [力扣题解](https://leetcode-cn.com/problems/permutations/solution/quan-pai-lie-by-xiao-sheng-tong-xue-f5b7/)
 
 
-
+*   [37.解数独.java](https://github.com/liangjian66/algo/blob/main/KongFu/37.解数独.java)
+*   [22.括号生成.java](https://github.com/liangjian66/algo/blob/main/KongFu/22.括号生成.java)     // [力扣题解](https://leetcode-cn.com/problems/generate-parentheses/solution/gua-hao-sheng-cheng-by-xiao-sheng-tong-x-7ovp/)
 
 
   
