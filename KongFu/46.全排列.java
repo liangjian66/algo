@@ -13,26 +13,21 @@ class Solution {
         if(nums == null || len == 0){
               return res;
         }
-        boolean[] isUseds = new boolean[len];
         Deque<Integer> path  = new  ArrayDeque<>();
-         dfs(nums,isUseds,path,res);
+        backtrack(nums,path,res);
         return res;
-
     }
-    public void dfs(int[] nums,boolean[] isUseds,Deque<Integer> path,List<List<Integer>> res){
+    public void backtrack(int[] nums,Deque<Integer> path,List<List<Integer>> res){
         int len = nums.length;
         if(path.size() == len){
             ArrayList<Integer>  temp = new ArrayList<>(path);
             res.add(temp);
-            // return;
         }
         for(int i=0;i<len;i++){
             int num = nums[i];
-            if(isUseds[i]) continue;
+            if(path.contains(num)) continue;
             path.addLast(num);
-            isUseds[i] = true;
-            dfs(nums,isUseds,path,res);
-            isUseds[i]  = false;
+            backtrack(nums,path,res);
             path.removeLast();
         }
     }

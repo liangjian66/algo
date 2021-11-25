@@ -671,6 +671,9 @@ result = []
            backtrack(路径，选择列表)：
            撤销选择
 ```
+*   [78.子集.java](https://github.com/liangjian66/algo/blob/main/KongFu/78.子集.java)     // [力扣题解](https://leetcode-cn.com/problems/subsets/solution/zi-ji-by-xiao-sheng-tong-xue-bdaz/)
+*   [77.组合.java](https://github.com/liangjian66/algo/blob/main/KongFu/77.组合.java)     // [力扣题解](https://leetcode-cn.com/problems/subsets/solution/zi-ji-by-xiao-sheng-tong-xue-bdaz/)
+*   [46.全排列.java](https://github.com/liangjian66/algo/blob/main/KongFu/46.全排列.java)     // [力扣题解](https://leetcode-cn.com/problems/permutations/solution/quan-pai-lie-by-xiao-sheng-tong-xue-f5b7/)
 
 
 
