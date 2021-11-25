@@ -28,7 +28,7 @@ class Solution {
             return res;
         }
         Stack<TreeNode> stack = new Stack<>();
-      
+      // 指针
         TreeNode node = root;
         while(!stack.isEmpty()|| node != null){
               while(node != null){

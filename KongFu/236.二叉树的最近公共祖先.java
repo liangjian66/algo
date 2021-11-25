@@ -38,9 +38,6 @@ class Solution {
              return left;
          }
          return null;  // 2. if(left != null and right != null)
-        
-
-
     }
 }
 // @lc code=end

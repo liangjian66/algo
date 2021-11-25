@@ -16,7 +16,7 @@ class Solution {
         for(int i =0;i<len;i++){
             if(i<=maxIndex){
                 maxIndex = Math.max(maxIndex,i+nums[i]);
-            if(maxIndex>=(len-1)){
+                if(maxIndex>=(len-1)){
                 return true;
               }
             }

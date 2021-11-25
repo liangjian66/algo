@@ -10,7 +10,10 @@ class Solution {
     public List<Integer> largestDivisibleSubset(int[] nums) {
        int len = nums.length;
        Arrays.sort(nums);
+    //    发现规律  然后求解
+    // 最值问题 就是动态规划拉
     //    第一步 动态规划找出最大子集的个数 最大子集中的最大整数
+    // 解决问题三部曲 第一步：把问题写下来 第二步：好好思考 第三步：把答案写下来
     int[]  dp = new int[len];
     Arrays.fill(dp,1);
     int maxSize = 1;

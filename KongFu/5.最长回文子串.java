@@ -6,7 +6,15 @@
 
 // @lc code=start
 class Solution {
-
+     /**
+      * 动态规划法 
+      *  求最值 尝试用动态规划
+      *  建立数组 i j  i表示起点start j 表示结束点 end
+      *  初始化dp数组
+      * dp数组转移方程  dp[i][j]  由 dp[i+1][j-1] 转移而来
+      * 先遍历长度 再遍历起点  由长度和起点推导结束点
+      * 记录回文字串长度的最大值  记录起点 结束点
+      */
     public  static String longestPalindrome(String s) {
         if(s == null || s.length() == 0){
             return "";

@@ -42,8 +42,6 @@ class Solution {
              int value = sum%10;
              carry = sum/10;
              ListNode node = new ListNode(value);
-            //  temp.next = node;
-            //  node.next = temp.next.next;
             ListNode nextNode = temp.next;
             temp.next = node;
             node.next = nextNode; 

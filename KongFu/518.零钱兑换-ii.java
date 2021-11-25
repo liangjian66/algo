@@ -1,7 +1,7 @@
 /*
  * @lc app=leetcode.cn id=518 lang=java
  *
- * [518] 零钱兑换 II
+ * [518] 零钱兑换 II  
  */
 
 // @lc code=start
@@ -13,11 +13,9 @@ class Solution {
          }
          int[] dp = new int[amount+1]; 
          dp[0] = 1;
-        //  dp[coins[0]] = 1;
          for(int i = 0;i<len;i++){
              int coin = coins[i];
              for(int j= 0 ;j<=amount;j++){
-                //  int coin =  coins[j];
                  if(coin<=j){
                      dp[j] = dp[j] + dp[j-coin];
                  }

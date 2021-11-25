@@ -18,10 +18,12 @@ class Solution {
             minVal = Math.min(minVal,numArr[i]-'0');
         }
         StringBuilder sb = new StringBuilder();
+        
         if(minVal>0){
             sb.append(String.valueOf(minVal));
         }
         for(int i = len-k;i<len;i++){
+            
             sb.append(numArr[i]);
         }
 

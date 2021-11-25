@@ -7,6 +7,7 @@
 // @lc code=start
 import java.util.*;
 class Solution {
+    // 核心思路找两边第一个小于它的值
     public int largestRectangleArea(int[] heights) {
         int len = heights.length;
         if(heights == null || len == 0){

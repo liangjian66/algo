@@ -35,7 +35,7 @@ class Solution {
         }
         for( int i = 0;i<nums.length;i++){
             if(isUseds[i]) continue;
-            if(i>0 &&(nums[i] == nums[i-1])&&!isUseds[i]){
+            if(i>0 &&(nums[i] == nums[i-1])&&!isUseds[i-1]){
                 continue;
             }
             int num = nums[i];
