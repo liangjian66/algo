@@ -629,13 +629,13 @@
     [518.零钱兑换-ii.java](https://github.com/liangjian66/algo/blob/main/KongFu/518.零钱兑换-ii.java)   [力扣题解](https://leetcode-cn.com/problems/coin-change-2/solution/ling-qian-dui-huan-2-by-xiao-sheng-tong-tanmz/)
 
 > 二叉树算法的设计总路线：明确一个节点要做的事情，然后剩下的事抛给递归框架
-###二叉搜索树操作集锦 
+####二叉搜索树操作集锦 
    [98.验证二叉搜索树.java](https://github.com/liangjian66/algo/blob/main/KongFu/98.验证二叉搜索树.java)
    [700.二叉搜索树中的搜索.java](https://github.com/liangjian66/algo/blob/main/KongFu/700.二叉搜索树中的搜索.java)
    [701.二叉搜索树中的插入操作.java](https://github.com/liangjian66/algo/blob/main/KongFu/701.二叉搜索树中的插入操作.java)
    [450.删除二叉搜索树中的节点.java](https://github.com/liangjian66/algo/blob/main/KongFu/450.删除二叉搜索树中的节点.java)
 
-###  完全二叉树的节点数为什么那么难算
+####  完全二叉树的节点数为什么那么难算
 [297.二叉树的序列化与反序列化.java](https://github.com/liangjian66/algo/blob/main/KongFu/297.二叉树的序列化与反序列化.java)
 > 遇到任何递归型的问题 ，无非就是"灵魂三问""
 > 这个函数是干什么的
@@ -656,6 +656,21 @@
 *   [25.k-个一组翻转链表.java](https://github.com/liangjian66/algo/blob/main/KongFu/25.k-个一组翻转链表.java)     // [力扣题解-递归解法](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/k-ge-yi-zu-fan-zhuan-lian-biao-by-xiao-s-djqd/)
 
 
+### 第4章算法思维系列
+**通过经典问题来阐明一些常用的算法技巧，比如前缀和技巧，回溯思想，暴力穷举技巧**
+#### 回溯算法解决子集，组合，排列
+**回溯模板**
+```
+result = [] 
+    def  backtrack(路径，选择列表)：
+           if 满足结束条件：
+           result.add(路径)
+           return
+    for 选择 in 选择列表 ：
+           做选择
+           backtrack(路径，选择列表)：
+           撤销选择
+```
 
 
 
