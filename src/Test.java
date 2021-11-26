@@ -129,36 +129,45 @@ public class Test {
 //        System.out.println(test.spiralOrder(matrix));
     }
 
-    public ListNode[] listOfDepth(TreeNode tree) {
-        if (tree == null){
-            return  null;
-        }
-        Deque<TreeNode> deque  = new ArrayDeque<>();
-        deque.addLast(tree);
-        List<ListNode> res = new ArrayList<>();
-        while (!deque.isEmpty()){
-             int size = deque.size();
-             ListNode prev  = new ListNode(-1);
-             ListNode curr = prev;
-            for (int i = 0; i < size; i++) {
-                TreeNode node = deque.pollFirst();
-                ListNode tempNode = new ListNode(node.val);
-                curr.next = tempNode;
-                curr = curr.next;
-                if (node.left != null){
-                    deque.addLast(node.left);
-                }
-                if (node.right != null){
-                    deque.addLast(node.right);
-                }
-            }
-            res.add(prev.next);
 
+
+    List<List<Integer>> res = new ArrayList<>();
+    public TreeNode dfs(TreeNode root,Deque<TreeNode> deque){
+        if(root == null){
+            return null;
         }
-        ListNode[] ans = new ListNode[res.size()];
-        res.toArray(ans);
-        return  ans;
+        if(root.left == null && root.right == null){
+            deque.addLast(root);
+            root = null;
+            return  root;
+        }
+        dfs(root.left,deque);
+        dfs(root.right,deque);
+        return  root;
     }
+
+    public  void  delete(TreeNode root){
+        if (root == null){
+            return;
+        }
+        Deque<TreeNode> deque = new ArrayDeque<>();
+        TreeNode newRoot  =   dfs(root,deque);
+        List<Integer> ans = new ArrayList<>();
+
+        if(!deque.isEmpty()){
+            TreeNode node = deque.pollFirst();
+            ans.add(node.val);
+//            node = null;
+        }
+        res.add(ans);
+        delete(newRoot);
+    }
+    public List<List<Integer>> findLeaves(TreeNode root) {
+           delete(root);
+           return  res;
+    }
+
+
 
 }
 

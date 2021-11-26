@@ -134,6 +134,7 @@
 *   [二叉树的右视图](https://github.com/liangjian66/algo/blob/main/src/RightSideView.java)       //    [力扣](https://leetcode-cn.com/problems/binary-tree-right-side-view/solution/er-cha-shu-de-you-shi-tu-by-xiao-sheng-t-m58d/)   
 
 *   [从前序与中序遍历序列构造二叉树](https://github.com/liangjian66/algo/blob/main/src/BuildTree.java)       //    [力扣](https://leetcode-cn.com/problems/binary-tree-right-side-view/solution/er-cha-shu-de-you-shi-tu-by-xiao-sheng-t-m58d/)
+*   [366. 寻找二叉树的叶子节点](https://github.com/liangjian66/algo/blob/main/src/FindLeaves.java)       //    [力扣](https://leetcode-cn.com/problems/find-leaves-of-binary-tree/solution/xun-zhao-er-cha-shu-de-xie-zi-jie-dian-b-sf0d/)
 
 ##  哈希表
 *   [两数之和](https://github.com/liangjian66/algo/blob/main/src/TwoSum.java)    //    [力扣](https://leetcode-cn.com/problems/two-sum/description/)
@@ -681,8 +682,13 @@ result = []
 
 #### TwoSum问题的核心思想
   
-####摊煎饼也得有点递归思想
+#### 摊煎饼也得有点递归思想
 *   [969.煎饼排序.java](https://github.com/liangjian66/algo/blob/main/KongFu/969.煎饼排序.java)    // [力扣题解](https://leetcode-cn.com/problems/pancake-sorting/solution/jian-bing-pai-xu-by-xiao-sheng-tong-xue-3udi/) 
+#### 前缀和技巧解决子数组问题
+
+### 第5章高频面试系列
+*   [204.计数质数.java](https://github.com/liangjian66/algo/blob/main/KongFu/204.计数质数.java)
+
 
 
 ##  算法图书
