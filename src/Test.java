@@ -126,46 +126,39 @@ public class Test {
        String T = "XYZ";
        Test test = new Test();
        int[][] matrix = new int[][]{{1,2,3},{4,5,6},{7,8,9}};
-        System.out.println(test.spiralOrder(matrix));
+//        System.out.println(test.spiralOrder(matrix));
     }
 
-    public ArrayList<Integer> spiralOrder(int[][] matrix) {
-        ArrayList<Integer> res = new  ArrayList<>();
-        int len = matrix.length;
-        if (matrix == null || len == 0){
-            return  res;
+    public ListNode[] listOfDepth(TreeNode tree) {
+        if (tree == null){
+            return  null;
         }
-        int left = 0;
-        int right = matrix[0].length-1;
-        int top = 0;
-        int bottom = matrix.length-1;
-        while (true){
-
-            for (int i = left; i <=right ; i++) {
-                int val = matrix[top][i];
-                res.add(val);
+        Deque<TreeNode> deque  = new ArrayDeque<>();
+        deque.addLast(tree);
+        List<ListNode> res = new ArrayList<>();
+        while (!deque.isEmpty()){
+             int size = deque.size();
+             ListNode prev  = new ListNode(-1);
+             ListNode curr = prev;
+            for (int i = 0; i < size; i++) {
+                TreeNode node = deque.pollFirst();
+                ListNode tempNode = new ListNode(node.val);
+                curr.next = tempNode;
+                curr = curr.next;
+                if (node.left != null){
+                    deque.addLast(node.left);
+                }
+                if (node.right != null){
+                    deque.addLast(node.right);
+                }
             }
-            if (++top>bottom) break;
+            res.add(prev.next);
 
-            for (int i = top; i <=bottom ; i++) {
-                int val = matrix[i][right];
-                res.add(val);
-            }
-            if (--right<left)break;
-
-            for (int i = right; i >=0 ; i--) {
-                int val = matrix[bottom][i];
-                res.add(val);
-            }
-            if (top>--bottom) break;
-
-            for (int i = bottom; i >0 ; i--) {
-                int val = matrix[i][left];
-                res.add(val);
-            }
-            if (++left>right) break;
         }
-        return  res;
+        ListNode[] ans = new ListNode[res.size()];
+        res.toArray(ans);
+        return  ans;
     }
+
 }
 

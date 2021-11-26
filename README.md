@@ -170,7 +170,7 @@
 
 ## 链表
 *   [找出两个链表的交点](https://github.com/liangjian66/algo/blob/main/src/GetIntersectionNode.java)
-*   [反转链表](https://github.com/liangjian66/algo/blob/main/src/ReverseList.java)
+*   [反转链表](https://github.com/liangjian66/algo/blob/main/src/ReverseList.java)        [反转链表递归解法](https://leetcode-cn.com/problems/reverse-linked-list/solution/fan-zhuan-lian-biao-di-gui-jie-fa-by-xia-z6n9/)
 *   [合并两个有序链表](https://github.com/liangjian66/algo/blob/main/src/MergeTwoLists.java)
 *   [删除排序链表中的重复元素](https://github.com/liangjian66/algo/blob/main/src/DeleteDuplicates.java)
 *   [删除链表的倒数第 N 个结点](https://github.com/liangjian66/algo/blob/main/src/RemoveNthFromEnd.java)
@@ -679,7 +679,7 @@ result = []
 *   [37.解数独.java](https://github.com/liangjian66/algo/blob/main/KongFu/37.解数独.java)
 *   [22.括号生成.java](https://github.com/liangjian66/algo/blob/main/KongFu/22.括号生成.java)     // [力扣题解](https://leetcode-cn.com/problems/generate-parentheses/solution/gua-hao-sheng-cheng-by-xiao-sheng-tong-x-7ovp/)
 
-
+#### TwoSum问题的核心思想
   
 
 
