@@ -681,6 +681,8 @@ result = []
 
 #### TwoSum问题的核心思想
   
+####摊煎饼也得有点递归思想
+*   [969.煎饼排序.java](https://github.com/liangjian66/algo/blob/main/KongFu/969.煎饼排序.java)    // [力扣题解](https://leetcode-cn.com/problems/pancake-sorting/solution/jian-bing-pai-xu-by-xiao-sheng-tong-xue-3udi/) 
 
 
 ##  算法图书
