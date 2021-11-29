@@ -693,6 +693,13 @@ result = []
 
 ##  编程之美 -微软技术面试心得
 ### 游戏之乐-游戏中碰到的题目
+#### 一摞烙饼的排序
+*   [969.煎饼排序.java](https://github.com/liangjian66/algo/blob/main/KongFu/969.煎饼排序.java)
+
+### 第2章数字之魅-数字中的技巧
+// [求二进制数中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/solution/er-jin-zhi-shu-zhong-1de-ge-shu-by-xiao-4gfj9/)
+
+
 
 
 ##  算法图书
