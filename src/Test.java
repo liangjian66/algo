@@ -122,48 +122,62 @@ public class Test {
 
 
     public static void main(String[] args) {
-       String S = "XDOYEZODEYXNZ";
-       String T = "XYZ";
+       String S = ")(()())";
        Test test = new Test();
 
 //       [1,2,3,3,3,3,4,5],3
        int[] matrix = new int[]{2,3};
-//        System.out.println(test.combinationSum2(matrix,5));
+        System.out.println(test.longestValidParentheses(S));
     }
-
-
-    /**
-     * 输入：
-     * [2,1,5,3,6,4,8,9,7]
-     * 复制
-     * 返回值：
-     * [1,3,4,8,9]
-     * @param arr
-     * @return
-     */
-    public int[] LIS (int[] arr) {
+    public int longestValidParentheses (String s) {
         // write code here
-        int len = arr.length;
-//        先写最长递增子序列
-        int[] dp  = new int[len];
-        dp[0] = 1;
-        int maxLen = 0;
-        for (int i = 0; i < len; i++) {
-            int num = arr[i];
-            for (int j = 0; j < i; j++) {
-                if (arr[j]<num){
-                    dp[i] = Math.max(dp[j]+1,dp[i]);
-                }
-                maxLen = Math.max(maxLen,dp[i]);
-            }
-        }
-        int[] ans = new int[maxLen];
-        for (int i = len-1,j= maxLen; j>0; --i) {
-              if (dp[i] == j){
-                  ans[--j] = arr[i];
+        char[] arr = s.toCharArray();
+         int len = arr.length;
+         if (arr == null || len == 0){
+             return 0;
+         }
+         int maxAns = 0;
+         Stack<Integer> stack = new Stack<>();
+         stack.push(-1);
+        for (int i = 0; i < s.length(); i++) {
+              if (s.charAt(i) == '('){
+                  stack.push(i);
+              }else {   // S == ")"
+                  stack.pop();
+                  if (stack.isEmpty()){
+                      stack.push(i);
+                  }else {
+                      maxAns = Math.max(maxAns,i-stack.peek());
+                  }
               }
         }
-        return  ans;
+        return  maxAns;
+    }
+
+    public boolean isValidParentheses(String s){
+
+        char[] arr = s.toCharArray();
+        int len = arr.length;
+        if (len%2 !=0)  return  false;
+        int i = 0;
+        Stack<Character>  stack = new Stack<>();
+         while (i<len){
+            char c = arr[i];
+            if (c=='('){
+                stack.push(c);
+            }else {
+                if (!stack.isEmpty()){
+                    char temp = stack.pop();
+                    if (temp !='('){
+                        return  false;
+                    }
+                }else {
+                    return  false;
+                }
+            }
+            i++;
+        }
+         return  stack.isEmpty();
     }
 
 }
