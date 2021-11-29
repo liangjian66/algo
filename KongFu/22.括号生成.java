@@ -39,6 +39,8 @@ class Solution {
                 dfs(curStr+")",left,right-1,res);
             }
     }
+
+
 }
 // @lc code=end
 

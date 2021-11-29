@@ -125,49 +125,46 @@ public class Test {
        String S = "XDOYEZODEYXNZ";
        String T = "XYZ";
        Test test = new Test();
-       int[][] matrix = new int[][]{{1,2,3},{4,5,6},{7,8,9}};
-//        System.out.println(test.spiralOrder(matrix));
+
+//       [1,2,3,3,3,3,4,5],3
+       int[] matrix = new int[]{2,3};
+//        System.out.println(test.combinationSum2(matrix,5));
     }
 
 
-
-    List<List<Integer>> res = new ArrayList<>();
-    public TreeNode dfs(TreeNode root,Deque<TreeNode> deque){
-        if(root == null){
-            return null;
+    /**
+     * 输入：
+     * [2,1,5,3,6,4,8,9,7]
+     * 复制
+     * 返回值：
+     * [1,3,4,8,9]
+     * @param arr
+     * @return
+     */
+    public int[] LIS (int[] arr) {
+        // write code here
+        int len = arr.length;
+//        先写最长递增子序列
+        int[] dp  = new int[len];
+        dp[0] = 1;
+        int maxLen = 0;
+        for (int i = 0; i < len; i++) {
+            int num = arr[i];
+            for (int j = 0; j < i; j++) {
+                if (arr[j]<num){
+                    dp[i] = Math.max(dp[j]+1,dp[i]);
+                }
+                maxLen = Math.max(maxLen,dp[i]);
+            }
         }
-        if(root.left == null && root.right == null){
-            deque.addLast(root);
-            root = null;
-            return  root;
+        int[] ans = new int[maxLen];
+        for (int i = len-1,j= maxLen; j>0; --i) {
+              if (dp[i] == j){
+                  ans[--j] = arr[i];
+              }
         }
-        dfs(root.left,deque);
-        dfs(root.right,deque);
-        return  root;
+        return  ans;
     }
-
-    public  void  delete(TreeNode root){
-        if (root == null){
-            return;
-        }
-        Deque<TreeNode> deque = new ArrayDeque<>();
-        TreeNode newRoot  =   dfs(root,deque);
-        List<Integer> ans = new ArrayList<>();
-
-        if(!deque.isEmpty()){
-            TreeNode node = deque.pollFirst();
-            ans.add(node.val);
-//            node = null;
-        }
-        res.add(ans);
-        delete(newRoot);
-    }
-    public List<List<Integer>> findLeaves(TreeNode root) {
-           delete(root);
-           return  res;
-    }
-
-
 
 }
 
