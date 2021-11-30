@@ -700,7 +700,7 @@ result = []
 // [求二进制数中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/solution/er-jin-zhi-shu-zhong-1de-ge-shu-by-xiao-4gfj9/)
 
 ### 第3章结构之法-字符串及链表的探索
-
+[队列中取最大值操作问题](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/solution/dui-lie-de-zui-da-zhi-by-xiao-sheng-tong-kw42/)
 
 
 

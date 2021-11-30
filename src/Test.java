@@ -182,3 +182,38 @@ public class Test {
 
 }
 
+class MaxQueue {
+     Queue<Integer> mainQueue;
+     Deque<Integer> maxDeque;
+    public MaxQueue() {
+          mainQueue = new LinkedList<>();
+          maxDeque = new ArrayDeque<>();
+    }
+
+    public int max_value() {
+          if (maxDeque.isEmpty()){
+              return  -1;
+          }
+          return  maxDeque.peekFirst();
+    }
+
+    public void push_back(int value) {
+         while (!maxDeque.isEmpty()&&maxDeque.peekLast()<value){
+               maxDeque.pollLast();
+         }
+         maxDeque.offerLast(value);
+         mainQueue.offer(value);
+    }
+
+    public int pop_front() {
+        if (mainQueue.isEmpty()){
+            return  -1;
+        }
+         int val = mainQueue.poll();
+         if (val == maxDeque.peekFirst()){
+             maxDeque.pollFirst();
+         }
+         return  val;
+    }
+}
+
