@@ -27,6 +27,7 @@ class Solution {
           return 0;
         }
         dfs(root);
+        
         return count;
 
     }

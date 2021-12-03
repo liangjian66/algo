@@ -55,7 +55,18 @@ public class KMPTwo {
         }
         return  -1;
     }
-     /*穷举 时间复杂度 整体复杂度为 O((n - m) * m))*/
+
+
+    public static void main(String[] args) {
+//        "mississippi"
+//        "issip"
+        String txt = "mississippi";
+        String pattern = "issip";
+        System.out.println(kmp(txt,pattern));
+    }
+
+
+    /*穷举 时间复杂度 整体复杂度为 O((n - m) * m))*/
     public int strStrExhaustion(String ss, String pp) {
         int n = ss.length(), m = pp.length();
         char[] s = ss.toCharArray(), p = pp.toCharArray();
@@ -71,14 +82,6 @@ public class KMPTwo {
             if (b == m) return i;
         }
         return -1;
-    }
-
-    public static void main(String[] args) {
-//        "mississippi"
-//        "issip"
-        String txt = "mississippi";
-        String pattern = "issip";
-        System.out.println(kmp(txt,pattern));
     }
 
 

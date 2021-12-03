@@ -5,6 +5,7 @@
  */
 
 // @lc code=start
+import java.util.*;
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> quadruplets = new ArrayList<List<Integer>>();

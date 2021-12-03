@@ -2,6 +2,7 @@
 /*堆排序 ：HeapSort    题解： 1. 堆存储结构是个数组  2. 先构建一个大顶堆 3 ， 遍历取大顶堆  取最大值*/
 
 import java.util.Arrays;
+import java.util.List;
 
 public class HeapSort {
 
@@ -16,6 +17,7 @@ public class HeapSort {
           }
         if (rightChild<length&&(array[rightChild]>array[large])){
             large = rightChild;
+            List
         }
         if (large == parentIndex){
             return;
