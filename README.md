@@ -706,6 +706,11 @@ result = []
 [队列中取最大值操作问题](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/solution/dui-lie-de-zui-da-zhi-by-xiao-sheng-tong-kw42/)
 
 
+##  程序员面试金典
+### 数组与字符串
+
+[]()
+
 
 ##  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。

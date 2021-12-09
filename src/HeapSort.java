@@ -17,7 +17,6 @@ public class HeapSort {
           }
         if (rightChild<length&&(array[rightChild]>array[large])){
             large = rightChild;
-            List
         }
         if (large == parentIndex){
             return;
