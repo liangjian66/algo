@@ -3,39 +3,47 @@ import java.util.*;
 
 // 对人生欲望的挑战  抓住机会
 
+// 人生 那种挑战的欲望
+
 public class Test {
-
-
-    public int pileBox(int[][] box) {
-          Arrays.sort(box, new Comparator<int[]>() {
-              @Override
-              public int compare(int[] o1, int[] o2) {
-                  if (o1[0] !=o2[0]){
-                      return  o1[0] - o2[0];
-                  }else {
-                   return    o2[1] - o1[1];
-                  }
-              }
-          });
-          int m = box.length;
-          int max = 0;
-          int[] dp = new int[m+1];
-        for (int i = 1; i <m+1 ; i++) {
-            dp[i] = box[i-1][2];
-            for (int j = 1; j <m+1 ; j++) {
-                if (box[j-1][1]<box[i-1][1]&&box[j-1][2]<box[i-1][2]){
-                    dp[i] = Math.max(dp[i],dp[j]+box[i-1][2]);
-                }
-            }
-            max   = Math.max(max,dp[i]);
+    HashMap<Character,char[]> map = new HashMap<>();
+    public List<String> letterCombinations(String digits) {
+            map.put('2',new char[]{'a','b','c'});
+        map.put('3',new char[]{'d','e','f'});
+        map.put('4',new char[]{'g','h','i'});
+        map.put('5',new char[]{'j','k','l'});
+        map.put('6',new char[]{'m','n','o'});
+        map.put('7',new char[]{'p','q','r','s'});
+        map.put('8',new char[]{'t','u','v'});
+        map.put('9',new char[]{'w','x','y','z'});
+        char[]  digitsArr = digits.toCharArray();
+        int len = digitsArr.length;
+        List<char[]> list = new ArrayList<>();
+        for (int i = 0; i < len; i++) {
+             char ch = digitsArr[i];
+             char[] values = map.get(ch);
+               list.add(values);
         }
-        return  max;
+        int size = list.size();
+        StringBuilder sb = new StringBuilder();
+        for (char[] values:list){
+            int l1 = values.length;
+            for (int i = 0; i < l1; i++) {
+//                sb.append(values[i])
+            }
+
+        }
+
     }
 
 
 
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+       String s = " 3/2 ";
+        int[] res = new int[]{4,-2,-3,4,1};
+        Test test = new Test();
+//      System.out.println(test.calculate(s));
     }
 
 }
