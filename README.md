@@ -738,7 +738,6 @@ result = []
 ###  [我的手绘图解杂集](https://github.com/liangjian66/algo/blob/main/MdSet/Myhand.md)
 ###  [我的故事](https://github.com/liangjian66/algo/blob/main/MdSet/MyStary.md)
 
-### 测试一下git
 
 
 
