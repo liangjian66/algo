@@ -75,6 +75,8 @@
 
 > 费曼算法： 1.将问题写下来 2. 好好思考 3.将答案写下来
 
+> 最笨的学习方法  就是把抄袭一遍也是最聪明的办法，遇到晦涩难懂的知识，大脑一下子接受不了，抄袭一遍之后，大脑慢慢接受
+
 
 ##  排序算法
 *  [冒泡排序](https://github.com/liangjian66/algo/blob/main/src/BubbleSort.java) ：BubbleSort
@@ -737,6 +739,7 @@ result = []
 
 ###  [我的手绘图解杂集](https://github.com/liangjian66/algo/blob/main/MdSet/Myhand.md)
 ###  [我的故事](https://github.com/liangjian66/algo/blob/main/MdSet/MyStary.md)
+
 
 
 
