@@ -7,6 +7,42 @@ import java.util.*;
 
 public class Test {
 
+
+    boolean res  = true;
+    int rootval = 0;
+    public boolean isUnivalTree(TreeNode root) {
+       if ( root == null) return  true;
+       rootval = root.val;
+       dfs(root);
+       return  res;
+    }
+
+    public  void  dfs(TreeNode root){
+         if ( root == null) return;
+         if (root.val != rootval) res = false;
+         dfs(root.left);
+         dfs(root.right);
+    }
+
+
+
+
+    public TreeNode pruneTree(TreeNode root) {
+      if (root == null) return  root;
+      boolean isContain =    containOnes(root);
+         return  isContain?root:null;
+    }
+
+    public  boolean containOnes(TreeNode root){
+        if (root == null) return  false;
+        boolean l = containOnes(root.left);
+        boolean r = containOnes(root.right);
+         if (!l) root.left = null;
+         if (!r) root.right = null;
+         return  root.val == 1 || l || r;
+
+    }
+
     public boolean containsNearbyDuplicate(int[] nums, int k) {
       int len = nums.length;
       if (nums == null || len == 0){
