@@ -5,6 +5,60 @@ import java.util.*;
 
 // 人生 那种挑战的欲望
 
+
+class MyLinkedList {
+
+    int  size;
+    ListNode head;
+
+    public MyLinkedList() {
+        size = 0;
+        head = new ListNode(0);
+    }
+
+    public int get(int index) {
+        if (index<0||index>=size) return -1;
+        ListNode curr = head;
+        for (int i = 0; i < index+1; i++) {
+            curr = curr.next;
+        }
+        return  curr.val;
+    }
+
+    public void addAtHead(int val) {
+         addAtIndex(0,val);
+    }
+
+    public void addAtTail(int val) {
+          addAtIndex(size,val);
+    }
+
+    public void addAtIndex(int index, int val) {
+         if (index>size) return;
+         if (index<0) index = 0;
+         ++size;
+         ListNode prev = head;
+//         找到index位置的前一个节点
+        for (int i = 0; i < index; i++) {
+            prev = prev.next;
+        }
+        ListNode addNode = new ListNode(val);
+        addNode.next = prev.next;
+        prev.next = addNode;
+    }
+
+    public void deleteAtIndex(int index) {
+        if (index<0||index>=size) return;
+      size--;
+        ListNode curr = head;
+        for (int i = 0; i < index; i++) {
+            curr = curr.next;
+        }
+        curr.next = curr.next.next;
+
+    }
+}
+
 public class Test {
 
 

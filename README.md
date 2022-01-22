@@ -751,6 +751,7 @@ result = []
 * [移除链表元素:迭代解法](https://leetcode-cn.com/problems/remove-linked-list-elements/solution/yi-chu-lian-biao-yuan-su-by-xiao-sheng-t-vlob/)
 
 * [移除链表元素:递归解法](https://leetcode-cn.com/problems/remove-linked-list-elements/solution/yi-chu-lian-biao-yuan-su-by-xiao-sheng-t-u1pj/)
+* [设计链表](https://leetcode-cn.com/problems/design-linked-list/solution/she-ji-lian-biao-by-xiao-sheng-tong-xue-yu7t/)
 ##  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版
