@@ -730,7 +730,7 @@ result = []
 ####  空间复杂度  
 
 ### 第3章数组 
-
+> 数组是存储在连续内存空间上相同类型数据的集合，在数组中，可以方便地通过下标索引的方式获取相应的数据
 * [二分查找](https://leetcode-cn.com/problems/binary-search/solution/er-fen-cha-zhao-by-xiao-sheng-tong-xue-vcqp/)
 
 * [移除元素](https://leetcode-cn.com/problems/remove-element/solution/yi-chu-yuan-su-by-xiao-sheng-tong-xue-rhav/)
@@ -739,6 +739,18 @@ result = []
 
 * [螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/solution/luo-xuan-ju-zhen-2-by-xiao-sheng-tong-xu-d1sk/)
 
+
+### 第4章链表
+#### 4.1链表的理论基础
+> 链表是一种通过指针串联在一起的线性结构，每一个节点由两部分组成 ，一个是数据域，另一个是指针域(存放指向下一个节点的指针)
+最后一个节点的指针域指向NULL
+
+* 单链表 
+* 双链表
+
+* [移除链表元素:迭代解法](https://leetcode-cn.com/problems/remove-linked-list-elements/solution/yi-chu-lian-biao-yuan-su-by-xiao-sheng-t-vlob/)
+
+* [移除链表元素:递归解法](https://leetcode-cn.com/problems/remove-linked-list-elements/solution/yi-chu-lian-biao-yuan-su-by-xiao-sheng-t-u1pj/)
 ##  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版
