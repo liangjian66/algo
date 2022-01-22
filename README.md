@@ -755,6 +755,8 @@ result = []
 * [反转链表：迭代](https://leetcode-cn.com/problems/reverse-linked-list/solution/fan-zhuan-lian-biao-by-xiao-sheng-tong-x-d4pb/)
 
 * [反转链表：递归](https://leetcode-cn.com/problems/reverse-linked-list/solution/fan-zhuan-lian-biao-by-xiao-sheng-tong-x-sik9/)
+* [删除倒数第N个节点: 双指针](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-dao-shu-di-nge-jie-dian-by-xiao-aaj0/)
+* [删除倒数第N个节点: 栈解法](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-dao-shu-di-nge-jie-dian-by-xiao-ichq/)
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版

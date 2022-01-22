@@ -10,6 +10,26 @@ import java.util.*;
 public class Test {
 
 
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+         if (head == null ) return head;
+         ListNode dummy = new ListNode(0);
+         dummy.next = head;
+         Stack<ListNode> stack = new Stack<>();
+         ListNode curr = dummy;
+         while (curr != null){
+             stack.push(curr);
+             curr = curr.next;
+         }
+        for (int i = 0; i < n; i++) {
+            stack.pop();
+        }
+        ListNode prev = stack.peek();
+        prev.next = prev.next.next;
+        return  dummy.next;
+    }
+
+
+
     public ListNode reverseList(ListNode head) {
          if (head == null || head.next == null) return head;
          ListNode newHead = reverseList(head.next);
