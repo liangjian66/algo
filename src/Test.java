@@ -9,6 +9,32 @@ import java.util.*;
 
 public class Test {
 
+    public static void main(String[] args) {
+        String s = " 3/2 ";
+        int[] res = new int[]{4,-2,-3,4,1};
+        Test test = new Test();
+      System.out.println(test.isAnagram("rat","car"));
+    }
+
+    public boolean isAnagram(String s, String t) {
+           char[] arrS = s.toCharArray();
+           char[] arrT = t.toCharArray();
+           int len1 = arrS.length;
+           int len2 = arrT.length;
+           if (len1 != len2)  return false;
+           int[] array = new int[26];
+        for (int i = 0; i < len1; i++) {
+            char c1 = arrS[i];
+            array[c1-'a']++;
+            char c2 = arrT[i];
+            array[c2-'a']--;
+        }
+        for (int num: array){
+            if (num !=0) return false;
+        }
+        return  true;
+    }
+
 
     public ListNode detectCycle(ListNode head) {
         if (head == null) return head;
@@ -297,12 +323,7 @@ public class Test {
 
 
 
-    public static void main(String[] args) {
-       String s = " 3/2 ";
-        int[] res = new int[]{4,-2,-3,4,1};
-        Test test = new Test();
-//      System.out.println(test.calculate(s));
-    }
+
 
 }
 

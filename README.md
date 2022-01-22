@@ -758,6 +758,12 @@ result = []
 * [删除倒数第N个节点: 双指针](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-dao-shu-di-nge-jie-dian-by-xiao-aaj0/)
 * [删除倒数第N个节点: 栈解法](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-dao-shu-di-nge-jie-dian-by-xiao-ichq/)
 *  [寻找环的入口:快慢指针](https://leetcode-cn.com/problems/linked-list-cycle-ii/solution/xun-zhao-huan-de-ru-kou-by-xiao-sheng-to-d7hq/)
+
+### 第5章哈希表
+> 哈希表是根据关键码的值访问数据的数据结构 
+* [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/solution/you-xiao-de-zi-mu-yi-wei-ci-by-xiao-shen-q3ya/)
+
+
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版
