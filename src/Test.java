@@ -10,6 +10,26 @@ import java.util.*;
 public class Test {
 
 
+    public ListNode detectCycle(ListNode head) {
+        if (head == null) return head;
+        ListNode slow = head;
+        ListNode fast = head;
+        while (fast != null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow == fast){
+                ListNode ptr = head;
+                while (ptr !=slow){
+                    ptr = ptr.next;
+                    slow = slow.next;
+                }
+                return  slow;
+            }
+        }
+        return  null;
+    }
+
+
     public ListNode removeNthFromEnd(ListNode head, int n) {
          if (head == null ) return head;
          ListNode dummy = new ListNode(0);
