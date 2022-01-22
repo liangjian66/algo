@@ -16,6 +16,30 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
 
+
+    public int[] twoSum(int[] nums, int target) {
+        int len = nums.length;
+        if (len == 0 || nums == null){
+            return new int[0];
+        }
+        HashMap<Integer,Integer> map = new HashMap<>();
+        for (int i = 0; i < len; i++) {
+            int num = nums[i];
+            map.put(num,i);
+        }
+        int[] res=  new int[2];
+        for (int i = 0; i < len; i++) {
+            int num = nums[i];
+            int  val = target - num;
+            if (map.containsKey(val) && map.get(val)!=i){
+                res[0] = i;
+                res[1] = map.get(val);
+            }
+        }
+        return  res;
+    }
+
+
     public int[] intersection(int[] nums1, int[] nums2) {
           if (nums1 ==null || nums2 ==null){
               return new int[0];

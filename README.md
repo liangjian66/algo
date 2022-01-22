@@ -764,6 +764,7 @@ result = []
 * [有效的字母异位词:数组解法](https://leetcode-cn.com/problems/valid-anagram/solution/you-xiao-de-zi-mu-yi-wei-ci-by-xiao-shen-q3ya/)
 * [有效的字母异位词:哈希解法](https://leetcode-cn.com/problems/valid-anagram/solution/you-xiao-de-zi-mu-yi-wei-ci-by-xiao-shen-z153/)
 * [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/solution/liang-ge-shu-zu-de-jiao-ji-by-xiao-sheng-tynd/)
+* [两数之和](https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-by-xiao-sheng-tong-xue-ybnx/)
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版
