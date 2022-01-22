@@ -729,6 +729,12 @@ result = []
 
 ####  空间复杂度  
 
+### 第3章数组 
+
+* [二分查找](https://leetcode-cn.com/problems/binary-search/solution/er-fen-cha-zhao-by-xiao-sheng-tong-xue-vcqp/)
+
+* [移除元素](https://leetcode-cn.com/problems/remove-element/solution/yi-chu-yuan-su-by-xiao-sheng-tong-xue-rhav/)
+
 
 
 
