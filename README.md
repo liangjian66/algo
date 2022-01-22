@@ -761,8 +761,8 @@ result = []
 
 ### 第5章哈希表
 > 哈希表是根据关键码的值访问数据的数据结构 
-* [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/solution/you-xiao-de-zi-mu-yi-wei-ci-by-xiao-shen-q3ya/)
-
+* [有效的字母异位词:数组解法](https://leetcode-cn.com/problems/valid-anagram/solution/you-xiao-de-zi-mu-yi-wei-ci-by-xiao-shen-q3ya/)
+* [有效的字母异位词:哈希解法](https://leetcode-cn.com/problems/valid-anagram/solution/you-xiao-de-zi-mu-yi-wei-ci-by-xiao-shen-z153/)
 
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。

@@ -17,22 +17,36 @@ public class Test {
     }
 
     public boolean isAnagram(String s, String t) {
-           char[] arrS = s.toCharArray();
-           char[] arrT = t.toCharArray();
-           int len1 = arrS.length;
-           int len2 = arrT.length;
-           if (len1 != len2)  return false;
-           int[] array = new int[26];
-        for (int i = 0; i < len1; i++) {
-            char c1 = arrS[i];
-            array[c1-'a']++;
-            char c2 = arrT[i];
-            array[c2-'a']--;
+        char[] arrS = s.toCharArray();
+        char[] arrT = t.toCharArray();
+        int len1 = arrS.length;
+        int len2 = arrT.length;
+        if (len1 != len2)  return false;
+        HashMap<Character,Integer> sMap = new HashMap<>();
+//        HashMap<Character,Integer> tMap = new HashMap<>();
+        for (int i = 0; i <len1 ; i++) {
+            char c = arrS[i];
+            if (!sMap.containsKey(c)){
+                sMap.put(c,sMap.getOrDefault(c,0)+1);
+            }else {
+                sMap.put(c, sMap.get(c)+1);
+            }
+            char c1 = arrT[i];
+            if (!sMap.containsKey(c1)){
+                sMap.put(c1,sMap.getOrDefault(c1,0)-1);
+            }else {
+                sMap.put(c1,sMap.get(c1)-1);
+            }
         }
-        for (int num: array){
-            if (num !=0) return false;
+
+        for (Map.Entry<Character,Integer>entry:sMap.entrySet()){
+            Character c = entry.getKey();
+            int num = entry.getValue();
+            if (num != 0){
+                return false;
+            }
         }
-        return  true;
+        return true;
     }
 
 
