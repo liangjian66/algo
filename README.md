@@ -735,8 +735,9 @@ result = []
 
 * [移除元素](https://leetcode-cn.com/problems/remove-element/solution/yi-chu-yuan-su-by-xiao-sheng-tong-xue-rhav/)
 
+* [长度最小的子数组： 之滑动窗口](https://leetcode-cn.com/problems/minimum-size-subarray-sum/solution/chang-du-zui-xiao-de-zi-shu-zu-by-xiao-s-df68/)
 
-
+* [螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/solution/luo-xuan-ju-zhen-2-by-xiao-sheng-tong-xu-d1sk/)
 
 ##  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。

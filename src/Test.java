@@ -8,6 +8,71 @@ import java.util.*;
 public class Test {
 
 
+    public int[][] generateMatrix(int n) {
+          int[][] res = new int[n][n];
+          int max = n*n;
+          int num = 0;
+          int left = 0;
+          int right = n-1;
+          int top = 0;
+          int bottom = n-1;
+          while (num<max){
+              for (int i = left; i <=right ; i++) {
+                  num++;
+                  res[top][i] = num;
+              }
+              top++;
+              if (top>bottom) break;
+              for (int i = top; i <=bottom; i++) {
+                  num++;
+                  res[i][right] = num;
+              }
+              right--;
+              if (left>right) break;
+              for (int i = right; i >=left ; i--) {
+                  num++;
+                  res[bottom][i] = num;
+              }
+              bottom--;
+              if (top>bottom) break;
+              for (int i = bottom; i >=top ; i--) {
+                  num++;
+                  res[i][left] = num;
+              }
+              left++;
+              if (left>right) break;
+          }
+          return  res;
+    }
+
+
+     // 滑动窗口解法
+    public int minSubArrayLen(int target, int[] nums) {
+           int  len = nums.length;
+           if (nums == null || len == 0){
+               return  0;
+           }
+           int start = 0;
+           int end = 0;
+           int ans = Integer.MAX_VALUE;
+           int sum = 0;
+           while (end<len){
+               int endNum = nums[end];
+               sum+= endNum;
+               while (sum>=target){
+                   int temp = end - start+1;
+                   ans = Math.min(ans,temp);
+                   sum-= nums[start];
+                   start++;
+               }
+               end++;
+           }
+           if (ans == Integer.MAX_VALUE)return  0;
+           return ans;
+    }
+
+
+
     public int removeElement(int[] nums, int val) {
          int len = nums.length;
 
