@@ -16,6 +16,33 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
 
+    public int[] intersection(int[] nums1, int[] nums2) {
+          if (nums1 ==null || nums2 ==null){
+              return new int[0];
+          }
+          int len1= nums1.length;
+          int len2 = nums2.length;
+          HashSet<Integer> set = new HashSet<>();
+          HashMap<Integer,Integer> map = new HashMap<>();
+        for (int i = 0; i <len1 ; i++) {
+             int num = nums1[i];
+             set.add(num);
+        }
+        List<Integer> res = new ArrayList<>();
+        for (int i = 0; i < len2; i++) {
+             int num = nums2[i];
+             if (set.contains(num)){
+                 res.add(num);
+                 set.remove(num);
+             }
+        }
+        int[] ans = new int[res.size()];
+        for (int i = 0; i < res.size(); i++) {
+            ans[i] = res.get(i);
+        }
+        return  ans;
+    }
+
     public boolean isAnagram(String s, String t) {
         char[] arrS = s.toCharArray();
         char[] arrT = t.toCharArray();
