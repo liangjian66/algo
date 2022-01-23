@@ -19,6 +19,43 @@ public class Test {
     }
 
 
+    public int evalRPN(String[] tokens) {
+        int len = tokens.length;
+        if (tokens ==null || len == 0){
+            return  0;
+        }
+        Stack<Integer> stack  = new Stack<>();
+        for (int i = 0; i < len; i++) {
+            String str = tokens[i];
+            if (isnum(str)){
+                 stack.push(Integer.valueOf(str));
+            }else {
+                   int num1 = stack.pop();
+                   int num2 = stack.pop();
+                   if (str.equals("+")){
+                       int num = num2+num1;
+                       stack.push(num);
+                   }else if (str.equals("-")){
+                       int num = num2 - num1;
+                       stack.push(num);
+                   }else if (str.equals("*")){
+                       int num = num2*num1;
+                       stack.push(num);
+                   }else if (str.equals("/")){
+                       int num = num2/num1;
+                       stack.push(num);
+                   }
+            }
+        }
+        return  stack.pop();
+    }
+
+    public  boolean isnum(String s) {
+        boolean isFuHao=  s.equals("+")||s.equals("-")||s.equals("*")||s.equals("/");
+        return  !isFuHao;
+    }
+
+
     public boolean isValid(String s) {
             char[] charArr = s.toCharArray();
             int len = charArr.length;
