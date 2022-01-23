@@ -16,40 +16,169 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
 
-
-
     public List<List<Integer>> threeSum(int[] nums) {
-             int len = nums.length;
+        int len = nums.length;
         List<List<Integer>> res = new ArrayList<>();
-        if (nums == null || len < 0) return res;
-        HashMap<Integer,Integer> map = new HashMap<>();
+        if (nums == null || len < 3) return res;
         Arrays.sort(nums);
         for (int i = 0; i < len; i++) {
-            int num =  nums[i];
-            map.put(num,i);
+              int first = nums[i];
+              if (first>0) break;
+              if (i>0&& nums[i] == nums[i-1]) continue;
+              int left = i+1;
+              int right = len-1;
+              while (left<right){
+                  int sum = nums[i]+nums[left]+nums[right];
+                  if (sum == 0){
+                          res.add(Arrays.asList(nums[i],nums[left],nums[right]));
+                          while (left<right&&nums[left+1] == nums[left]) left++;
+                          while (left<right&&nums[right-1]==nums[right]) right--;
+                          left++;
+                          right--;
+                  }else if (sum>0){
+                      right--;
+                  }else  if (sum<0){
+                      left++;
+                  }
+              }
         }
-        for (int i = 0; i <len-2 ; i++) {
-            int num1 = nums[i];
-            if (num1>0) continue;
-            if (i>0&&nums[i]==nums[i-1]) continue;
-            for (int j = i+1; j < len-1; j++) {
-                 int num2 = nums[j];
-                 int val = -num1-num2;
-                 if (map.containsKey(val)&&(map.get(val)>i)&&(map.get(val)>j)){
-                     ArrayList<Integer> temp = new ArrayList<>();
-                     temp.add(nums[i]);
-                     temp.add(nums[j]);
-                     temp.add(val);
-                     if (!res.contains(temp)){
-                         res.add(temp);
-                     }
+        return  res;
+    }
+
+    public int maximumGood(int[][] statements) {
+         int len = statements.length;
+         if (len == 0|| statements == null) return 0;
+     int row = 0;
+     int col = 0;
+        for (int i = 0; i < len; i++) {
+            for (int j = 0; j < len; j++) {
+                if (statements[i][j] == 0){
+                    row = i;
+                    col = j;
+                    break;
+                }
+            }
+        }
+        int count = 0;
+        // row 入口是好人
+        boolean[] dp  = new boolean[len];
+        dp[row] = true;
+
+        for (int i = 0; i < len; i++) {
+            for (int j = 0; j < len; j++) {
+                 if (statements[row][j] == 0){
+                     dp[i] = false;
+                 }else  if (statements[row][j] == 1){
+                     dp[i] = true;
                  }
+            }
+        }
+        for (boolean isHao :dp){
+            if (isHao){
+                count++;
+            }
+        }
+     // 坏人
+        boolean[] dp1 = new boolean[len];
+        dp1[row] = false;
+
+
+        for (int i = 0; i < len; i++) {
+            for (int j = 0; j < len; j++) {
+                if (statements[row][j] == 0){
+                    dp[i] = false;
+                }else  if (statements[row][j] == 1){
+                    dp[i] = true;
+                }
+            }
+        }
+
+
+        int count1 = 0;
+        for (boolean isHao:dp1){
+            if (isHao){
+                count1++;
+            }
+        }
+
+        return  Math.max(count,count1);
+    }
+
+
+
+    public List<Integer> findLonely(int[] nums) {
+         int len = nums.length;
+         if (len == 0|| nums == null){
+             return  new ArrayList<>();
+         }
+         List<Integer> res = new ArrayList<>();
+         HashMap<Integer,Integer> map = new HashMap<>();
+        for (int i = 0; i < len; i++) {
+            int num = nums[i];
+            if (map.containsKey(num)){
+                map.put(num,map.getOrDefault(num,0)+1);
+            }else {
+                map.put(num,1);
+            }
+        }
+        for (int i = 0; i < len; i++) {
+              int num = nums[i];
+              if (map.get(num)==1&&(!map.containsKey(num-1))&&(!map.containsKey(num+1))){
+                  res.add(num);
+              }
+        }
+        return res;
+    }
+
+
+    public int[] rearrangeArray(int[] nums) {
+         int len = nums.length;
+         if (len==0|| nums == null){
+             return  new int[0];
+         }
+         int n = len/2;
+         int[] zheng = new int[n];
+         int[] fu = new int[n];
+         int left = 0;
+         int right = 0;
+        for (int i = 0; i < len; i++) {
+            int num = nums[i];
+            if (num>0){
+                zheng[left++] = num;
+            }else if (num<0){
+                fu[right++] = num;
+            }
+        }
+        int[] res = new int[len];
+        int index = 0;
+       int  left1 = 0;
+       int  right1 = 0;
+        while (index<len){
+            if (index%2==0){
+                res[index++] = zheng[left1++];
+            }else {
+                res[index++] = fu[right1++];
             }
         }
         return  res;
     }
 
 
+    public int countElements(int[] nums) {
+       int len = nums.length;
+       if (nums == null || len == 0) return  0;
+       Arrays.sort(nums);
+       int count = 0;
+       int min = nums[0];
+       int max = nums[len-1];
+        for (int i = 0; i < len; i++) {
+            int num  = nums[i];
+            if (num>min&&num<max){
+                count++;
+            }
+        }
+        return  count;
+    }
 
     public int fourSumCount(int[] nums1, int[] nums2, int[] nums3, int[] nums4) {
             HashMap<Integer,Integer> map = new HashMap<>();

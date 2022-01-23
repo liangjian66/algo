@@ -766,7 +766,8 @@ result = []
 * [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/solution/liang-ge-shu-zu-de-jiao-ji-by-xiao-sheng-tynd/)
 * [两数之和](https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-by-xiao-sheng-tong-xue-ybnx/)
 * [四数相加 II](https://leetcode-cn.com/problems/4sum-ii/solution/si-shu-xiang-jia-2-by-xiao-sheng-tong-xu-mp6b/)
-* [三数之和](https://leetcode-cn.com/problems/3sum/solution/san-shu-zhi-he-by-xiao-sheng-tong-xue-mvun/)  HashMap 解法不是很高效，主要是写一下解题思路吧
+* [三数之和之哈希解法](https://leetcode-cn.com/problems/3sum/solution/san-shu-zhi-he-by-xiao-sheng-tong-xue-mvun/)  HashMap 解法不是很高效，主要是写一下解题思路吧
+* [三数之和 ：排序加双指针](https://leetcode-cn.com/problems/3sum/solution/san-shu-zhi-he-pai-xu-jia-shuang-zhi-zhe-ykz5/)
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版
