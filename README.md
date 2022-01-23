@@ -780,7 +780,7 @@ result = []
 ### 第7章 栈与队列
 
 * [用栈组成队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/solution/yong-zhan-zu-cheng-dui-lie-by-xiao-sheng-zpx3/)
-
+* [用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/solution/yong-dui-lie-shi-xian-zhan-by-xiao-sheng-159j/)
 
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
