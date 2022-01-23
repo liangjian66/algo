@@ -16,6 +16,43 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
 
+
+    public List<List<Integer>> fourSum(int[] nums, int target) {
+        List<List<Integer>> res = new ArrayList<>();
+        int len = nums.length;
+        if (len <4|| nums == null){
+            return  res;
+        }
+        Arrays.sort(nums);
+        for (int i = 0; i < len-3; i++) {
+            int first = nums[i];
+            if (i>0&&nums[i] == nums[i-1] ) continue;
+            for (int j = i+1; j <len-2 ; j++) {
+                  int second = nums[j];
+                  if (j>i+1&&nums[j] == nums[j-1]) continue;
+                  int left = j+1;
+                  int right = len-1;
+                  while (left<right){
+                      int sum = nums[i]+nums[j]+nums[left]+nums[right];
+                      if (sum == target){
+                          res.add(Arrays.asList(nums[i],nums[j],nums[left],nums[right]));
+                          while (left<right&&nums[left+1]==nums[left]) left++;
+                          left++;
+
+                          while (left<right&&nums[right-1] == nums[right]) right--;
+                          right--;
+                      }else  if (sum>target){
+                            right--;
+                      }else  if (sum<target){
+                           left++;
+                      }
+                  }
+            }
+        }
+          return res;
+    }
+
+
     public List<List<Integer>> threeSum(int[] nums) {
         int len = nums.length;
         List<List<Integer>> res = new ArrayList<>();
