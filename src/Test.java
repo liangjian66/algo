@@ -17,6 +17,40 @@ public class Test {
     }
 
 
+
+    public List<List<Integer>> threeSum(int[] nums) {
+             int len = nums.length;
+        List<List<Integer>> res = new ArrayList<>();
+        if (nums == null || len < 0) return res;
+        HashMap<Integer,Integer> map = new HashMap<>();
+        Arrays.sort(nums);
+        for (int i = 0; i < len; i++) {
+            int num =  nums[i];
+            map.put(num,i);
+        }
+        for (int i = 0; i <len-2 ; i++) {
+            int num1 = nums[i];
+            if (num1>0) continue;
+            if (i>0&&nums[i]==nums[i-1]) continue;
+            for (int j = i+1; j < len-1; j++) {
+                 int num2 = nums[j];
+                 int val = -num1-num2;
+                 if (map.containsKey(val)&&(map.get(val)>i)&&(map.get(val)>j)){
+                     ArrayList<Integer> temp = new ArrayList<>();
+                     temp.add(nums[i]);
+                     temp.add(nums[j]);
+                     temp.add(val);
+                     if (!res.contains(temp)){
+                         res.add(temp);
+                     }
+                 }
+            }
+        }
+        return  res;
+    }
+
+
+
     public int fourSumCount(int[] nums1, int[] nums2, int[] nums3, int[] nums4) {
             HashMap<Integer,Integer> map = new HashMap<>();
              for (int num1:nums1){
