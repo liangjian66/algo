@@ -17,6 +17,27 @@ public class Test {
     }
 
 
+    public int fourSumCount(int[] nums1, int[] nums2, int[] nums3, int[] nums4) {
+            HashMap<Integer,Integer> map = new HashMap<>();
+             for (int num1:nums1){
+                 for (int num2:nums2){
+                     int sum1 = num1+num2;
+                     map.put(sum1,map.getOrDefault(sum1,0)+1);
+                 }
+             }
+             int ans = 0;
+             for (int num3:nums3){
+                 for (int num4:nums4){
+                     int sum2 = -num3-num4;
+                     if (map.containsKey(sum2)){
+                         ans+=map.getOrDefault(sum2,0);
+                     }
+                 }
+             }
+             return  ans;
+    }
+
+
     public int[] twoSum(int[] nums, int target) {
         int len = nums.length;
         if (len == 0 || nums == null){
