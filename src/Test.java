@@ -18,6 +18,37 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
 
+
+    public boolean isValid(String s) {
+            char[] charArr = s.toCharArray();
+            int len = charArr.length;
+            if (len%2 !=0) return false;
+            HashMap<Character ,Character> map  = new HashMap<>();
+            map.put('(',')');
+            map.put('[',']');
+            map.put('{','}');
+            Stack<Character> stack = new Stack<>();
+        for (int i = 0; i < len; i++) {
+              char ch = charArr[i];
+              if (map.containsKey(ch)){
+                  stack.push(ch);
+              }else  if (map.containsValue(ch)){
+                  if (stack.isEmpty()){
+                      return false;
+                  }
+
+                    char popCh = stack.pop();
+                    if (ch != map.get(popCh)){
+                        return false;
+                    }
+              }else {
+                  return  false;
+              }
+        }
+        return  stack.isEmpty();
+    }
+
+
     public String reverseWords(String s){
               StringBuilder sb = trimSpaces(s);
               // 翻转字符串
