@@ -19,6 +19,41 @@ public class Test {
     }
 
 
+
+    public int[] maxSlidingWindow(int[] nums, int k) {
+         int len = nums.length;
+         if (len == 0 || nums == null){
+             return  new int[0];
+         }
+        Deque<Integer>  deque = new LinkedList<Integer>();
+        for (int i = 0; i < k; i++) {
+            int num = nums[i];
+
+            while (!deque.isEmpty()&&num>nums[deque.peekLast()]){
+                deque.pollLast();
+            }
+            deque.offerLast(i);
+        }
+//       List<Integer> res = new ArrayList<>();
+        int[] res = new int[len-k+1];
+
+        for (int i = 0; i < len-k+1; i++) {
+            int left = i;
+            int right = left+k-1;
+
+            while (!deque.isEmpty()&&nums[right]>=nums[deque.peekLast()]){
+                deque.pollLast();
+            }
+            deque.offerLast(right);
+            while (left>deque.peekFirst()){
+                deque.pollFirst();
+            }
+            res[i] = nums[deque.peekFirst()];
+        }
+        return  res;
+    }
+
+
     public int evalRPN(String[] tokens) {
         int len = tokens.length;
         if (tokens ==null || len == 0){
