@@ -6,6 +6,46 @@ import java.util.*;
 // 人生 那种挑战的欲望
 
 
+class MyQueue {
+     Stack<Integer> mainStack;
+    Stack<Integer> helpStack;
+
+    public MyQueue() {
+        mainStack = new Stack<>();
+        helpStack = new Stack<>();
+    }
+
+    public void push(int x) {
+         mainStack.push(x);
+    }
+
+    public int pop() {
+       if (!helpStack.isEmpty()){
+          return helpStack.pop();
+       }else {
+           while (!mainStack.isEmpty()){
+               helpStack.push(mainStack.pop());
+           }
+           return  helpStack.pop();
+       }
+    }
+
+    public int peek() {
+          if (!helpStack.isEmpty()){
+              return  helpStack.peek();
+          }else {
+              while (!mainStack.isEmpty()){
+                  helpStack.push(mainStack.pop());
+              }
+              return  helpStack.peek();
+          }
+    }
+
+    public boolean empty() {
+      return mainStack.isEmpty()&&helpStack.isEmpty();
+    }
+}
+
 
 public class Test {
 
