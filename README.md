@@ -770,6 +770,11 @@ result = []
 * [三数之和 ：排序加双指针](https://leetcode-cn.com/problems/3sum/solution/san-shu-zhi-he-pai-xu-jia-shuang-zhi-zhe-ykz5/)
 * [四数之和](https://leetcode-cn.com/problems/4sum/solution/si-shu-zhi-he-by-xiao-sheng-tong-xue-rg1t/)
 
+
+### 第6章字符串
+* [反转字符串之双指针](https://leetcode-cn.com/problems/reverse-string/solution/fan-zhuan-zi-fu-chuan-by-xiao-sheng-tong-anzk/)
+
+
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版
