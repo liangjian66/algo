@@ -16,10 +16,19 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
 
-    public void reverseString(char[] s) {
+    public String reverseStr(String s, int k) {
+            char[]  arr = s.toCharArray();
+            int len = arr.length;
+        for (int i = 0; i < len; i+=2*k) {
+            reverseString(arr,i,Math.min(i+k,len)-1);
+        }
+        return  new String(arr);
+    }
+
+    public void reverseString(char[] s,int i,int j) {
          int len = s.length;
-         int left = 0;
-         int right = len-1;
+         int left = i;
+         int right = j;
          while (left<right){
              char temp = s[left];
              s[left] = s[right];

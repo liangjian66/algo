@@ -773,7 +773,7 @@ result = []
 
 ### 第6章字符串
 * [反转字符串之双指针](https://leetcode-cn.com/problems/reverse-string/solution/fan-zhuan-zi-fu-chuan-by-xiao-sheng-tong-anzk/)
-
+* [反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/solution/fan-zhuan-zi-fu-chuan-2-by-xiao-sheng-to-ulnt/)
 
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
