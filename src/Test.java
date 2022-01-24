@@ -19,6 +19,23 @@ public class Test {
     }
 
 
+    public boolean isBalanced(TreeNode root) {
+          if (root == null) return true;
+          int leftH = getHeight(root.left);
+          int rightH = getHeight(root.right);
+          if (Math.abs(leftH-rightH)>1) return false;
+          boolean isBal = Math.abs(leftH-rightH)>1;
+          return  isBal&&isBalanced(root.left)&&isBalanced(root.right);
+    }
+
+    public int getHeight(TreeNode root){
+        if (root == null) return  0;
+        int leftH =  getHeight(root.left);
+        int rightH = getHeight(root.right);
+        return  Math.max(leftH,rightH)+1;
+    }
+
+
     public int minDepth(TreeNode root) {
          if (root == null) return 0;
          int leftH = minDepth(root.left);
