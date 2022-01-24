@@ -802,7 +802,7 @@ result = []
 * [平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/solution/ping-heng-er-cha-shu-by-xiao-sheng-tong-ibknj/)
 * [二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/solution/er-cha-shu-de-suo-you-lu-jing-by-xiao-sh-nhwg/)
 * [路径总和](https://leetcode-cn.com/problems/path-sum/solution/lu-jing-zong-he-by-xiao-sheng-tong-xue-1ctq/)
-
+* [路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/solution/lu-jing-zong-he-ii-by-xiao-sheng-tong-xu-yag8/)
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版

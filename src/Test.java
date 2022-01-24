@@ -19,25 +19,28 @@ public class Test {
     }
 
 
-    boolean ishasPathSum   = false;
-    public boolean hasPathSum(TreeNode root, int targetSum) {
-          if (root == null) return false;
-        Deque<Integer> deque = new ArrayDeque<>();
-        dfsPath(root,targetSum);
-        return  ishasPathSum;
+
+    List<List<Integer>> res =  new ArrayList<>();
+    public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
+              if (root == null) return res;
+              Deque<Integer> deque = new ArrayDeque<>();
+              dfsPath(root,deque,0,targetSum);
+              return  res;
     }
 
-    public  void dfsPath(TreeNode root,int target){
+    public  void dfsPath(TreeNode root,Deque<Integer> deque,int num,int target){
         if (root == null) return;
-        target -= root.val;
+            num+=root.val;
+            deque.addLast(root.val);
         if (root.left == null && root.right == null){
-            if (target == 0){
-                ishasPathSum  = true;
-            }
+               if (num == target){
+                   ArrayList<Integer> temp = new ArrayList<>(deque);
+                   res.add(temp);
+               }
         }
-        dfsPath(root.left,target);
-        dfsPath(root.right,target);
-//        deque.pollLast();
+        dfsPath(root.left,deque,num,target);
+        dfsPath(root.right,deque,num,target);
+        deque.pollLast();
     }
 
 
