@@ -762,7 +762,7 @@ result = []
 ### 第5章哈希表
 > 哈希表是根据关键码的值访问数据的数据结构 
 * [有效的字母异位词:数组解法](https://leetcode-cn.com/problems/valid-anagram/solution/you-xiao-de-zi-mu-yi-wei-ci-by-xiao-shen-q3ya/)
-* [有效的字母异位词:t哈希解法](https://leetcode-cn.com/problems/valid-anagram/solution/you-xiao-de-zi-mu-yi-wei-ci-by-xiao-shen-z153/)
+* [有效的字母异位词:【哈希解法](https://leetcode-cn.com/problems/valid-anagram/solution/you-xiao-de-zi-mu-yi-wei-ci-by-xiao-shen-z153/)
 * [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/solution/liang-ge-shu-zu-de-jiao-ji-by-xiao-sheng-tynd/)
 * [两数之和](https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-by-xiao-sheng-tong-xue-ybnx/)
 * [四数相加 II](https://leetcode-cn.com/problems/4sum-ii/solution/si-shu-xiang-jia-2-by-xiao-sheng-tong-xu-mp6b/)
@@ -803,6 +803,10 @@ result = []
 * [二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/solution/er-cha-shu-de-suo-you-lu-jing-by-xiao-sh-nhwg/)
 * [路径总和](https://leetcode-cn.com/problems/path-sum/solution/lu-jing-zong-he-by-xiao-sheng-tong-xue-1ctq/)
 * [路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/solution/lu-jing-zong-he-ii-by-xiao-sheng-tong-xu-yag8/)
+* [从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/solution/cong-zhong-xu-yu-hou-xu-bian-li-xu-lie-g-934j/)
+
+
+
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版

@@ -18,6 +18,34 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
 
+     HashMap<Integer ,Integer> treeMap = new HashMap<>();
+    public TreeNode buildTree(int[] inorder, int[] postorder) {
+        for (int i = 0; i < inorder.length; i++) {
+            treeMap.put(inorder[i],i);
+        }
+        int len1 = inorder.length;
+        int len2 = postorder.length;
+        return  dfsBuildTree(inorder,0,len1-1,postorder,0,len2-1);
+    }
+
+
+
+    public TreeNode dfsBuildTree(int[] inorder,int inorder_left,int inorder_right,int[] postorder,int po_left,int po_right){
+         if (inorder_left>inorder_right||po_left>po_right){
+             return null;
+         }
+         int rootVal =  postorder[po_right];
+         int inorderRootIndex = treeMap.get(rootVal);
+         int leftW =  inorderRootIndex - inorder_left;
+         int rightW = inorder_right - inorderRootIndex;
+         TreeNode leftChild = dfsBuildTree(inorder,inorder_left,inorder_left+leftW-1,postorder,po_left,po_left+leftW-1);
+        TreeNode rightChild = dfsBuildTree(inorder,inorderRootIndex+1,inorderRootIndex+1+rightW-1,postorder,po_left+leftW-1+1,po_left+leftW-1+1+rightW-1);
+        TreeNode root = new TreeNode(rootVal);
+        root.left = leftChild;
+        root.right = rightChild;
+        return  root;
+    }
+
 
 
     List<List<Integer>> res =  new ArrayList<>();
