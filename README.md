@@ -804,7 +804,7 @@ result = []
 * [路径总和](https://leetcode-cn.com/problems/path-sum/solution/lu-jing-zong-he-by-xiao-sheng-tong-xue-1ctq/)
 * [路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/solution/lu-jing-zong-he-ii-by-xiao-sheng-tong-xu-yag8/)
 * [从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/solution/cong-zhong-xu-yu-hou-xu-bian-li-xu-lie-g-934j/)
-
+* [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/cong-qian-xu-yu-zhong-xu-bian-li-xu-lie-f68xt/)
 
 
 #  算法图书
