@@ -786,6 +786,7 @@ result = []
 * [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/solution/hua-dong-chuang-kou-zui-da-zhi-by-xiao-s-9cmw/)
 * [前K个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/solution/qian-kge-gao-pin-yuan-su-by-xiao-sheng-t-wrkx/)
 * [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/solution/jie-yu-shui-by-xiao-sheng-tong-xue-1m7e/)
+* [接雨水之动态规划](https://leetcode-cn.com/problems/trapping-rain-water/solution/jie-yu-shui-zhi-dong-tai-gui-hua-by-xiao-tifo/)   双向扫描
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版
