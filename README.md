@@ -784,6 +784,8 @@ result = []
 * [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/solution/you-xiao-de-gua-hao-by-xiao-sheng-tong-x-xlr9/)
 * [逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/solution/ni-bo-lan-biao-da-shi-qiu-zhi-by-xiao-sh-9uwx/)
 * [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/solution/hua-dong-chuang-kou-zui-da-zhi-by-xiao-s-9cmw/)
+* [前K个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/solution/qian-kge-gao-pin-yuan-su-by-xiao-sheng-t-wrkx/)
+
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版

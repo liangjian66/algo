@@ -19,6 +19,47 @@ public class Test {
     }
 
 
+    public int[] topKFrequent(int[] nums, int k) {
+          int len = nums.length;
+          if (len == 0 || nums == null){
+              return  new int[0];
+          }
+          HashMap<Integer,Integer> map = new HashMap<>();
+        for (int i = 0; i < len; i++) {
+              int num = nums[i];
+              if (map.containsKey(num)){
+                  map.put(num,map.get(num)+1);
+              }else {
+                  map.put(num,1);
+              }
+        }
+        PriorityQueue<int[]> queue = new PriorityQueue<int[]>(new Comparator<int[]>() {
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                return o1[1]-o2[1];
+            }
+        });
+        for (Map.Entry<Integer,Integer> entry:map.entrySet()){
+            int num = entry.getKey();
+            int count = entry.getValue();
+            if (queue.size() == k){
+                    if (queue.peek()[1]<count){
+                        queue.poll();
+                        queue.offer(new int[]{num,count});
+                    }
+            }else {
+                queue.offer(new int[]{num,count});
+            }
+        }
+        int[]  res = new int[queue.size()];
+        for (int i = 0; i < k; i++) {
+             res[i] = queue.poll()[0];
+        }
+        return  res;
+    }
+
+
+
 
     public int[] maxSlidingWindow(int[] nums, int k) {
          int len = nums.length;
