@@ -45,7 +45,7 @@ public class Trap {
      * @param height
      * @return
      */
-    public  int trap(int[] height){
+    private   int trap1(int[] height){
         if (height == null || height.length == 0){
             return  0;
         }
