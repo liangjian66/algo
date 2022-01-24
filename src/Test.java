@@ -18,6 +18,24 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
 
+    TreeNode prev = null;
+    boolean isValidBST = true;
+    public boolean isValidBST(TreeNode root) {
+            if (root == null) return  true;
+            dfsOfisValidBST(root);
+            return  isValidBST;
+    }
+
+    public  void dfsOfisValidBST(TreeNode root){
+        if (root == null) return;
+        dfsOfisValidBST(root.left);
+          if (root.val<=prev.val&& prev != null){
+              isValidBST = false;
+          }
+          prev = root;
+        dfsOfisValidBST(root.right);
+    }
+
 
     public TreeNode searchBST(TreeNode root, int val) {
            if (root == null) return  root;
