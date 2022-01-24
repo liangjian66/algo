@@ -805,8 +805,8 @@ result = []
 * [路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/solution/lu-jing-zong-he-ii-by-xiao-sheng-tong-xu-yag8/)
 * [从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/solution/cong-zhong-xu-yu-hou-xu-bian-li-xu-lie-g-934j/)
 * [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/cong-qian-xu-yu-zhong-xu-bian-li-xu-lie-f68xt/)
-
-
+* [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/solution/he-bing-er-cha-shu-by-xiao-sheng-tong-xu-fa7e/)
+* [二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/solution/er-cha-sou-suo-shu-zhong-de-sou-suo-by-x-e479/)
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版

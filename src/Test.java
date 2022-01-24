@@ -18,6 +18,35 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
 
+
+    public TreeNode searchBST(TreeNode root, int val) {
+           if (root == null) return  root;
+        TreeNode curr = root;
+        while (curr != null){
+            if (curr.val == val){
+                return curr;
+            }else if (val> curr.val){
+                curr = curr.right;
+            }else  if (val< curr.val){
+                curr = curr.left;
+            }
+        }
+        return  null;
+    }
+
+
+
+    public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
+           if (root1 == null && root2 == null) return  null;
+            if (root1 == null) return  root2;
+            if (root2 == null ) return  root1;
+            TreeNode root = new TreeNode(root1.val+ root2.val);
+            root.left =  mergeTrees(root1.left,root2.left);
+            root.right= mergeTrees(root1.right,root2.right);
+            return  root;
+    }
+
+
      HashMap<Integer ,Integer> treeMap = new HashMap<>();
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         for (int i = 0; i < inorder.length; i++) {
