@@ -19,6 +19,28 @@ public class Test {
     }
 
 
+    boolean ishasPathSum   = false;
+    public boolean hasPathSum(TreeNode root, int targetSum) {
+          if (root == null) return false;
+        Deque<Integer> deque = new ArrayDeque<>();
+        dfsPath(root,targetSum);
+        return  ishasPathSum;
+    }
+
+    public  void dfsPath(TreeNode root,int target){
+        if (root == null) return;
+        target -= root.val;
+        if (root.left == null && root.right == null){
+            if (target == 0){
+                ishasPathSum  = true;
+            }
+        }
+        dfsPath(root.left,target);
+        dfsPath(root.right,target);
+//        deque.pollLast();
+    }
+
+
     public boolean isBalanced(TreeNode root) {
           if (root == null) return true;
           int leftH = getHeight(root.left);
