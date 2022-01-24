@@ -17,6 +17,45 @@ public class Test {
         Test test = new Test();
       System.out.println(test.isAnagram("rat","car"));
     }
+     List<Integer>  ans = new ArrayList<>();
+    int base ;
+    int count ;
+    int maxcount ;
+    public int[] findMode(TreeNode root) {
+        if (root == null) return  new int[0];
+        dfsfindMode(root);
+        int[] res = new int[ans.size()];
+        for (int i = 0; i < ans.size(); i++) {
+            res[i] = ans.get(i);
+        }
+        return  res;
+    }
+
+    public  void dfsfindMode(TreeNode root){
+         if (root == null) return;
+         dfsfindMode(root.left);
+         update(root.val);
+        dfsfindMode(root.right);
+
+    }
+
+    public  void  update(int x){
+          if (x ==base){
+              count++;
+          }else {
+              base = x;
+              count = 1;
+          }
+          if (count == maxcount){
+              ans.add(x);
+          }
+         else if (count>maxcount){
+              maxcount = count;
+              ans.clear();;
+              ans.add(x);
+          }
+    }
+
 
     TreeNode prev = null;
     int min = Integer.MAX_VALUE;
