@@ -18,6 +18,21 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
 
+
+    public int minDepth(TreeNode root) {
+         if (root == null) return 0;
+         int leftH = minDepth(root.left);
+         int rightH = minDepth(root.right);
+         if (root.left == null && root.right != null){
+             return  rightH+1;
+         }
+         if (root.left != null && root.right == null){
+             return  leftH+1;
+         }
+         return  Math.min(leftH,rightH)+1;
+    }
+
+
     public int maxDepth(TreeNode root) {
           if (root == null) return 0;
           int leftH =  maxDepth(root.left);

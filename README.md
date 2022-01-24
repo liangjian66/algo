@@ -798,7 +798,7 @@ result = []
 * [反转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/solution/fan-zhuan-er-cha-shu-by-xiao-sheng-tong-69qfw/)
 * [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/solution/dui-cheng-er-cha-shu-by-xiao-sheng-tong-o9qz9/)
 * [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/solution/er-cha-shu-de-zui-da-shen-du-by-xiao-she-qe64/)
-
+* [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/solution/er-cha-shu-de-zui-xiao-shen-du-by-xiao-s-luns/)
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版
