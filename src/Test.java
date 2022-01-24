@@ -19,22 +19,28 @@ public class Test {
     }
 
     TreeNode prev = null;
-    boolean isValidBST = true;
-    public boolean isValidBST(TreeNode root) {
-            if (root == null) return  true;
-            dfsOfisValidBST(root);
-            return  isValidBST;
-    }
+    int min = Integer.MAX_VALUE;
 
+    public int getMinimumDifference(TreeNode root) {
+        if (root == null) return 0;
+        dfsOfisValidBST(root);
+        return  min;
+    }
     public  void dfsOfisValidBST(TreeNode root){
         if (root == null) return;
         dfsOfisValidBST(root.left);
-          if (root.val<=prev.val&& prev != null){
-              isValidBST = false;
-          }
-          prev = root;
+        if ( prev != null){
+              int num = root.val - prev.val;
+            min = Math.min(min,num);
+        }
+        prev = root;
         dfsOfisValidBST(root.right);
     }
+
+
+
+
+
 
 
     public TreeNode searchBST(TreeNode root, int val) {
