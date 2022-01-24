@@ -18,6 +18,24 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
 
+
+    public boolean isSymmetric(TreeNode root) {
+          if (root == null) return  true;
+          return  compareTreeNode(root.left,root.right);
+    }
+
+    public  boolean compareTreeNode(TreeNode left,TreeNode right){
+        if (left == null && right == null) return  true;
+        if (left != null && right ==null)  return  false;
+        if (left == null && right != null) return  false;
+        if (left.val != right.val) return  false;
+        boolean outside = compareTreeNode(left.left,right.right);
+        boolean inside  = compareTreeNode(left.right,right.left);
+        return  outside&&inside;
+    }
+
+
+
     public TreeNode invertTree(TreeNode root) {
              if (root == null) return  root;
         TreeNode temp = root.left;
