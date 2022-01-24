@@ -19,6 +19,30 @@ public class Test {
     }
 
 
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<>();
+        if (root == null ) return  res;
+        Deque<TreeNode> deque = new ArrayDeque<>();
+        deque.addLast(root);
+        while (!deque.isEmpty()){
+            int size = deque.size();
+            ArrayList<Integer> temp = new ArrayList<>();
+            for (int i = 0; i < size; i++) {
+                   TreeNode node = deque.pollFirst();
+                   temp.add(node.val);
+                   if (node.left != null) {
+                       deque.addLast(node.left);
+                   }
+                   if (node.right != null){
+                       deque.addLast(node.right);
+                   }
+            }
+            res.add(temp);
+        }
+        return  res;
+    }
+
+
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         if (root == null )return  res;
