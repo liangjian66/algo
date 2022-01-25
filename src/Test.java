@@ -21,6 +21,47 @@ public class Test {
     }
 
 
+    List<String> res  = new ArrayList<>();
+
+    public List<String> letterCombinations(String digits) {
+         int len = digits.length();
+         if (digits == null || len == 0){
+             return  res;
+         }
+
+        Map<Character, String> phoneMap = new HashMap<Character, String>() {{
+            put('2', "abc");
+            put('3', "def");
+            put('4', "ghi");
+            put('5', "jkl");
+            put('6', "mno");
+            put('7', "pqrs");
+            put('8', "tuv");
+            put('9', "wxyz");
+        }};
+
+        backtrackingOflet(digits,phoneMap,0);
+        return  res;
+    }
+    StringBuilder sb = new StringBuilder();
+    public void  backtrackingOflet(String digits,Map<Character,String> phoneMap,int start){
+          int len = digits.length();
+        if (sb.length() == len){
+            String str = sb.toString();
+              res.add(str);
+              return;
+        }
+        char ch = digits.charAt(start);
+        String tempStr = phoneMap.get(ch);
+        for (int i = 0; i < tempStr.length(); i++) {
+             char letter = tempStr.charAt(i);
+             sb.append(letter);
+             backtrackingOflet(digits,phoneMap,start+1);
+             sb.deleteCharAt(start);
+        }
+    }
+
+
     List<List<Integer>> res = new ArrayList<>();
     public List<List<Integer>> combinationSum3(int k, int n) {
         Deque<Integer> deque  = new ArrayDeque<>();
