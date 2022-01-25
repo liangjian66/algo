@@ -17,6 +17,33 @@ public class Test {
         Test test = new Test();
       System.out.println(test.isAnagram("rat","car"));
     }
+
+
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+         return  dfsOfpq(root,p,q);
+    }
+
+    public  TreeNode dfsOfpq(TreeNode root,TreeNode p,TreeNode q){
+        if (root == null) return  root;
+        if (root == p || root == q) return root;
+        TreeNode leftC  =  dfsOfpq(root.left,p,q);
+        TreeNode rightC = dfsOfpq(root.right,p,q);
+        if (leftC == null && rightC == null){
+            return  null;
+        }
+        else if (leftC == null) {
+            return  rightC;
+        }
+        else  if (rightC == null) {
+            return  leftC;
+        }
+        else if (leftC != null && rightC != null){
+            return  root;
+        }
+        return  null;
+    }
+
+
      List<Integer>  ans = new ArrayList<>();
     int base ;
     int count ;
