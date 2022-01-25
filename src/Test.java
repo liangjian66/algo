@@ -18,6 +18,30 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
 
+    public TreeNode deleteNode(TreeNode root, int key) {
+         if (root == null) return  root;
+         if (root.val == key){
+             if (root.left == null && root.right ==null){
+                 return  null;
+             }else if (root.left == null){
+                  return  root.right;
+             }else if (root.right == null){
+                 return  root.left;
+             }else if (root.left != null && root.right != null){
+                 TreeNode cur = root.right;
+                 while (cur.left != null){
+                     cur = cur.left;
+                 }
+                 cur.left = root.left;
+                 root = root.right;
+                 return  root;
+             }
+         }
+         root.left = deleteNode(root.left,key);
+         root.right = deleteNode(root.right,key);
+         return  root;
+    }
+
 
     public TreeNode insertIntoBST(TreeNode root, int val) {
         if (root == null){
