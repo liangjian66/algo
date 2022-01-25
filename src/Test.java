@@ -20,6 +20,32 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
 
+    List<List<Integer>> res = new ArrayList<>();
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+        Deque<Integer> deque = new ArrayDeque<>();
+        backTrackingOfsum(candidates,deque,0,target,0);
+        return  res;
+    }
+
+    public void backTrackingOfsum(int[] nums,Deque<Integer>  deque,int num,int target,int begin){
+        if (num>target){
+            return;
+        }
+        if (num == target){
+            ArrayList<Integer> temp = new ArrayList<>(deque);
+            res.add(temp);
+        }
+        int len = nums.length;
+        for (int i = begin; i < len; i++) {
+            deque.add(nums[i]);
+            num+=nums[i];
+            backTrackingOfsum(nums,deque,num,target,i);
+            int peek = deque.peekLast();
+            num -= peek;
+            deque.pollLast();
+        }
+    }
+
 
     List<String> res  = new ArrayList<>();
 
