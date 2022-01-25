@@ -21,6 +21,28 @@ public class Test {
     }
 
 
+    List<List<Integer>> res = new ArrayList<>();
+    public List<List<Integer>> combine(int n, int k) {
+         Deque<Integer> deque  = new ArrayDeque<>();
+         backtracking(n,deque,1,k);
+         return  res;
+    }
+
+    public  void backtracking(int n ,Deque<Integer>  deque,int start,int k){
+          int size = deque.size();
+          if (size == k){
+              ArrayList<Integer> temp = new ArrayList<>(deque);
+              res.add(temp);
+              return;
+          }
+        for (int i = start; i <=n ; i++) {
+              deque.addLast(i);
+              backtracking(n,deque,i+1,k);
+              deque.removeLast();
+        }
+    }
+
+
     public TreeNode sortedArrayToBST(int[] nums) {
           int len = nums.length;
           if (nums == null || len == 0){

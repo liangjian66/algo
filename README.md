@@ -817,6 +817,12 @@ result = []
 * [修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/solution/xiu-jian-er-cha-sou-suo-shu-by-xiao-shen-dlt6/)
 * [将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/solution/jiang-you-xu-shu-zu-zhuan-huan-wei-er-ch-2ui3/)
 
+
+### 第9章 回溯算法
+* 回溯法解决的问题都可以抽象为树形结构，因为回溯解决的问题都是在集合中递归查找子集，集合的大小就构成树的宽度，递归的
+深度构成了树的深度
+* [组合](https://leetcode-cn.com/problems/combinations/solution/zu-he-by-xiao-sheng-tong-xue-uwc2/)
+
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版
