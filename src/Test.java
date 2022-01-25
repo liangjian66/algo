@@ -1,4 +1,6 @@
 
+import com.sun.source.tree.Tree;
+
 import java.util.*;
 
 // 对人生欲望的挑战  抓住机会
@@ -16,6 +18,24 @@ public class Test {
         int[] res = new int[]{4,-2,-3,4,1};
         Test test = new Test();
       System.out.println(test.isAnagram("rat","car"));
+    }
+
+
+    public TreeNode sortedArrayToBST(int[] nums) {
+          int len = nums.length;
+          if (nums == null || len == 0){
+              return  null;
+          }
+          return  dfsOfSort(nums,0,len-1);
+    }
+    public TreeNode dfsOfSort(int[] nums,int left,int right){
+        if (left>right) return  null;
+        int len = nums.length;
+        int mid = (right+left)/2;
+        TreeNode root = new TreeNode(nums[mid]);
+        root.left = dfsOfSort(nums,left,mid-1);
+        root.right = dfsOfSort(nums,mid+1,right);
+        return  root;
     }
 
 
