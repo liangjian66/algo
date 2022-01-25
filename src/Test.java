@@ -22,22 +22,27 @@ public class Test {
 
 
     List<List<Integer>> res = new ArrayList<>();
-    public List<List<Integer>> combine(int n, int k) {
-         Deque<Integer> deque  = new ArrayDeque<>();
-         backtracking(n,deque,1,k);
-         return  res;
+    public List<List<Integer>> combinationSum3(int k, int n) {
+        Deque<Integer> deque  = new ArrayDeque<>();
+        backtracking(k,deque,1,0,n);
+        return  res;
     }
-
-    public  void backtracking(int n ,Deque<Integer>  deque,int start,int k){
+    public  void backtracking(int k ,Deque<Integer>  deque,int start,int num,int target){
           int size = deque.size();
-          if (size == k){
+          if (num>target || size>k){
+              return;
+          }
+          if (size == k && num == target){
               ArrayList<Integer> temp = new ArrayList<>(deque);
               res.add(temp);
               return;
           }
-        for (int i = start; i <=n ; i++) {
+        for (int i = start; i <=9 ; i++) {
               deque.addLast(i);
-              backtracking(n,deque,i+1,k);
+              num+=i;
+              backtracking(k,deque,i+1,num,target);
+              int peek = deque.peekLast();
+              num -= peek;
               deque.removeLast();
         }
     }

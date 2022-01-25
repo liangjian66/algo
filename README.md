@@ -822,6 +822,8 @@ result = []
 * 回溯法解决的问题都可以抽象为树形结构，因为回溯解决的问题都是在集合中递归查找子集，集合的大小就构成树的宽度，递归的
 深度构成了树的深度
 * [组合](https://leetcode-cn.com/problems/combinations/solution/zu-he-by-xiao-sheng-tong-xue-uwc2/)
+* [组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii/solution/zu-he-zong-he-iii-by-xiao-sheng-tong-xue-zivj/)
+
 
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
