@@ -15,13 +15,13 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
     List<List<Integer>> res = new ArrayList<>();
-    public List<List<Integer>> subsetsWithDup(int[] nums) {
+    public List<List<Integer>> findSubsequences(int[] nums) {
          int len = nums.length;
          if (nums == null || len == 0){
              return  res;
          }
          Deque<Integer> deque = new ArrayDeque<>();
-         Arrays.sort(nums);
+//         Arrays.sort(nums);
          backTracking(nums,0,deque);
          return  res;
     }
@@ -30,11 +30,22 @@ public class Test {
         if (begin>len){
             return;
         }
-        ArrayList<Integer> temp = new ArrayList<>(deque);
-          res.add(temp);
+        if (deque.size()>1){
+            ArrayList<Integer> temp = new ArrayList<>(deque);
+            if (!res.contains(temp)){
+                res.add(temp);
+            }
+        }
+         int[] used = new int[201];
         for (int i = begin; i < len; i++) {
             int num = nums[i];
-            if (i>begin&&nums[i] == nums[i-1]) continue;
+//            if (i>begin&&nums[i] == nums[i-1]) continue;
+            if (used[num+100] == 1) continue;
+            if (!deque.isEmpty() ){
+                int peek = deque.peekLast();
+                 if (num<peek) continue;
+            }
+            used[num+100] = 1;
             deque.add(num);
             backTracking(nums,i+1,deque);
             deque.removeLast();
