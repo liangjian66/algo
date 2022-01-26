@@ -16,6 +16,37 @@ public class Test {
     }
 
 
+    public List<List<Integer>> permuteUnique(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        int len = nums.length;
+        if(nums == null || len == 0){
+            return res;
+        }
+        Deque<Integer> path  = new  ArrayDeque<>();
+        boolean[] useds = new boolean[len];
+        Arrays.sort(nums);
+        backtrack(nums,path,res,useds);
+        return res;
+    }
+    public void backtrack(int[] nums,Deque<Integer> path,List<List<Integer>> res,boolean[] useds){
+        int len = nums.length;
+        if(path.size() == len){
+            ArrayList<Integer>  temp = new ArrayList<>(path);
+            res.add(temp);
+            return;
+        }
+        for(int i=0;i<len;i++){
+            int num = nums[i];
+            if(useds[i]) continue;
+            //去除重复元素
+            if (i>0&&nums[i]==nums[i-1] && !useds[i-1]) continue;
+            path.addLast(num);
+            useds[i] = true;
+            backtrack(nums,path,res,useds);
+            path.removeLast();
+            useds[i] = false;
+        }
+    }
 
 
 
