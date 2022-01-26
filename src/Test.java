@@ -14,6 +14,30 @@ public class Test {
         Test test = new Test();
       System.out.println(test.isAnagram("rat","car"));
     }
+    List<List<Integer>> res = new ArrayList<>();
+    public List<List<Integer>> subsets(int[] nums) {
+         int len = nums.length;
+         if (nums == null || len == 0){
+             return  res;
+         }
+         Deque<Integer> deque = new ArrayDeque<>();
+         backTracking(nums,0,deque);
+         return  res;
+    }
+    public  void  backTracking(int[] nums,int begin , Deque<Integer> deque){
+        int len = nums.length;
+        if (begin>len){
+            return;
+        }
+        ArrayList<Integer> temp = new ArrayList<>(deque);
+          res.add(temp);
+        for (int i = begin; i < len; i++) {
+            int num = nums[i];
+            deque.add(num);
+            backTracking(nums,i+1,deque);
+            deque.removeLast();
+        }
+    }
 
 
     public List<String> restoreIpAddresses(String s){
