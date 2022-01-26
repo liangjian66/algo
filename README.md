@@ -826,6 +826,9 @@ result = []
 * [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/solution/dian-hua-hao-ma-de-zi-mu-zu-he-by-xiao-s-sx7y/)
 * [组合总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-xiao-sheng-tong-xue-xvzh/)
 * [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/solution/zu-he-zong-he-ii-by-xiao-sheng-tong-xue-kwjz/)
+* [分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/solution/fen-ge-hui-wen-chuan-by-xiao-sheng-tong-94ksi/)
+
+
 
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。

@@ -5,12 +5,7 @@ import java.util.*;
 
 // 对人生欲望的挑战  抓住机会
 
-// 人生 那种挑战的欲望
-
-
-
-
-
+// 人生 那种挑战的欲望  挑战和改变  这可能就是人生吧
 public class Test {
 
     public static void main(String[] args) {
@@ -18,6 +13,44 @@ public class Test {
         int[] res = new int[]{4,-2,-3,4,1};
         Test test = new Test();
       System.out.println(test.isAnagram("rat","car"));
+    }
+
+    public  List<List<String>> partition(String s){
+         int len = s.length();
+         List<List<String>> res = new ArrayList<>();
+         if (len == 0){
+             return  res;
+         }
+         Deque<String> deque = new ArrayDeque<>();
+         char[] charArray = s.toCharArray();
+         dfs(charArray,0,len,deque,res);
+         return  res;
+    }
+
+    public  void  dfs(char[] charArray,int index ,int len ,Deque<String> path ,List<List<String>> res){
+           if (index == len){
+               res.add(new ArrayList<>(path));
+               return;
+           }
+        for (int i = index; i < len; i++) {
+              if (!checkPalindrome(charArray,index,i)){
+                  continue;
+              }
+              path.add(new String(charArray,index,i+1-index));
+              dfs(charArray,i+1,len,path,res);
+              path.removeLast();
+        }
+    }
+
+    public  boolean checkPalindrome(char[] charArray,int left,int right){
+          while (left<right){
+              if (charArray[left] != charArray[right]){
+                  return  false;
+              }
+              left++;
+              right--;
+          }
+          return  true;
     }
 
     List<List<Integer>> res = new ArrayList<>();
