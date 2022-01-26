@@ -14,6 +14,11 @@ public class Test {
         Test test = new Test();
       System.out.println(test.isAnagram("rat","car"));
     }
+
+
+
+
+
     List<List<Integer>> res = new ArrayList<>();
     public List<List<Integer>> findSubsequences(int[] nums) {
          int len = nums.length;

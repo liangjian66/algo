@@ -831,7 +831,7 @@ result = []
 * [子集](https://leetcode-cn.com/problems/subsets/solution/zi-ji-by-xiao-sheng-tong-xue-ao3r/)
 * [子集 II](https://leetcode-cn.com/problems/subsets-ii/solution/zi-ji-ii-by-xiao-sheng-tong-xue-bnti/)
 * [递增子序列](https://leetcode-cn.com/problems/increasing-subsequences/solution/di-zeng-zi-xu-lie-by-xiao-sheng-tong-xue-78uq/)
-
+* [全排列](https://leetcode-cn.com/problems/permutations/solution/quan-pai-lie-by-xiao-sheng-tong-xue-9x28/)
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版
