@@ -827,7 +827,7 @@ result = []
 * [组合总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-xiao-sheng-tong-xue-xvzh/)
 * [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/solution/zu-he-zong-he-ii-by-xiao-sheng-tong-xue-kwjz/)
 * [分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/solution/fen-ge-hui-wen-chuan-by-xiao-sheng-tong-94ksi/)
-
+* [复原 IP 地址](https://leetcode-cn.com/problems/restore-ip-addresses/solution/fu-yuan-ip-di-zhi-by-xiao-sheng-tong-xue-hlm1/)
 
 
 #  算法图书
