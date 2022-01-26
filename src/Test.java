@@ -15,12 +15,13 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
     List<List<Integer>> res = new ArrayList<>();
-    public List<List<Integer>> subsets(int[] nums) {
+    public List<List<Integer>> subsetsWithDup(int[] nums) {
          int len = nums.length;
          if (nums == null || len == 0){
              return  res;
          }
          Deque<Integer> deque = new ArrayDeque<>();
+         Arrays.sort(nums);
          backTracking(nums,0,deque);
          return  res;
     }
@@ -33,6 +34,7 @@ public class Test {
           res.add(temp);
         for (int i = begin; i < len; i++) {
             int num = nums[i];
+            if (i>begin&&nums[i] == nums[i-1]) continue;
             deque.add(num);
             backTracking(nums,i+1,deque);
             deque.removeLast();
