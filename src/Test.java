@@ -21,8 +21,9 @@ public class Test {
     }
 
     List<List<Integer>> res = new ArrayList<>();
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Deque<Integer> deque = new ArrayDeque<>();
+        Arrays.sort(candidates);
         backTrackingOfsum(candidates,deque,0,target,0);
         return  res;
     }
@@ -37,9 +38,11 @@ public class Test {
         }
         int len = nums.length;
         for (int i = begin; i < len; i++) {
+            if (nums[i]>target) break;
+            if (i>begin&&nums[i] == nums[i-1]) continue;
             deque.add(nums[i]);
             num+=nums[i];
-            backTrackingOfsum(nums,deque,num,target,i);
+            backTrackingOfsum(nums,deque,num,target,i+1);
             int peek = deque.peekLast();
             num -= peek;
             deque.pollLast();
