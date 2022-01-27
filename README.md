@@ -843,6 +843,16 @@ result = []
 * 求解每个子问题
 * [分发饼干](https://leetcode-cn.com/problems/assign-cookies/solution/fen-fa-bing-gan-by-xiao-sheng-tong-xue-z1s2/)
 
+### 第11章 动态规划
+* 状态转移公式(递推公式)
+> 动态规划五部曲
+* (1)确定dp数组及下标的含义
+* (2)确定递推公式
+* (3)初始化dp数组
+* (4)确定遍历顺序
+* (5)举例推导dp数组
+* [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/solution/fei-bo-na-qi-shu-by-xiao-sheng-tong-xue-ov5d/)
+
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版
