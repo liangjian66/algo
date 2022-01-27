@@ -852,6 +852,8 @@ result = []
 * (4)确定遍历顺序
 * (5)举例推导dp数组
 * [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/solution/fei-bo-na-qi-shu-by-xiao-sheng-tong-xue-ov5d/)
+* [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/solution/pa-lou-ti-by-xiao-sheng-tong-xue-s12p/)
+
 
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
