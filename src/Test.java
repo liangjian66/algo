@@ -15,6 +15,21 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
 
+    public int findContentChildren(int[] g, int[] s) {
+        int len1 = g.length;
+        int len2 = s.length;
+        Arrays.sort(g);
+        Arrays.sort(s);
+        int index = 0;
+        for (int i = 0; i < s.length; i++) {
+             if (index<g.length&& g[index]<=s[i]){
+                 index++;
+             }
+        }
+        return  index;
+    }
+
+
     private boolean[][] line = new boolean[9][9];
     private  boolean[][] column = new boolean[9][9];
     private  boolean[][][] block  = new boolean[3][3][9];

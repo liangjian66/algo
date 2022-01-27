@@ -836,6 +836,12 @@ result = []
 * [N 皇后](https://leetcode-cn.com/problems/n-queens/solution/n-huang-hou-by-xiao-sheng-tong-xue-oxd3/)
 * [解数独](https://leetcode-cn.com/problems/sudoku-solver/solution/jie-shu-du-by-xiao-sheng-tong-xue-j2u3/)
 
+### 第10章 贪心算法
+* 贪心的本质是选择每一个阶段的局部最优，从而实现全局最优
+* 将问题分解为若干个子问题
+* 找出适合的贪心策略
+* 求解每个子问题
+* [分发饼干](https://leetcode-cn.com/problems/assign-cookies/solution/fen-fa-bing-gan-by-xiao-sheng-tong-xue-z1s2/)
 
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
