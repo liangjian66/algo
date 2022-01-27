@@ -15,6 +15,43 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
 
+    public boolean canPartition(int[] nums) {
+        int len = nums.length;
+        int sum = 0;
+        for (int num : nums) {
+            sum += num;
+        }
+        if ((sum & 1) == 1) {
+            return false;
+        }
+
+        int target = sum / 2;
+        Arrays.sort(nums);
+        boolean[] dp = new boolean[target + 1];
+        dp[0] = true;
+
+        if (nums[0] <= target) {
+            dp[nums[0]] = true;
+        }
+        for (int i = 1; i < len; i++) {
+            int num = nums[i];
+            for (int j = num;  j<=target; j++) {
+                if (dp[target]) {
+                    return true;
+                }
+                if (nums[i] == j){
+                    dp[j] = true;
+                }
+                if (nums[i]<j){
+                    dp[j] = dp[j] || dp[j - nums[i]];
+                }
+            }
+        }
+        return dp[target];
+    }
+
+
+
     public int integerBreak(int n) {
         int[] dp = new int[n+1];
         dp[2] = 1;
