@@ -856,7 +856,7 @@ result = []
 * [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/solution/shi-yong-zui-xiao-hua-fei-pa-lou-ti-by-x-7ehb/)
 * [不同路径](https://leetcode-cn.com/problems/unique-paths/solution/bu-tong-lu-jing-by-xiao-sheng-tong-xue-q49n/)
 * [不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/solution/bu-tong-lu-jing-ii-by-xiao-sheng-tong-xu-fqy4/)
-
+* [整数拆分](https://leetcode-cn.com/problems/integer-break/solution/zheng-shu-chai-fen-by-xiao-sheng-tong-xu-ifvs/)
 
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
