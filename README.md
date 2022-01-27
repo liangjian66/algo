@@ -834,6 +834,8 @@ result = []
 * [全排列](https://leetcode-cn.com/problems/permutations/solution/quan-pai-lie-by-xiao-sheng-tong-xue-9x28/)
 * [全排列 II](https://leetcode-cn.com/problems/permutations-ii/solution/quan-pai-lie-ii-by-xiao-sheng-tong-xue-ng6o/)
 * [N 皇后](https://leetcode-cn.com/problems/n-queens/solution/n-huang-hou-by-xiao-sheng-tong-xue-oxd3/)
+* [解数独](https://leetcode-cn.com/problems/sudoku-solver/solution/jie-shu-du-by-xiao-sheng-tong-xue-j2u3/)
+
 
 #  算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
