@@ -15,6 +15,23 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
 
+    int  count = 0;
+    public  int findTargetSumWays(int[] nums,int target,int index,int sum){
+         backTrack(nums,target,0,0);
+         return count;
+    }
+
+    public  void backTrack(int[] nums,int target,int index,int sum){
+        if (index == nums.length){
+            if (sum == target){
+                count++;
+            }
+        }else {
+            backTrack(nums,target,index+1,sum+nums[index]);
+            backTrack(nums,target,index+1,sum-nums[index]);
+        }
+    }
+
     public boolean canPartition(int[] nums) {
         int len = nums.length;
         int sum = 0;
