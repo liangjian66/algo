@@ -862,7 +862,10 @@ result = []
 * [分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/solution/fen-ge-deng-he-zi-ji-by-xiao-sheng-tong-irnym/)
 * [目标和-回溯](https://leetcode-cn.com/problems/target-sum/solution/mu-biao-he-hui-su-by-xiao-sheng-tong-xue-cz9u/)
 * [目标和-动态规划](https://leetcode-cn.com/problems/target-sum/solution/mu-biao-he-by-xiao-sheng-tong-xue-8y6s/)
-#  算法图书
+* [零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2/solution/ling-qian-dui-huan-ii-by-xiao-sheng-tong-yt2l/)
+
+
+##算法图书
 > 学习最笨的办法就是看书拉，也是最聪明的办法 ， 博览群书总会有不一样的收获。
 * 数据结构与算法分析：C语言描述_原书第2版_高清版
 * 算法图解.PDF
