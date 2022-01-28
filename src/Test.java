@@ -15,21 +15,30 @@ public class Test {
       System.out.println(test.isAnagram("rat","car"));
     }
 
-    int  count = 0;
-    public  int findTargetSumWays(int[] nums,int target,int index,int sum){
-         backTrack(nums,target,0,0);
-         return count;
-    }
-
-    public  void backTrack(int[] nums,int target,int index,int sum){
-        if (index == nums.length){
-            if (sum == target){
-                count++;
-            }
-        }else {
-            backTrack(nums,target,index+1,sum+nums[index]);
-            backTrack(nums,target,index+1,sum-nums[index]);
+    public  int  findTargetSumWays(int[] nums,int target){
+        int sum = 0;
+        for (int num: nums){
+            sum+=num;
         }
+        int diff = sum - target;
+        if (diff<0|| diff%2 !=0){
+            return 0;
+        }
+        int n = nums.length;
+      // 差值的和
+        int diffSum = diff/2;
+        int[][] dp = new int[n+1][diffSum+1];
+        dp[0][0] = 1;
+        for (int i = 1; i <=n ; i++) {
+              int num = nums[i-1];
+            for (int j = 0; j <=diffSum ; j++) {
+                dp[i][j] = dp[i-1][j];
+                if (j>=num){
+                    dp[i][j] +=dp[i-1][j-num];
+                }
+            }
+        }
+        return dp[n][diffSum];
     }
 
     public boolean canPartition(int[] nums) {
