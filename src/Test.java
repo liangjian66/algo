@@ -1,6 +1,3 @@
-
-import com.sun.source.tree.Tree;
-
 import java.util.*;
 
 // 对人生欲望的挑战  抓住机会   一定抓住机会  对人生欲望的挑战
@@ -13,6 +10,93 @@ public class Test {
         int[] res = new int[]{4,-2,-3,4,1};
         Test test = new Test();
       System.out.println(test.isAnagram("rat","car"));
+    }
+
+
+    private static final int[][] DIRECTIONS = {{-1, 0}, {0, -1}, {0, 1}, {1, 0}};
+    private int rows;
+    private  int  cols;
+    private  int len ;
+    private  boolean[][] visited;
+    private  char[] charArray;
+    private  char[][] board;
+    public boolean exist(char[][] board, String word) {
+         rows = board.length;
+         if (rows == 0){
+             return  false;
+         }
+         cols = board[0].length;
+         visited = new boolean[rows][cols];
+         this.len = word.length();
+         this.charArray = word.toCharArray();
+         this.board = board;
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                   if (dfs(i,j,0)){
+                       return true;
+                   }
+            }
+        }
+        return  false;
+    }
+    private  boolean dfs(int x ,int y ,int begin){
+           if (begin == len-1){
+               return  board[x][y] == charArray[begin];
+           }
+           if (board[x][y] == charArray[begin]){
+                 visited[x][y]= true;
+                 for (int[] direction:DIRECTIONS){
+                     int newX = x + direction[0];
+                     int newY = y+ direction[1];
+                     if (inArea(newX,newY)&& !visited[newX][newY]){
+                         if (dfs(newX,newY,begin+1)){
+                             return  true;
+                         }
+                     }
+                 }
+                 visited[x][y] = false;
+           }
+           return  false;
+    }
+    private  boolean inArea(int x,int y){
+        return  x>=0&&x<rows&&y>=0&&y<cols;
+    }
+
+    public  void dfsOfexist(char[][] board,boolean[][] visited,String word,int start,Deque<Character> deque,int row,int col){
+        int size = deque.size();
+        int len = word.length();
+        int m = board.length;
+        int n = board[0].length;
+        if (start>len-1) return;
+        if (row>=m || row<0)  return;
+        if (col>=n || col<0) return;
+        if(board[row][col] != word.charAt(start)) return;
+        if (size == len){
+            ArrayList<Character> temp = new ArrayList<>(deque);
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < temp.size(); i++) {
+                sb.append(temp.get(i));
+            }
+            if (word.equals(sb.toString())){
+                isExist = true;
+                return;
+            }
+        }
+        for (int i = row; i <m ; i++) {
+            for (int j = col; j < n; j++) {
+                if (board[i][j] == word.charAt(start)){
+                    deque.addLast(board[row][col]);
+                    dfsOfexist(board,word,start+1,deque,i+1,j);
+                    dfsOfexist(board,word,start+1,deque,i-1,j);
+                    dfsOfexist(board,word,start+1,deque,i,j+1);
+                    dfsOfexist(board,word,start+1,deque,i,j-1);
+                    deque.pollLast();
+                }else {
+                    return;
+                }
+            }
+        }
     }
 
     public  int  findTargetSumWays(int[] nums,int target){

@@ -835,6 +835,7 @@ result = []
 * [全排列 II](https://leetcode-cn.com/problems/permutations-ii/solution/quan-pai-lie-ii-by-xiao-sheng-tong-xue-ng6o/)
 * [N 皇后](https://leetcode-cn.com/problems/n-queens/solution/n-huang-hou-by-xiao-sheng-tong-xue-oxd3/)
 * [解数独](https://leetcode-cn.com/problems/sudoku-solver/solution/jie-shu-du-by-xiao-sheng-tong-xue-j2u3/)
+* [单词搜索](https://leetcode-cn.com/problems/word-search/solution/dan-ci-sou-suo-by-xiao-sheng-tong-xue-n034/)
 
 ### 第10章 贪心算法
 * 贪心的本质是选择每一个阶段的局部最优，从而实现全局最优
