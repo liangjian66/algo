@@ -11,3 +11,4 @@
 * [移除元素](https://leetcode-cn.com/problems/remove-element/solution/yi-chu-yuan-su-by-xiao-sheng-tong-xue-enek/)
 * [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/solution/sou-suo-cha-ru-wei-zhi-by-xiao-sheng-ton-vhxy/)
 * [下一个排列](https://leetcode-cn.com/problems/next-permutation/solution/xia-yi-ge-pai-lie-by-xiao-sheng-tong-xue-9k0o/)
+* [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/sou-suo-xuan-zhuan-pai-xu-shu-zu-by-xiao-uj7i/)
