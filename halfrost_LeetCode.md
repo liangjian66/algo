@@ -10,3 +10,4 @@
 * [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/solution/shan-chu-you-xu-shu-zu-zhong-de-zhong-fu-t174/)
 * [移除元素](https://leetcode-cn.com/problems/remove-element/solution/yi-chu-yuan-su-by-xiao-sheng-tong-xue-enek/)
 * [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/solution/sou-suo-cha-ru-wei-zhi-by-xiao-sheng-ton-vhxy/)
+* [下一个排列](https://leetcode-cn.com/problems/next-permutation/solution/xia-yi-ge-pai-lie-by-xiao-sheng-tong-xue-9k0o/)
