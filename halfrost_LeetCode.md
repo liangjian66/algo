@@ -15,3 +15,4 @@
 * [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/zai-pai-xu-shu-zu-zhong-cha-zhao-yuan-su-7okw/)
 * [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/solution/you-xiao-de-shu-du-by-xiao-sheng-tong-xu-p2hz/)
 * [解数独](https://leetcode-cn.com/problems/sudoku-solver/solution/jie-shu-du-by-xiao-sheng-tong-xue-4ssy/)
+* [组合总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-xiao-sheng-tong-xue-hetf/)
