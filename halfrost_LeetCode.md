@@ -17,3 +17,4 @@
 * [解数独](https://leetcode-cn.com/problems/sudoku-solver/solution/jie-shu-du-by-xiao-sheng-tong-xue-4ssy/)
 * [组合总和](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-xiao-sheng-tong-xue-hetf/)
 * [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/solution/zu-he-zong-he-ii-by-xiao-sheng-tong-xue-kwjz/)
+* [缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/solution/que-shi-de-di-yi-ge-zheng-shu-by-xiao-sh-rru9/)
