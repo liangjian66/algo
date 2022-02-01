@@ -26,3 +26,4 @@
 * [N 皇后](https://leetcode-cn.com/problems/n-queens/solution/n-huang-hou-by-xiao-sheng-tong-xue-oxd3/)
 * [最大子数组和](https://leetcode-cn.com/problems/maximum-subarray/solution/zui-da-zi-shu-zu-he-by-xiao-sheng-tong-x-taw1/)
 * [ 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/solution/luo-xuan-ju-zhen-by-xiao-sheng-tong-xue-j8ux/)
+* [跳跃游戏](https://leetcode-cn.com/problems/jump-game/solution/tiao-yue-you-xi-by-xiao-sheng-tong-xue-qcnq/)
