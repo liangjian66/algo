@@ -22,3 +22,4 @@
 * [跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/solution/tiao-yue-you-xi-ii-by-xiao-sheng-tong-xu-foh9/)
 * [全排列](https://leetcode-cn.com/problems/permutations/solution/quan-pai-lie-by-xiao-sheng-tong-xue-9x28/)
 * [全排列 II](https://leetcode-cn.com/problems/permutations-ii/solution/quan-pai-lie-ii-by-xiao-sheng-tong-xue-ng6o/)
+* [旋转图像](https://leetcode-cn.com/problems/rotate-image/solution/xuan-zhuan-tu-xiang-by-xiao-sheng-tong-x-78m0/)
