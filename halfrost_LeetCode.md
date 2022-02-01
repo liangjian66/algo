@@ -27,3 +27,4 @@
 * [最大子数组和](https://leetcode-cn.com/problems/maximum-subarray/solution/zui-da-zi-shu-zu-he-by-xiao-sheng-tong-x-taw1/)
 * [ 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/solution/luo-xuan-ju-zhen-by-xiao-sheng-tong-xue-j8ux/)
 * [跳跃游戏](https://leetcode-cn.com/problems/jump-game/solution/tiao-yue-you-xi-by-xiao-sheng-tong-xue-qcnq/)
+* [合并区间](https://leetcode-cn.com/problems/merge-intervals/solution/he-bing-qu-jian-by-xiao-sheng-tong-xue-mms8/)
