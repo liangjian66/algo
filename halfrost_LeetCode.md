@@ -20,3 +20,4 @@
 * [缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/solution/que-shi-de-di-yi-ge-zheng-shu-by-xiao-sh-rru9/)
 * [接雨水 单调栈](https://leetcode-cn.com/problems/trapping-rain-water/solution/jie-yu-shui-by-xiao-sheng-tong-xue-1m7e/)
 * [跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/solution/tiao-yue-you-xi-ii-by-xiao-sheng-tong-xu-foh9/)
+* [全排列](https://leetcode-cn.com/problems/permutations/solution/quan-pai-lie-by-xiao-sheng-tong-xue-9x28/)
