@@ -21,3 +21,4 @@
 * [接雨水 单调栈](https://leetcode-cn.com/problems/trapping-rain-water/solution/jie-yu-shui-by-xiao-sheng-tong-xue-1m7e/)
 * [跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/solution/tiao-yue-you-xi-ii-by-xiao-sheng-tong-xu-foh9/)
 * [全排列](https://leetcode-cn.com/problems/permutations/solution/quan-pai-lie-by-xiao-sheng-tong-xue-9x28/)
+* [全排列 II](https://leetcode-cn.com/problems/permutations-ii/solution/quan-pai-lie-ii-by-xiao-sheng-tong-xue-ng6o/)
