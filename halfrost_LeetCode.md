@@ -24,3 +24,4 @@
 * [全排列 II](https://leetcode-cn.com/problems/permutations-ii/solution/quan-pai-lie-ii-by-xiao-sheng-tong-xue-ng6o/)
 * [旋转图像](https://leetcode-cn.com/problems/rotate-image/solution/xuan-zhuan-tu-xiang-by-xiao-sheng-tong-x-78m0/)
 * [N 皇后](https://leetcode-cn.com/problems/n-queens/solution/n-huang-hou-by-xiao-sheng-tong-xue-oxd3/)
+* [最大子数组和](https://leetcode-cn.com/problems/maximum-subarray/solution/zui-da-zi-shu-zu-he-by-xiao-sheng-tong-x-taw1/)
