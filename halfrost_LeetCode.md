@@ -36,3 +36,4 @@
 * [66. 加一](https://leetcode-cn.com/problems/plus-one/solution/66-jia-yi-by-xiao-sheng-tong-xue-pzvt/)
 * [73. 矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/solution/73-ju-zhen-zhi-ling-by-xiao-sheng-tong-x-fukl/)
 * [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/solution/74-sou-suo-er-wei-ju-zhen-by-xiao-sheng-22z1k/)
+* [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/solution/75-yan-se-fen-lei-by-xiao-sheng-tong-xue-lsb9/)
