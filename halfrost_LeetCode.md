@@ -44,3 +44,4 @@
 * [81搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/solution/81sou-suo-xuan-zhuan-pai-xu-shu-zu-ii-by-mutq/)
 * [84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/84-zhu-zhuang-tu-zhong-zui-da-de-ju-xing-3cxh/)
 * [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/solution/88-he-bing-liang-ge-you-xu-shu-zu-by-xia-ynfs/)
+* [90. 子集 II](https://leetcode-cn.com/problems/subsets-ii/solution/90-zi-ji-ii-by-xiao-sheng-tong-xue-rjox/)
