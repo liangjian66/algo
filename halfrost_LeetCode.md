@@ -39,3 +39,4 @@
 * [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/solution/75-yan-se-fen-lei-by-xiao-sheng-tong-xue-lsb9/)
 * [77. 组合](https://leetcode-cn.com/problems/combinations/solution/77-zu-he-by-xiao-sheng-tong-xue-uc8d/)
 * [78. 子集](https://leetcode-cn.com/problems/subsets/solution/zi-ji-by-xiao-sheng-tong-xue-ao3r/)
+* [79. 单词搜索](https://leetcode-cn.com/problems/word-search/solution/79-dan-ci-sou-suo-by-xiao-sheng-tong-xue-5g3x/)
