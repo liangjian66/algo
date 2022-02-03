@@ -35,3 +35,4 @@
 * [64. 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/solution/64-zui-xiao-lu-jing-he-by-xiao-sheng-ton-fbdt/)
 * [66. 加一](https://leetcode-cn.com/problems/plus-one/solution/66-jia-yi-by-xiao-sheng-tong-xue-pzvt/)
 * [73. 矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/solution/73-ju-zhen-zhi-ling-by-xiao-sheng-tong-x-fukl/)
+* [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/solution/74-sou-suo-er-wei-ju-zhen-by-xiao-sheng-22z1k/)
