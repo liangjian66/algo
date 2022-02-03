@@ -41,5 +41,6 @@
 * [78. 子集](https://leetcode-cn.com/problems/subsets/solution/zi-ji-by-xiao-sheng-tong-xue-ao3r/)
 * [79. 单词搜索](https://leetcode-cn.com/problems/word-search/solution/79-dan-ci-sou-suo-by-xiao-sheng-tong-xue-5g3x/)
 * [80. 删除有序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/solution/80-shan-chu-you-xu-shu-zu-zhong-de-zhong-lrn3/)
-* [[81]搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/solution/81sou-suo-xuan-zhuan-pai-xu-shu-zu-ii-by-mutq/)
+* [81搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/solution/81sou-suo-xuan-zhuan-pai-xu-shu-zu-ii-by-mutq/)
+* [84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/84-zhu-zhuang-tu-zhong-zui-da-de-ju-xing-3cxh/)
 * [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/solution/88-he-bing-liang-ge-you-xu-shu-zu-by-xia-ynfs/)
