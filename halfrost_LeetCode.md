@@ -55,3 +55,4 @@
 * [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/solution/122-mai-mai-gu-piao-de-zui-jia-shi-ji-ii-7ey4/)
 * [128. 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/solution/128-zui-chang-lian-xu-xu-lie-by-xiao-she-5xkz/)
 * [130. 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/solution/130-bei-wei-rao-de-qu-yu-by-xiao-sheng-t-bu05/)
+* [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/solution/136-zhi-chu-xian-yi-ci-de-shu-zi-by-xiao-aic6/)
