@@ -64,3 +64,5 @@
 * [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/solution/167-liang-shu-zhi-he-ii-shu-ru-you-xu-sh-09ex/)
 * [169. 多数元素](https://leetcode-cn.com/problems/majority-element/solution/169-duo-shu-yuan-su-by-xiao-sheng-tong-x-hnsy/)
 * [174. 地下城游戏](https://leetcode-cn.com/problems/dungeon-game/solution/174-di-xia-cheng-you-xi-by-xiao-sheng-to-xdj0/)
+* [189. 轮转数组](https://leetcode-cn.com/problems/rotate-array/solution/189-lun-zhuan-shu-zu-by-xiao-sheng-tong-0x8mp/)
+* [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/solution/198-da-jia-jie-she-by-xiao-sheng-tong-xu-1h5d/)
