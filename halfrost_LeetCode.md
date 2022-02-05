@@ -60,3 +60,5 @@
 * [152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/solution/152-cheng-ji-zui-da-zi-shu-zu-by-xiao-sh-3ln3/)
 * [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/solution/153-xun-zhao-xuan-zhuan-pai-xu-shu-zu-zh-drrc/)
 * [154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/solution/154-xun-zhao-xuan-zhuan-pai-xu-shu-zu-zh-tmse/)
+* [162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/solution/162-xun-zhao-feng-zhi-by-xiao-sheng-tong-oegx/)
+* [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/solution/167-liang-shu-zhi-he-ii-shu-ru-you-xu-sh-09ex/)
