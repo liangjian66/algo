@@ -56,3 +56,6 @@
 * [128. 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/solution/128-zui-chang-lian-xu-xu-lie-by-xiao-she-5xkz/)
 * [130. 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/solution/130-bei-wei-rao-de-qu-yu-by-xiao-sheng-t-bu05/)
 * [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/solution/136-zhi-chu-xian-yi-ci-de-shu-zi-by-xiao-aic6/)
+* [150. 逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/solution/ni-bo-lan-biao-da-shi-qiu-zhi-by-xiao-sh-9uwx/)
+* [152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/solution/152-cheng-ji-zui-da-zi-shu-zu-by-xiao-sh-3ln3/)
+* [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/solution/153-xun-zhao-xuan-zhuan-pai-xu-shu-zu-zh-drrc/)
