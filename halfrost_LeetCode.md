@@ -72,3 +72,4 @@
 * [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/solution/215-shu-zu-zhong-de-di-kge-zui-da-yuan-s-fxc5/)
 * [216. 组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii/solution/216-zu-he-zong-he-iii-by-xiao-sheng-tong-bleg/)
 * [217. 存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/solution/217-cun-zai-zhong-fu-yuan-su-by-xiao-she-8uvm/)
+* [219. 存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/solution/219-cun-zai-zhong-fu-yuan-su-ii-by-xiao-ez1tq/)
