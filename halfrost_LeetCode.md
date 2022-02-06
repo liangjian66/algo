@@ -71,3 +71,4 @@
 * [213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/solution/213-da-jia-jie-she-ii-by-xiao-sheng-tong-uegg/)
 * [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/solution/215-shu-zu-zhong-de-di-kge-zui-da-yuan-s-fxc5/)
 * [216. 组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii/solution/216-zu-he-zong-he-iii-by-xiao-sheng-tong-bleg/)
+* [217. 存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/solution/217-cun-zai-zhong-fu-yuan-su-by-xiao-she-8uvm/)
