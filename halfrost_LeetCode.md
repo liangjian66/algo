@@ -82,3 +82,4 @@
 * [275. H 指数 II](https://leetcode-cn.com/problems/h-index-ii/solution/275-h-zhi-shu-ii-by-xiao-sheng-tong-xue-aoyl/)
 * [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/solution/283-yi-dong-ling-by-xiao-sheng-tong-xue-ujba/)
 * [284. 顶端迭代器](https://leetcode-cn.com/problems/peeking-iterator/solution/284-ding-duan-die-dai-qi-by-xiao-sheng-t-s7ko/)
+* [300. 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/300-zui-chang-di-zeng-zi-xu-lie-by-xiao-14j5d/)
