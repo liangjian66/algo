@@ -75,3 +75,4 @@
 * [219. 存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/solution/219-cun-zai-zhong-fu-yuan-su-ii-by-xiao-ez1tq/)
 * [229. 求众数 II](https://leetcode-cn.com/problems/majority-element-ii/solution/229-qiu-zhong-shu-ii-by-xiao-sheng-tong-xxd73/)
 * [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/solution/239-hua-dong-chuang-kou-zui-da-zhi-by-xi-rdzf/)
+* [268. 丢失的数字](https://leetcode-cn.com/problems/missing-number/solution/268-diu-shi-de-shu-zi-by-xiao-sheng-tong-jpie/)
