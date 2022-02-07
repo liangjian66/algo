@@ -78,4 +78,4 @@
 * [240. 搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/solution/240-sou-suo-er-wei-ju-zhen-ii-by-xiao-sh-qnd8/)
 * [260. 只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii/solution/260-zhi-chu-xian-yi-ci-de-shu-zi-iii-by-e45ve/)
 * [268. 丢失的数字](https://leetcode-cn.com/problems/missing-number/solution/268-diu-shi-de-shu-zi-by-xiao-sheng-tong-jpie/)
-* [260. 只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii/solution/260-zhi-chu-xian-yi-ci-de-shu-zi-iii-by-e45ve/)
+* [274. H 指数](https://leetcode-cn.com/problems/h-index/solution/274-h-zhi-shu-by-xiao-sheng-tong-xue-s53z/)
