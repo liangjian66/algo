@@ -90,3 +90,4 @@
 * [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/solution/350-liang-ge-shu-zu-de-jiao-ji-ii-by-xia-i7na/)
 * [354. 俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/solution/354-e-luo-si-tao-wa-xin-feng-wen-ti-by-x-xj6a/)
 * [368. 最大整除子集](https://leetcode-cn.com/problems/largest-divisible-subset/solution/368-zui-da-zheng-chu-zi-ji-by-xiao-sheng-qs6p/)
+* [373. 查找和最小的 K 对数字](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/solution/373-cha-zhao-he-zui-xiao-de-k-dui-shu-zi-1qw0/)
