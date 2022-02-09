@@ -85,3 +85,4 @@
 * [300. 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/300-zui-chang-di-zeng-zi-xu-lie-by-xiao-14j5d/)
 * [303. 区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/solution/303-qu-yu-he-jian-suo-shu-zu-bu-ke-bian-m00ba/)
 * [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/309-zui-jia-mai-mai-gu-piao-shi-ji-han-l-zb1y/)
+* [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
