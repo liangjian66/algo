@@ -3,9 +3,36 @@ import java.util.*;
 public class Test {
     public static void main(String[] args) {
        Test test = new Test();
-        System.out.print("测试提交");
+        System.out.print("测试提交1111");
 
 
+    }
+
+    public List<Integer> findAnagrams(String s, String p) {
+           int sLen = s.length();
+           int pLen = p.length();
+        List<Integer> ans = new ArrayList<>();
+        if (sLen <pLen){
+             return  ans;
+            }
+           int[] sCount = new int[26];
+           int[] pCount = new int[26];
+
+        for (int i = 0; i < pLen; i++) {
+            ++sCount[s.charAt(i)-'a'];
+            ++pCount[p.charAt(i)-'a'];
+        }
+        if (Arrays.equals(sCount,pCount)){
+            ans.add(0);
+        }
+        for (int i = 0; i < sLen-pLen; i++) {
+            --sCount[s.charAt(i)-'a'];
+            ++sCount[s.charAt(i+pLen)-'a'];
+            if (Arrays.equals(sCount,pCount)){
+                ans.add(i+1);
+            }
+        }
+        return  ans;
     }
 
     public int lengthOfLongestSubstring(String s) {
