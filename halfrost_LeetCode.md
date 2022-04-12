@@ -97,3 +97,10 @@
 ### String
 * [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan-p3l9u/)
 * [5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/solution/5-zui-chang-hui-wen-zi-chuan-by-xiao-she-zzq1/)
+* [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/solution/by-xiao-sheng-tong-xue-zkav/)
+* [12. 整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/solution/by-xiao-sheng-tong-xue-yqzm/)
+* [13. 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/solution/by-xiao-sheng-tong-xue-kd54/)
+* [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/solution/by-xiao-sheng-tong-xue-r3uo/)
+* [17. 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/solution/by-xiao-sheng-tong-xue-wofs/)
+* [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/solution/by-xiao-sheng-tong-xue-avv0/)
+* [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/solution/by-xiao-sheng-tong-xue-exzk/)
