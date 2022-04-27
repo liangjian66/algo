@@ -1,6 +1,98 @@
-import java.util.*;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import  java.sql.*;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import  java.util.*;
+
+
+import demo.Cat;
+
+
+  interface  Animation{
+
+      void  run();
+}
+
+class  Dog implements Animation {
+    @Override
+    public void run() {
+        System.out.println("跑起来");
+    }
+}
+
+class  GridFriend{
+       String name;
+      // 通常 都是重量的级别的对象  一辈子  就这样费了
+       private  static   GridFriend gf = new GridFriend("xiaosheng");
+      private GridFriend(String name){
+           this.name = name;
+       }
+       public  static  GridFriend getInstance(){
+          return  gf;
+       }
+
+    @Override
+    public String toString() {
+        return "GridFriend{" +
+                "name='" + name + '\'' +
+                '}';
+    }
+}
 
 public class Test {
+
+
+    public static void main(String[] args) throws ClassNotFoundException, SQLException {
+
+
+        int[] arr = new int[1];
+        arr[1]  = 9;
+
+        try {
+
+        }catch (Exception eo){
+
+        }
+
+        Connection connection = null;
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            connection  = DriverManager
+                    .getConnection(
+                            "jdbc:mysql://localhost:3306/names?characterEncoding=UTF-8",
+                            "root", "hanxiao1993");
+
+            System.out.println("连接成功，获取连接对象： " + connection);
+
+        } catch (ClassNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+
+        String sql = "select * from user_tab where name = 'hanxiao'";
+        PreparedStatement preparedStatement = connection.prepareStatement(sql);
+        ResultSet resultSet = preparedStatement.executeQuery(sql);
+        while (resultSet.next()){
+            System.out.print("[");
+            System.out.print( resultSet.getInt("id")+"\t");
+            System.out.print( resultSet.getString("name")+"\t");
+            System.out.print( resultSet.getInt("age")+"\t");
+            System.out.println("]");
+        }
+
+    }
+
 
     public List<String> generateParenthesis(int n) {
         List<String> ans = new ArrayList<String>();
@@ -26,7 +118,7 @@ public class Test {
     }
 
 
-        public boolean isValid(String s) {
+    public boolean isValid(String s) {
          int len = s.length();
          HashMap<Character,Character> map = new HashMap<>(){
              {
@@ -76,10 +168,7 @@ public class Test {
         }
         return  str1.substring(0,index);
     }
-
-
-
-        Map<Character, Integer> symbolValues = new HashMap<Character, Integer>() {{
+    Map<Character, Integer> symbolValues = new HashMap<Character, Integer>() {{
         put('I', 1);
         put('V', 5);
         put('X', 10);
@@ -161,13 +250,7 @@ public class Test {
     }
 
 
-        public static void main(String[] args) {
-       Test test = new Test();
-        System.out.print("测试提交1111");
-        System.out.print("\n");
 
-        System.out.print("测试提交22222");
-    }
 
     public List<Integer> findAnagrams(String s, String p) {
            int sLen = s.length();
