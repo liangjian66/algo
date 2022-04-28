@@ -52,15 +52,26 @@ public class Test {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
 
+
+
+//        try {
+//            int[] arr = new int[1];
+//            arr[1]  = 9;
+//        }catch (Exception ex){
+//            ex.printStackTrace();
+//        }
+
+        Class.forName("");
+
         int[] arr = new int[1];
         arr[1]  = 9;
 
-        try {
+        System.out.println("异常处理");
 
-        }catch (Exception eo){
 
-        }
+    }
 
+   public void  connect(){
         Connection connection = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
@@ -81,15 +92,15 @@ public class Test {
 
 
         String sql = "select * from user_tab where name = 'hanxiao'";
-        PreparedStatement preparedStatement = connection.prepareStatement(sql);
-        ResultSet resultSet = preparedStatement.executeQuery(sql);
-        while (resultSet.next()){
-            System.out.print("[");
-            System.out.print( resultSet.getInt("id")+"\t");
-            System.out.print( resultSet.getString("name")+"\t");
-            System.out.print( resultSet.getInt("age")+"\t");
-            System.out.println("]");
-        }
+//        PreparedStatement preparedStatement = connection.prepareStatement(sql);
+//        ResultSet resultSet = preparedStatement.executeQuery(sql);
+//        while (resultSet.next()){
+//            System.out.print("[");
+//            System.out.print( resultSet.getInt("id")+"\t");
+//            System.out.print( resultSet.getString("name")+"\t");
+//            System.out.print( resultSet.getInt("age")+"\t");
+//            System.out.println("]");
+//        }
 
     }
 
