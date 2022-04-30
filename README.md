@@ -77,6 +77,8 @@
 
 > 最笨的学习方法  就是把抄袭一遍也是最聪明的办法，遇到晦涩难懂的知识，大脑一下子接受不了，抄袭一遍之后，大脑慢慢接受
 
+> 天道：忍别人不能忍,能别人所不能
+
 
 ##  排序算法
 *  [冒泡排序](https://github.com/liangjian66/algo/blob/main/src/BubbleSort.java) ：BubbleSort
