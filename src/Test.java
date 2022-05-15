@@ -49,27 +49,170 @@ class  GridFriend{
 public class Test {
 
 
+
+    // 两个数之和
+    /**
+     * 给定一个整数数组 nums和一个整数目标值 target，请你在该数组中找出 和为目标值 target
+     * 的那两个整数，并返回它们的数组下标。
+     * 你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。
+     * 你可以按任意顺序返回答案。
+     * */
+    public int[] twoSum(int[] nums, int target) {
+        int len = nums.length;
+        HashMap<Integer,Integer> map = new HashMap<>();
+        int[] res = new int[2];
+        for (int i = 0; i < len; i++) {
+            int num = nums[i];
+            int other = target-num;
+            if (map.containsKey(other)&&map.get(other)!=i){
+                res[0] = map.get(other);
+                res[1] = i;
+                return  res;
+            }
+            map.put(num,i);
+        }
+        return  res;
+    }
+
+
+    public String longestCommonPrefix(String[] strs) {
+          int len = strs.length;
+          if (strs == null || len == 0){
+              return  "";
+          }
+          String prefix = strs[0];
+        for (int i = 1; i < len; i++) {
+            prefix = twoCommonPrefix(prefix,strs[i]);
+        }
+        return  prefix;
+    }
+    public  String twoCommonPrefix(String str1,String str2){
+        int len = Math.min(str1.length(),str2.length());
+        int i = 0;
+        while (i<len){
+            if (str1.charAt(i) == str2.charAt(i)){
+                i++;
+            }else {
+                break;
+            }
+        }
+        return  str1.substring(0,i);
+    }
+
+
+    // 1...100
+    public  static int add(int num){
+        if (num == 1){
+            return  1;
+        }
+        return  num+add(num-1);
+    }
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+         if (list1 == null){
+             return  list2;
+         }
+         if ( list2 == null){
+             return  list1;
+         }
+         ListNode preNode = new ListNode(-1);
+         ListNode list3 = preNode;
+         while (list1 != null && list2 != null){
+             if (list1.val<list2.val){
+                 list3.next = list1;
+                 list1= list1.next;
+             }else {
+                 list3.next = list2;
+                 list2 = list2.next;
+             }
+             list3 = list3.next;
+         }
+         if (list1 != null){
+             list3.next = list1;
+         }
+         if (list2 != null){
+             list3.next = list2;
+         }
+         return  preNode.next;
+    }
+
+    public boolean hasCycle(ListNode head) {
+          if (head == null){
+              return  true;
+          }
+          HashSet<ListNode> set = new HashSet<>();
+          ListNode  fast= head;
+          ListNode slow = head;
+          while (fast != null && (fast.next != null)){
+
+              slow = slow.next;
+              fast = fast.next.next;
+              if (slow == fast){
+                  return  true;
+              }
+          }
+          return  false;
+    }
+
+
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<>();
+        if (root == null){
+            return  res;
+        }
+        Deque<TreeNode> deque = new LinkedList<>();
+        deque.add(root);
+        while (!deque.isEmpty()){
+            int count = deque.size();
+            List<Integer> arr = new ArrayList<>();
+            for (int i = 0; i < count; i++) {
+                 TreeNode node = deque.pollFirst();
+                 arr.add(node.val);
+                 if (node.left != null){
+                     deque.offerLast(node.left);
+                 }
+                 if (node.right != null){
+                     deque.offerLast(node.right);
+                 }
+            }
+            res.add(arr);
+        }
+        return  res;
+    }
+
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
+        int res = 0;
+        for (int i = 1; i <=100; i++) {
+            res+=i;
+        }
+//         int res = add(100);
 
-
-
-//        try {
-//            int[] arr = new int[1];
-//            arr[1]  = 9;
-//        }catch (Exception ex){
-//            ex.printStackTrace();
-//        }
-
-        Class.forName("");
-
-        int[] arr = new int[1];
-        arr[1]  = 9;
-
-        System.out.println("异常处理");
-
-
+        int len =  lengthOfLongestSubstring("abba");
+        System.out.println(len);
     }
+    // "abcabcbb"
+    //  "dvdf"
+    public static int lengthOfLongestSubstring(String s) {
+        int len = s.length();
+        if (s == null || len == 0){
+            return 0;
+        }
+        int left = 0;
+        HashMap<Integer,Character> map = new HashMap<>();
+        int res = 0;
+        for (int i = 0; i < len; i++) {
+            while (map.containsValue(s.charAt(i))){
+                map.remove(left);
+                left++;
+            }
+            map.put(i,s.charAt(i));
+            res = Math.max(res,i-left+1);
+        }
+        return  res;
+    }
+
+
+    // 1一直加到100
 
    public void  connect(){
         Connection connection = null;
@@ -157,28 +300,8 @@ public class Test {
         return stack.isEmpty();
     }
 
-    public String longestCommonPrefix(String[] strs) {
-         if (strs == null || strs.length == 0){
-             return  "";
-         }
-         String prefix = strs[0];
-         int count = strs.length;
-        for (int i = 1; i <count ; i++) {
-            prefix =  longestCommonPrefix(prefix,strs[i]);
-            if (prefix.length() == 0){
-                break;
-            }
-        }
-        return  prefix;
-    }
-    public  String longestCommonPrefix(String str1,String str2){
-        int len = Math.min(str1.length(),str2.length());
-        int index = 0;
-        while (index <len &&str1.charAt(index) == str2.charAt(index)){
-            index++;
-        }
-        return  str1.substring(0,index);
-    }
+
+
     Map<Character, Integer> symbolValues = new HashMap<Character, Integer>() {{
         put('I', 1);
         put('V', 5);
@@ -207,22 +330,6 @@ public class Test {
         res += lastNum;
         return  res;
     }
-
-
-        public int[] twoSum(int[] nums, int target) {
-        int len =  nums.length;
-        HashMap<Integer,Integer> map= new HashMap<Integer,Integer>();
-        for (int i = 0; i < len; i++) {
-            int num = nums[i];
-            int other = target - num;
-            if (map.containsKey(other)&&map.get(other)!=i){
-                return  new int[]{map.get(other),i};
-            }
-            map.put(num,i);
-        }
-        return  new int[]{-1,-1};
-    }
-
     public int myAtoi(String str) {
         int len = str.length();
         char[]  charArray = str.toCharArray();
@@ -289,27 +396,6 @@ public class Test {
         }
         return  ans;
     }
-
-    public int lengthOfLongestSubstring(String s) {
-       char[] arr = s.toCharArray();
-       int len = arr.length;
-       int right = -1;
-       int ans = 0;
-       // i是起点
-        HashSet<Character> set = new HashSet<>();
-        for (int i = 0; i < len; i++) {
-            if (i!=0){
-                set.remove(arr[i-1]);
-            }
-            while (right+1<len && !set.contains(arr[right+1]) ){
-                set.add(arr[right+1]);
-                right++;
-            }
-            ans = Math.max(ans,right-i+1);
-        }
-        return ans;
-    }
-
 
     public String longestPalindrome(String s) {
           int len = s.length();
