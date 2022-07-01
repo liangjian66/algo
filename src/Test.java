@@ -180,15 +180,254 @@ public class Test {
     }
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
+        System.out.println("主函数");
+        int[] nums = new int[]{1,2,3,4};
+        exchange(nums);
+    }
 
-        int res = 0;
-        for (int i = 1; i <=100; i++) {
-            res+=i;
+    public int[] printNumbers(int n) {
+        int end = (int)Math.pow(10,n)-1;
+        int[] res = new int[end];
+        for (int i = 0; i < end; i++) {
+            res[i] = i + 1;
         }
-//         int res = add(100);
+        return  res;
+    }
 
-        int len =  lengthOfLongestSubstring("abba");
-        System.out.println(len);
+        public int sumNums(int n) {
+        if(n == 1){
+            return  1;
+        }
+        return  n + sumNums(n-1);
+    }
+
+    public boolean canConstruct(String ransomNote, String magazine) {
+        HashMap<Character,Integer> aMap = new HashMap<>();
+        int len1 = ransomNote.length();
+        for (int i = 0; i < len1; i++) {
+            char ch = ransomNote.charAt(i);
+            aMap.put(ch,aMap.getOrDefault(ch,0)+1);
+        }
+        HashMap<Character,Integer> bMap = new HashMap<>();
+        int len2 = magazine.length();
+        for (int i = 0; i < len2; i++) {
+            char ch = magazine.charAt(i);
+            bMap.put(ch,bMap.getOrDefault(ch,0)+1);
+        }
+        for (Map.Entry<Character,Integer> entry: aMap.entrySet()) {
+            char aKey = entry.getKey();
+            int aValue = entry.getValue();
+            int bVal = bMap.getOrDefault(aKey,0);
+            if (aValue>bVal){
+                return  false;
+            }
+        }
+        return true;
+    }
+
+    public int maxAreaOfIsland(int[][] grid) {
+        int row = grid.length;
+        int col = grid[0].length;
+        int ans = 0;
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                ans = Math.max(ans,dfs(grid,i,j));
+            }
+        }
+        return  ans;
+    }
+
+    public  int dfs(int[][] grid, int cur_i,int cur_j){
+        if (cur_i<0|| cur_i == grid.length || cur_j < 0 || cur_j== grid[0].length || grid[cur_i][cur_j] != 1){
+            return  0 ;
+        }
+        grid[cur_i][cur_j] = 0;
+        int[][] path = {{0,-1},{0,1},{-1,0},{1,0}};
+        int ans = 1;
+        for (int i = 0; i < 4; i++) {
+            int[] pathItem = path[i];
+            int next_i = cur_i + pathItem[0];
+            int next_j = cur_j + pathItem[1];
+            ans += dfs(grid,next_i,next_j);
+        }
+        return  ans;
+    }
+
+
+    private  Map<Integer,String> dataBase  = new HashMap<>();
+    private  int id;
+    // Encodes a URL to a shortened URL.
+    public String encode(String longUrl) {
+        id++;
+        dataBase.put(id,longUrl);
+        return "http://tinyurl.com/" + id;
+    }
+
+    // Decodes a shortened URL to its original URL.
+    public String decode(String shortUrl) {
+        int p = shortUrl.lastIndexOf('/') + 1;
+        int key = Integer.parseInt(shortUrl.substring(p));
+        return dataBase.get(key);
+    }
+
+
+    //    "Let's take LeetCode contest"
+    public String reverseWords(String s) {
+        StringBuilder ret = new StringBuilder();
+        int length = s.length();
+        int i = 0;
+        Stack<Character> stack = new Stack<>();
+        while (i < length){
+            while (i < length && s.charAt(i) != ' '){
+                stack.push(s.charAt(i));
+                i++;
+            }
+            while (!stack.isEmpty()){
+                ret.append(stack.pop());
+            }
+            while (i < length && s.charAt(i) == ' ') {
+                ret.append(' ');
+                i++;
+            }
+        }
+        return  ret.toString();
+    }
+        public int missingNumber(int[] nums) {
+        int n = nums.length;
+        for (int i = 0; i < n; i++) {
+            int num = nums[i];
+            if (i != num){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public  int [][] findContinuousSequence(int target){
+        int i = 1;
+        int j = 2;
+        int s = 3;
+        List<int[]> res = new ArrayList<>();
+        while (i<j){
+            if (s == target){
+                int[] ans = new int[j - i + 1];
+                for (int k = i; k <=j; k++) {
+                    ans[k-i] = k;
+                }
+                res.add(ans);
+            }
+            if (s >= target){
+                s -= i;
+                i++;
+            }else {
+                j++;
+                s += j;
+            }
+        }
+        return  res.toArray(new int[0][]);
+    }
+
+    public  int findLUSlength(String[] strs){
+        int n = strs.length;
+        int ans = -1;
+        for (int i = 0; i < n; i++) {
+            boolean check = true;
+            for (int j = 0; j < n; j++) {
+                if (i != j && isSubseq(strs[i],strs[j])){
+                    check = false;
+                    break;
+                }
+            }
+            if (check){
+                ans = Math.max(ans, strs[i].length());
+            }
+        }
+        return  ans;
+    }
+    public boolean isSubseq(String s , String t){
+        int ptS = 0;
+        int ptT = 0;
+        while (ptS<s.length()&& ptT<t.length()){
+            if (s.charAt(ptS) == t.charAt(ptT)){
+                ptS++;
+            }
+            ++ptT;
+        }
+        return  ptS == s.length();
+    }
+
+    public int movingCount(int m, int n, int k) {
+        if (k == 0){
+            return 1;
+        }
+        Queue<int[]> queue = new LinkedList<int[]>();
+        // 向右和向下的方向数组
+        int[] dx = {0,1};
+        int[] dy = {1,0};
+        boolean[][] vis = new boolean[m][n] ;
+        queue.offer(new int[]{0,0});
+        vis[0][0] = true;
+        int ans  = 1;
+        while (!queue.isEmpty()){
+            int[] cell = queue.poll();
+            int x = cell[0] , y = cell[1];
+            for (int i = 0; i < 2; i++) {
+                int tx = dx[i] + x;
+                int ty = dy[i] + y;
+                if (tx < 0 || tx >= m || ty < 0 || ty >= n || vis[tx][ty] || get(tx) + get(ty) > k) {
+                    continue;
+                }
+                queue.offer(new int[]{tx,ty});
+                vis[tx][ty] = true;
+                ans++;
+            }
+        }
+        return  ans;
+    }
+
+    private  int get(int x){
+            int res = 0;
+            while (x != 0){
+                res += x % 10;
+                x /= 10 ;
+            }
+            return  res;
+    }
+
+    public static int[] exchange(int[] nums) {
+        int len = nums.length;
+        if (len == 0 || nums == null) {
+            return nums;
+        }
+        int left = 0;
+        int right = len-1;
+        while (left<right){
+            while (nums[right]%2==0&&left<right){
+                right--;
+            }
+            while (nums[left]%2 == 1 && left<right){
+                left++;
+            }
+            int temp = nums[right];
+            nums[right]  = nums[left];
+            nums[left] = temp;
+        }
+        return  nums;
+    }
+
+    public int[] sortedSquares(int[] nums) {
+        List<Integer> list = new ArrayList<>();
+        int len = nums.length;
+        for (int i = 0; i < len; i++) {
+            int num = nums[i]*nums[i];
+            list.add(num);
+        }
+        int[] res = new int[len];
+        for (int i = 0; i < len; i++) {
+            res[i] = list.get(i);
+        }
+        Arrays.sort(res);
+        return  res;
     }
     // "abcabcbb"
     //  "dvdf"
